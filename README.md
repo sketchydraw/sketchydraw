@@ -2,7 +2,7 @@
 <img src="https://raw.github.com/arnelsx/sketchydraw/master/sk.png">
 <img src="https://raw.github.com/arnelsx/sketchydraw/master/sk-cl.png">
 
-<a href="http://itunes.apple.com/us/app/suketchi-fengdoro/id543896183?l=ja&amp;ls=1&amp;mt=12" target="itunes_store">link AppStore</a>
+<a href="http://arnelsx.github.io/sketchydraw/"target="itunes_store">visit arnelsx.github.io/sketchydraw/</a>
 
 ==================
 # Sketch
