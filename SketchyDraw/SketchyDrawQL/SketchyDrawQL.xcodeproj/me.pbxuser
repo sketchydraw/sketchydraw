@@ -1,0 +1,297 @@
+// !$*UTF8*$!
+{
+	089C1669FE841209C02AAC07 /* Project object */ = {
+		activeBuildConfigurationName = Release;
+		activeExecutable = 8CF379D70E892B3F004C4E6C /* qlmanage */;
+		activeTarget = 8D57630D048677EA00EA77CD /* SketchyDrawQL */;
+		addToTargets = (
+			8D57630D048677EA00EA77CD /* SketchyDrawQL */,
+		);
+		codeSenseManager = 8C81866F0E8911AA00EEAEBB /* Code sense */;
+		executables = (
+			8CF379D70E892B3F004C4E6C /* qlmanage */,
+		);
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXExecutablesDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXExecutablesDataSource_NameID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					22,
+					300,
+					248,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXExecutablesDataSource_ActiveFlagID,
+					PBXExecutablesDataSource_NameID,
+					PBXExecutablesDataSource_CommentsID,
+				);
+			};
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					288,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXConfiguration.PBXTargetDataSource.PBXTargetDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					248,
+					60,
+					20,
+					48,
+					43,
+					43,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXTargetDataSource_PrimaryAttribute,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 320419898;
+			PBXWorkspaceStateSaveDate = 320419898;
+		};
+		perUserProjectItems = {
+			8C197A12131819A000F21A7B /* PBXTextBookmark */ = 8C197A12131819A000F21A7B /* PBXTextBookmark */;
+			8C2DC81813123EF9004CB166 /* PBXTextBookmark */ = 8C2DC81813123EF9004CB166 /* PBXTextBookmark */;
+			8CC5DB1512D19CFB005B4ED1 /* PBXTextBookmark */ = 8CC5DB1512D19CFB005B4ED1 /* PBXTextBookmark */;
+			8CC604D21319384600E3A081 /* PBXTextBookmark */ = 8CC604D21319384600E3A081 /* PBXTextBookmark */;
+			8CE872FB0E89150200DF13F1 /* PBXTextBookmark */ = 8CE872FB0E89150200DF13F1 /* PBXTextBookmark */;
+			8CF7079212DC9E47006ECA75 /* PlistBookmark */ = 8CF7079212DC9E47006ECA75 /* PlistBookmark */;
+		};
+		sourceControlManager = 8C81866E0E8911AA00EEAEBB /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	08FB77B6FE84183AC02AAC07 /* main.c */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {511, 3705}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{81, 1163}";
+		};
+	};
+	2C05A19B06CAA52B00D84F6F /* GeneratePreviewForURL.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {466, 1580}}";
+			sepNavSelRange = "{2581, 26}";
+			sepNavVisRange = "{1809, 1038}";
+		};
+	};
+	8C197A12131819A000F21A7B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 2C05A19B06CAA52B00D84F6F /* GeneratePreviewForURL.m */;
+		name = "GeneratePreviewForURL.m: 39";
+		rLen = 26;
+		rLoc = 2581;
+		rType = 0;
+		vrLen = 1038;
+		vrLoc = 1809;
+	};
+	8C2DC81813123EF9004CB166 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 8CDA3D4E0E89237500193454 /* GenerateThumbnailForURL.m */;
+		name = "GenerateThumbnailForURL.m: 22";
+		rLen = 0;
+		rLoc = 1008;
+		rType = 0;
+		vrLen = 820;
+		vrLoc = 1011;
+	};
+	8C81866E0E8911AA00EEAEBB /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+	};
+	8C81866F0E8911AA00EEAEBB /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	8C8186840E89124500EEAEBB /* SKTDocument.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {593, 1234}}";
+			sepNavSelRange = "{2300, 0}";
+			sepNavVisRange = "{2280, 900}";
+		};
+	};
+	8C8186850E89124500EEAEBB /* SKTDocument.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {484, 17580}}";
+			sepNavSelRange = "{214, 0}";
+			sepNavVisRange = "{18, 596}";
+		};
+	};
+	8C8186950E89128800EEAEBB /* SKTGraphicView.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {439, 35201}}";
+			sepNavSelRange = "{309, 40}";
+			sepNavVisRange = "{108, 382}";
+		};
+	};
+	8C8186AE0E8912A700EEAEBB /* SKTInspectorController.h */ = {
+		isa = PBXFileReference;
+		fileEncoding = 4;
+		lastKnownFileType = sourcecode.c.h;
+		name = SKTInspectorController.h;
+		path = /Users/me/Developer/SketchyDraw/SKTInspectorController.h;
+		sourceTree = "<absolute>";
+	};
+	8C8186B20E8912B500EEAEBB /* SKTRenderingView.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {511, 1191}}";
+			sepNavSelRange = "{638, 0}";
+			sepNavVisRange = "{0, 1588}";
+		};
+	};
+	8C8186B30E8912B500EEAEBB /* SKTRenderingView.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {484, 8064}}";
+			sepNavSelRange = "{58, 0}";
+			sepNavVisRange = "{0, 567}";
+		};
+	};
+	8C8186E60E89131D00EEAEBB /* SKTsvg.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {511, 4037}}";
+			sepNavSelRange = "{2314, 0}";
+			sepNavVisRange = "{1314, 1475}";
+		};
+	};
+	8CC5DB1512D19CFB005B4ED1 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 08FB77B6FE84183AC02AAC07 /* main.c */;
+		name = "main.c: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 1163;
+		vrLoc = 81;
+	};
+	8CC604D21319384600E3A081 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 2C05A19B06CAA52B00D84F6F /* GeneratePreviewForURL.m */;
+		name = "GeneratePreviewForURL.m: 39";
+		rLen = 26;
+		rLoc = 2581;
+		rType = 0;
+		vrLen = 1038;
+		vrLoc = 1809;
+	};
+	8CDA3D4E0E89237500193454 /* GenerateThumbnailForURL.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {466, 1263}}";
+			sepNavSelRange = "{1008, 0}";
+			sepNavVisRange = "{1011, 820}";
+		};
+	};
+	8CE872FB0E89150200DF13F1 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 8C8186AE0E8912A700EEAEBB /* SKTInspectorController.h */;
+		name = "SKTInspectorController.h: 7";
+		rLen = 34;
+		rLoc = 173;
+		rType = 0;
+		vrLen = 640;
+		vrLoc = 0;
+	};
+	8CF379D70E892B3F004C4E6C /* qlmanage */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+			YES,
+			NO,
+			NO,
+			NO,
+		);
+		argumentStrings = (
+			"-p /Users/me/Desktop/B5frame.skt3",
+			"-m",
+			"-r",
+			"-t /Users/me/Desktop/名称未設定.skt3",
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+			"PBXLSLaunchAction-0" = {
+				PBXLSLaunchAction = 0;
+				PBXLSLaunchStartAction = 1;
+				PBXLSLaunchStdioStyle = 2;
+				PBXLSLaunchStyle = 0;
+				class = PBXLSRunLaunchConfig;
+				commandLineArgs = (
+				);
+				displayName = "ランナーを有効にする";
+				environment = {
+				};
+				identifier = com.apple.Xcode.launch.runConfig;
+				remoteHostInfo = "";
+				startActionInfo = "";
+			};
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		launchableReference = 8CF379D80E892B3F004C4E6C /* qlmanage */;
+		libgmallocEnabled = 0;
+		name = qlmanage;
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+	};
+	8CF379D80E892B3F004C4E6C /* qlmanage */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = "compiled.mach-o.executable";
+		name = qlmanage;
+		path = /usr/bin/qlmanage;
+		sourceTree = "<absolute>";
+	};
+	8CF7079212DC9E47006ECA75 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 8D576317048677EA00EA77CD /* Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+			CFPlugInDynamicRegisterFunction,
+		);
+		name = /Users/me/Developer/SketchyDraw/SketchyDrawQL/Info.plist;
+		rLen = 0;
+		rLoc = 9223372036854775808;
+	};
+	8D57630D048677EA00EA77CD /* SketchyDrawQL */ = {
+		activeExec = 0;
+	};
+}

@@ -1,0 +1,15 @@
+/* For the app's menu bar. */
+CFBundleName = "スケッチ風ドロー";
+
+/* For the Finder's info panel. */
+CFBundleGetInfoString = "Copyright 1995 Next Computer, Inc.\n2.0.1, Copyright © 1998-2012, Apple Inc.\nCopyright © 2012 SatoAkira";
+
+/* For the app's About panel.*/
+NSHumanReadableCopyright = "Copyright © 1998-2012 Apple Inc.\nAll rights reserved.\nCopyright © 2012 SatoAkira";
+
+CFBundleDisplayName = "スケッチ風ドロー";
+
+/* com.adobe.pdf と public.tiff と public.svg-image とは既にLocalizedされた文字列になっている。 */
+"SketchyDraw Graphic Format" = "skt3:ベクトル画像XML形式";
+"Apple Sketch 1 document" = "sketch:Sketchベクトル画像形式";
+"Apple Sketch document" = "sketch2:Sketch2ベクトル画像形式";

@@ -1,0 +1,48 @@
+/* SKTUnknownFileReadError */
+
+/* In Sketch this particular localized description won't be presented to the user, but it's always a good idea to provide a decent description that's a full sentence, just in case the error gets reused in a new way. */
+"description1" = "因为数据被破坏草图风描绘·文件数据不被读。";
+
+/* In Sketch this localized failure reason will be presented to the user if we're trying to open a document. When -[SKTDocument readFromData:ofType:error:] returns an error NSDocumentController will take the failure reason and tack it onto the end of a "The document "so-and-so" could not be opened." message and use the whole thing as an error description. Full sentence! */
+"failureReason1" = "好象被破坏。";
+
+/* SKTUnknownPasteboardReadError */
+
+/* In Sketch this localized description will be presented to the user by -[SKTGraphicView paste:]. */
+"description2" = "草图风描绘的粘贴板·数据根据未知的理由没被读入。";
+
+/* In Sketch this particular localized failure reason won't be presented to the user, but it's always a good idea to provide a decent failure reason that's a full sentence, just in case the error gets reused in a new way. */
+"failureReason2" = "未知的错误发生了。";
+
+/* SKTWriteCouldntMakeTIFFError */
+
+/* In Sketch this particular localized description won't be presented to the user, but it's always a good idea to provide a decent description that's a full sentence, just in case the error gets reused in a new way. */
+"description3" = "因为天空TIFF印象不被制作。";
+
+/* In Sketch this localized failure reason will be presented to the user. When -[SKTDocument dataOfType:error:] returns an error NSDocument will take the error reason and tack it onto the end of a "The document "so-and-so" could not be saved." message and use the whole thing as an error description. Full sentence! */
+"failureReason3" = "TIFF印象是天空。";
+"A TIFF image could not be made because it would be empty."	=	"因为天空TIFF印象没被生成。";
+"The TIFF image would be empty."	=	"TIFF印象是天空。";
+"Sketch document data could not be read for an unknown reason."	=	"由于未知的理由文件没能读。";
+"An unknown error occured."	=	"未知的错误发生了。";
+"File format is not well-formed."	=	"文件格式搞错了。";
+"A TIFF image could not be made for an unknown reason."	=	"用某种理由TIFF印象没被建立。";
+/* このファイルで定義するのは[NSResponder presentError:]でやれるものだけとする。 */
+"suggestion1"	=	"因为数据被破坏草图风描绘·文件数据不被读。";
+"suggestion2"	=	"草图风描绘的粘贴板·数据根据未知的理由没被读入。";
+"suggestion3"	=	"需要制作客观是几个。";
+"description4"	=	"印象是天空。";
+"failureReason4"	=	"印象是天空。";
+"suggestion4"	=	"好象被破坏。";
+"description5"	=	"不能印象路。";
+"failureReason5"	=	"不能印象路。";
+"suggestion5"	=	"文件格式搞错了。";
+"description6"	=	"识别数据的类型的字符串没被认识。";
+"failureReason6"	=	"识别数据的类型的字符串没被认识。";
+"suggestion6"	=	"是没被支持的数据的类型。";
+"description7"	=	"是没被支持的Illustrator的格式。";
+"failureReason7"	=	"是没被支持的Illustrator的格式。";
+"suggestion7"	=	"有不是PDF互换和EPS互换的可能性。";
+"\'%@\' type is not supported."	=	"\'%@\'类型的数据没被支持。";
+"'%@' image is not created."	=	"%@印象没被生成。";
+"%u objects are not written out, was."	=	"%lu个客观没被写出。";

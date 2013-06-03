@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml"><head><title>バグレポート</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/><meta name="topicid" content="BugReport"/>
+<!-- <meta name="keywords" content="経営診断, 財務状況"/> -->
+<!-- do not translate --><meta name="keywords" content=""/><!-- end do not translate --><meta name="description" content="Sketchからの変更点と、Sketchのバグについて箇条書きにしました。"/><link href="../sty/task.css" rel="stylesheet" type="text/css"/>
+<link href="../sty/print.css" rel="stylesheet" type="text/css" media="print"/>
+</head>
+
+<body id="apple-pd"><div>
+	<a name="BugReport"></a>
+</div><!--closes top navigation area-->
+<!--page head--><div id="headerbox"><div id="iconbox"><img id="iconimg" src="../../shrd/SketchApp.png" alt="スケッチ風ドロー のアイコン" height="32" width="32"/></div><div id="pagetitle">
+<h1>バグレポート</h1>
+</div>
+</div>
+<!--closes page header-->
+<div id="introbox">
+	<div id="introauxlist">
+		<div class="introauxlinksubbullet">
+			<!-- 日本語、ドイツ語、フランス語、オランダ語、イタリア語、スペイン語、スウェーデン語 -->
+			<p class="intronoticelongtext">このドキュメントは日本語で書かれています。<br />
+			This document is written in Japanese.<br />
+			Dieses Dokument ist in Japanisch geschrieben.<br />
+			Ce document est écrit en japonais.<br />
+			Dit document is in het Japans geschreven.<br />
+			Questo documento è scritto in giapponese.<br />
+			Este documento está escrito en japonés.<br />
+			Detta dokument är skrivet på japanska.</p>
+		</div>
+	</div>
+	<div class="introprimtext">
+		<p class="introprimtextlongtext">Sketchからの変更点と、Sketchのバグおよびスケッチ風ドローのバグについて箇条書きにしました。</p>
+	</div><!--closes introprimtext--></div> <!--closes introbox -->
+<ol style="font-size:small">
+<li>localizedに関するファイルがいっさい存在しなかったのでLocalizable.stringsファイルを新たに加えた。その他SKTAppDelegate.strings,UndoStrings.strings,SKTError.strings,SKTZoomingView.stringsを参照する部分があったので追加した。</li>
+<li>SKTText.mの- (id)initWithProperties:(NSDictionary *)propertiesで、異体字が混じっているとき、[NSUnarchiver unarchiveObjectWithData:obj];は例外を発生して異常終了してしまうバグが無くなったので、NSTextStorageのArchiveを使うようにした。</li>
+<li>SKTLineにおいて、線の角度が垂直に近いときに選択できないというバグがある。SKTLine.mの　- (BOOL)isContentsUnderPoint:(NSPoint)pointのアルゴリズムに由来するものである。</li>
+</ol>
+<ol style="font-size:small">
+<li>以下はXcode tools2に附属するバージョン</li>
+<li>localizedに関するファイルがいっさい存在しなかったのでLocalizable.stringsファイルを新たに加えた。SKTGraphicView.m,SKTGraphic.m,SKTInspectorController.mなどlocalizedを参照する部分を変更した。</li>
+<li>ToolPanelで使用するtiffファイルの名称をSKTGraphicのサブクラスの名前と一致させるようにrenameした。SKTToolPaletteController.mがすっきりした。</li>
+<li>SKTGraphic.mの中でundoをやらせると非常にプログラミングがややこしくなるので、undoに関するものから幾つかを省いた。SKTInspectorController.mからは直ちにundoManager に登録されない。1テンポ遅れる。変更前も同様の現象があった。</li>
+<li>矢印キーによるsnapsToGridが無かったので、SKTGraphicView.mのmoveUp:などにその機能を付け加えた。</li>
+<li>SKTGraphic.mのmoveBy:とSKTGraphicView.mのmoveSelectedGraphicsWithEvent:にscrollRectToVisible:を追加すれば、マウスドラッグによるスクロールが可能になるが使いにくくなる。InspectorPanelのDimensionsからの数値指定による移動にもスクロールするようにするには、setBounds:に組み込めばできるが、setBounds:は非常に頻繁に呼ばれるのでそれだけのために組み込んでも良くないので非対応にした。</li>
+<li>SKTTextAreaをmouseDownで新規に作ったとき、boundsを示す矩形の高さがminSizeの15ポイントに固定されてしまう。大きな悪影響はないのでそのままにしてある。</li>
+<li>SKTDrawDocumentの- (NSArray *)indicesOfObjectsByEvaluatingRangeSpecifier:(NSRangeSpecifier *)rangeSpecに関するものは拡張していない。</li>
+<li>SKTCurve,SKTScribble,SKTPolygon,SKTGroupを追加した。</li>
+<li>OPENSTEP4.xのDraw.appで作られたファイルを読めるようにした。漢字コードの相違により漢字が正常に表示されないことと、boundsを変更できないことにより見苦しいところがある。boundsを変更できない理由は、回転移動されたグループの中にTextGraphicがあった場合にboundsを変更するとレイアウトが乱れるためである。NEXTSTEPのDraw.appから作られたファイルには対応しない。</li>
+<li>OPENSTEPのDraw.appで挿入されたEPS形式のImageは、PStillというフィルターソフトがインストールされていると、PDFファイルに変換するようにした。また、EPSファイルのマウスドラッグもPStillというフィルターソフトにより使用できるようにした。 --> OS10.3以後はEPSがまともに使えるので、PStillを使用しない。</li>
+<li>SVGファイルのマウスドラッグとSVGデータのペーストに対応した。SKTsvgを追加した。</li>
+<li>SKTpdfを追加した。</li>
+<li>SKTGraphicの新規作製時のControlキー、shiftキー、Alternateキーとの併用に対応した。</li>
+<li>SKTGraphicのサイズ編集時のAlternateキーとの併用に対応する為に、SKTGraphicView.m,SKTGraphic.mにconstrainCorner:(int)knob toAspectRatio:(float)aspectを追加した。</li>
+<li>SKTImageのプリンタ出力を変更した。</li>
+<li>選択モードにおけるテキストデータのペーストに対応するためSKTGraphicView.mを変更した。</li>
+<li>指定できる線の太さについては制限を与えていない。0.0も指定できる。ただし画面表示のときの線の太さの最小値はSKTGraphicView.hで定義するLIMITWIDTHとした。</li>
+<li>破線パターンの指定については、制限を与えている。</li>
+<li>SKTCircle.mとSKTPolygon.mのhitTest::メソッドで使っているNSBezierPathのcontainsPoint:メソッドが不安定である。kCGErrorFailure :というエラーが発生するときがある。動作はしているようだが実行速度が極端に遅くなる。新規のドキュメントの中でSKTCircleかSKTPolygonのオブジェクトを作ってからならばエラーが発生しない。</li>
+<li>SKTTextArea.mでNSLayoutManager,NSTextContainerがsharedInstanceから使われていたのを、その都度alloc initして使うように変更した。この変更をしないとNSLayoutManagerのlocationForGlyphAtIndex:がでたらめな値をかえしてしまう。</li>
+<li>コピーコマンドからペーストボードへ送られるペーストボードの形式の優先順を変更した。SKTGraphicView.mのcopy:メソッドを変更した。</li>
+<li>SKTBezierCurve.mでmoveBy:を実装しているが、InspectorPanelのDimensionsからの数値指定による移動には対応していない。想定外の動作をしてしまうので注意すること。</li>
+<li>SKTDrawDocument.mの- (void)printShowingPrintPanel:(BOOL)flagにおいて、仮のwindowを作るときの引数をNSBackingStoreNonretainedからNSBackingStoreBufferedへ変更した。kCGErrorIllegalArgument : CGSSetWindowToReleaseBackingOnOrderOut: Invalid windowというエラーメッセージが吐かれることを避けるため。</li>
+<li>SKTImage.mの- (NSMutableDictionary *)propertyListRepresentationにおいて[self imageRepresentation]を呼び出して、copy:に対応しているので複数ページのデータがあった場合にすべてのページがコピーされるので非常に大きなサイズになることがある。- (NSMutableDictionary *)propertyListRepresentationはファイルへのセーブにも使われるので、ここを1ページ分のデータに変えることはできない。</li>
+<li>SKTTextArea.mの- (void)loadPropertyListRepresentation:で、異体字が混じっているとき、[NSUnarchiver unarchiveObjectWithData:obj];は例外を発生して異常終了してしまうので修正した。ファイルに保存する方法も修正したので、サンプルのSketchと互換性が無くなった。サンプルのSketchで作られたファイルは読めるようにした。NSTextStorageのArchiveではなく、NSAttributedStringのRTFDataを保存するようにした。OPENSTEPのDrawと同じようになった。</li>
+<li>SKTTextAreaが[printInfo paperSize]の下の方にあって編集モードにしたとき，-[NSBigMutableString characterAtIndex:] called with out-of-bounds index. For apps linked on Tiger this will raise an exception. For earlier apps it will produce this one-time warning and continue with existing behavior (which is undefined).<br />
+*** -[NSBigMutableString characterAtIndex:]: Range or index out of bounds
+というエラーメッセージが出されて、表示が消えてしまう。修正できない。</li>
+<li>SKTTextAreaのColorSpaceはPreferencesControllerで設定したColorSpaceに合わせることができない。</li>
+<li>NSRulerViewのインスタンスへsetMeasurementUnits:メソッドを送ると、CGGStackRestore: gstack underflow. というエラーメッセージが出される。表示は正常であるが、メッセージは止められない。</li>
+<li>大きなViewBoxの中から小さなサイズをクリップするSVGをSVG書き出しすると位置がずれる。ASSVGImageRepの方で桁落ちが起きているらしい。他のSVGエンジンでもそれぞれ異なる向きで桁落ちが起きているので仕方ないかもしれない。</li>
+<li>異体字が使われているSKTTextAreaをSVGに書き出せない。SVGファイルはプレーンテキストなので、異体字の部分だけpath要素などを使ったSVGにしなければならないが未対応。</li>
+</ol>
+<hr />
+<address style="font-size:small">
+以上のバグ・不具合の情報と修正に関して、AppleComputer社との関係は一切存在しません。<br />
+ご意見・質問がありましたら、私の方へE-Mailにてお知らせください。<br />
+ E-Mail  s2137@nlb.or.jp<br />
+ 駒ケ根市赤穂497番地604  佐藤昭
+</address>
+</body>
+</html>

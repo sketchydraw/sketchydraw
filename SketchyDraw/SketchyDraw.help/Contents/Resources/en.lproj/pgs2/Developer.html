@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml"><head><title>for Developer</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="topicid" content="Developer"/>
+<meta name="keywords" content=""/>
+<!-- do not translate --><meta name="keywords" content=""/><!-- end do not translate --><meta name="description" content="source"/><link href="../sty/task.css" rel="stylesheet" type="text/css"/>
+<link href="../sty/print.css" rel="stylesheet" type="text/css" media="print"/>
+</head>
+
+<body id="apple-pd"><!--top navigation area--><div>
+	<a name="Developer"></a>
+</div><!--closes top navigation area-->
+<!--page head--><div id="headerbox"><div id="iconbox"><img id="iconimg" src="../../shrd/SketchApp.png" alt="Sketchy Draw icon" height="32" width="32"/></div><div id="pagetitle">
+<h1>for Developer</h1>
+</div>
+</div>
+<!--closes page header-->
+<div id="introbox">
+	<div id="introauxlist">
+		<div class="introauxlinksubbullet">
+			<p class="intronoticelongtext">download: <a href="http://www.hi-ho.ne.jp/sato-akira/sketchydraw/en.lproj/">source code</a></p>
+			<!-- 日本語、ドイツ語、フランス語、オランダ語、イタリア語、スペイン語、スウェーデン語 -->
+			<p class="intronoticelongtext">このドキュメントは日本語で書かれています。<br />
+			This document is written in Japanese.<br />
+			Dieses Dokument ist in Japanisch geschrieben.<br />
+			Ce document est écrit en japonais.<br />
+			Dit document is in het Japans geschreven.<br />
+			Questo documento è scritto in giapponese.<br />
+			Este documento está escrito en japonés.<br />
+			Detta dokument är skrivet på japanska.</p>
+		</div>
+	</div>
+	<div class="introprimtext">
+		<p class="introprimtextlongtext">
+以下の部分は、プログラムソースを理解する為の文章ですのでアプリケーションを利用する際に読む必要はありません。<br />
+Sketchと主要な部分は同じにしてある。SKTDrawDocument,SKTGraphicView,SKTGraphicの働きは全く変えていない。<br />
+各クラスの働きについては、Sketchソースの中にあるReadme.rtfが参考になる。<br />
+Sketchのソース内にはReadme.rtf, ToDo.txtなどの参考文献がある。<br />
+SKTAppDelegateがNSApplicationのデレゲートになっている。<br />
+ドキュメントはSKTDocument<br />
+ドキュメントごとのviewはSKTGraphicView<br />
+view内の各オブジェクトはSKTGraphic<br />
+-[SKTDocument readFromData:]から+[SKTGraphic graphicsWithProperties:]から-[SKTGraphicのサブクラス initWithProperties:]でSKTDocumentのNSMutableArrayのgraphics変数に各描画オブジェクトが格納される。
+<br />
+		</p>
+	</div>
+</div>
+<div id="introbox">
+	<div class="introprimtext">
+		<p class="introprimtextlongtext">
+OS10.5での変更点<br />
+_gFlags構造体が無くなった。_gFlags.drawsFill--_isDrawingFill, _lineWidth--_strokeWidth, _gFlags.drawsStroke--_isDrawingStroke, へ変わってしまった。<br />
+_gFlags構造体が無くなったことによる変更。_gFlags.windingRule--_windingRule, _gFlags.linejoin--_lineJoin, _gFlags.linecap--_lineCap, _gFlags.formEntry--_formEntry, _gFlags.localizeFormEntry--_localizeFormEntry, _gFlags.locked--_locked, _gFlags.shading--_shading,_shadowBlurRadius--shadowBlurRadiusValue, 
+<br />
+loadPropertyListRepresentation が - (id)initWithProperties:(NSDictionary *)propertiesに変わった。<br />
+- (NSMutableDictionary *)propertyListRepresentation が - (NSMutableDictionary *)properties に変わった。<br />
+以前の_gFlags.arrowAtStartsと_gFlags.arrowAtEndとをまとめて、_arrowStateとした。<br />
+KVC,KVO でやるには、変数名の頭文字が小文字でないとかなり使いにくい。それに合わせてファイルのkeyも小文字に変更したのが複数ある。<br />
+bind: でmaindow.windowController.graphicController.・・・をModel Key Pathとしたとき、windowControllerにNSWindowがあってgraphicController以降の仕様が満たされていないときハングアップもしくは暴走する。これを防ぐにはwindowControllerのwindowをNSPanelにしなければならない。PreferencesControllerは此の方法を使っている。<br />
+SKTGraphic のundo の使い方は、属性値が変更されたときのアップデートと兼ねた方法でやらせる。+ (void)initializeの中の[self setKeys:triggerChangeNotificationForDependentKey:]に定義されているSKTGraphicDrawingBoundsKey, SKTGraphicDrawingContentsKey の値を変更すれば良い。setKeys:の引数は- (NSSet *)keysForValuesAffectingDrawingBounds と - (NSSet *)keysForValuesAffectingDrawingContents とで定義する。この2つのどちらかの配列に、アップデートさせる変数のkeyを追加定義する。undo させる変数のkey 追加は -(NSSet *)keysForValuesToObservForUndo で追加定義する。undoのlocalized文字列は - (NSString *)presentablePropertyNameForKey:で追加定義する。SKTGraphicからundoされる文字列には Change of (の変更)という文字がprefix される。<br />
+SKTGraphicView からのundoにはChange of がprefixされない。<br />
+- (NSBezierPath *)bezierPath が -(NSBezierPath *)bezierPathForDrawing に変わった。<br />
+- (void)drawInView:(SKTGraphicView *)view isSelected:(BOOL)flag
+が- (void)drawContentsInView:(NSView *)view isBeingCreateOrEdited:(BOOL)isBeingCreatedOrEditingに変わった。bezierPathForDrawingで作ったNSBezierPathをdrawInView::でfillとstrokeをしているだけなので複雑な描画をするときは両方ともオーバーライドしなければならない。<br />
+shading(グラデーション)のundoについては、かなり不完全である。ASShadingModelの定数を変更させているので、undoをうまく動作させることができなかった。<br />
+64ビットの実行環境では、copy:(id)senderによるペーストボードへの書き込みがOS10.5　64ビットのバグにより不完全である。SKTextのNSPostscriptPboardTypeとNSPDFPboardTypeへの書き込みができない。SKTsvgについてはNSPostscriptPboardTypeへの書き込みができない。SKTsvgはtextエレメントが含まれているとハングアップするバグがあるので書き込みしないようにしている。総てSKTRenderingView.mの中で処理しているので、バグが解消されたら修正すると使いやすくなる。<br />
+64ビットの実行環境で、SKTTextに漢字が含まれている場合に、プリントするとハングアップする。OS10.5のバグである。
+		</p>
+	</div>
+</div>
+<div id="introbox">
+	<div class="introprimtext">
+		<p class="introprimtextlongtext">
+以下はSketchの旧バージョンに関する解説です。旧バージョンとはMac OS X 10.4までに附属していたSketchです。<br />
+SKTDrawAppDelegateがNSApplicationのデレゲートになっている。<br />
+ドキュメントはSKTDrawDocument<br />
+ドキュメントごとのviewはSKTGraphicView<br />
+view内の各オブジェクトはSKTGraphic<br />
+SKTGraphicの各オブジェクトに変更があったときは、SKTGraphicのdidChange:により[[NSNotificationCenter defaultCenter] postNotificationName:SKTGraphicDidChangeNotification object:self]がpostされる。
+</p>
+	</div><!--closes introprimtext--></div> <!--closes introbox -->
+<div id="outrobox"><div class="outroprimtext"><dl style="font-size:small">
+<dt>起動</dt>
+	<dd>OPENSTEPのDrawのときは、NSApplicationのサブクラスDrawApp.mに applicationDidFinishLaunching: ,application: openFile:メソッドが実装されていた。Mac OS XになってNSDocumentクラスが実装され、NSApplicationのサブクラスSKTDrawAppDelegate.mにはそういった機能は無い。</dd>
+<dt>スケッチ風ドローファイルのオープン</dt>
+	<dd>ファイルはプロパティリストがテキスト形式で格納された普通ファイル。</dd>
+	<dd>NSDocumentのloadDataRepresentationをオーバーライドしたSKTDrawDocument.mの- (BOOL)readFromData:ofType:error: → - (NSDictionary *)drawDocumentDictionaryFromData: → SKTGraphic.mの+(id)graphicWithPropertyLisrRepresentation: → - (void)loadPropertyListRepresentation:</dd>
+<dt>スケッチ風ドローファイルのオープン</dt>
+	<dd>ファイルは普通ファイルである。OPENSTEPのDrawのときは、ディレクトリファイルも使われていた。</dd>
+	<dd>フォームフィールド或はファイルドラッグして作ったオブジェクトがあっても、普通ファイル形式になる。</dd>
+	<dd>NSDocumentのサブクラスSKTDrawDocument.mで管理されている。</dd>
+	<dd>sktdの拡張子がついたファイルで、プロパティリストがテキスト形式で格納される。</dd>
+	<dd>-(BOOL)loadFileWrapperRepresentation:(NSFileWrapper *)wrapper ofType:(NSString *)docTypeをオーバーライドしてある。</dd>
+<dt>スケッチ風ドローウィンドウ</dt>
+	<dd>ドキュメントウィンドウはNSWindowControllerのサブクラスSKTDrawWindowController.m、NSDocumentのサブクラスSKTDrawDocument.mウィンドウ内のビューはNSViewのサブクラス SKTGraphicView.mが制御している。</dd>
+<dt>ツールパネル</dt>
+	<dd>SKTToolPaletteController.mがマウスクリックを読んでSKTGraphicの対応するクラスを選択する。</dd>
+<dt>選択</dt>
+	<dd>SKTGrpahicViewの- (void)mouseDown:(NSEvent *)eventがオブジェクトのリストに登録されたGraphicクラス又はGrpahicのサブクラスの-(BOOL)hit:(NSPoint)pを呼出し、それがYESを返すと、そのオブジェクトが選択された事になる。</dd>
+	<dd>リサイズはまず- (NSRect)drwingBoundsにより初期の矩形領域を取り出し、visibleRectにより矩形領域を可視化する。そしてマウスアップイベントが発生するまで SKTGraphicの- (int)resizeByMovingKnob:(int)knob toPoint:(NSPoint)pointを呼び出して。コーナーを移動させる。resizeByMovingKnobによる移動を行うごとにビューのリフレッシュを行う。</dd>
+	<dd>ノブの描画は位置を- (void)drawHandlesInView:(SKTGraphicView *)viewで計算しておいて- (void)drawHandleAtPoint:(NSPoint)point inView:(SKTGraphicView *)viewで描画する。</dd>
+	<dd>SKTPolygonとSKTCircleはhitTest:isSelected:でNSBezierPathのcontainsPointを利用して判断をする。[self bezierPath]とすると大量のエラーメッセージが出されるので、_cachedBezierPathを使用する。SKTBezierCurveもNSBezierPathのcontainsPointを利用するが、_cachedBezierPathを使用しなくてもエラーメッセージは出されない。</dd>
+<dt>オブジェクト</dt>
+	<dd>NSObjectのサブクラスSKTGraphic.mが各オブジェクトの親クラス。</dd>
+<dt>テキスト</dt>
+	<dd>SKTGraphicのサブクラスSKTTextArea.mのdrawTextインスタンス。</dd>
+<dt>楕円形</dt>
+	<dd>SKTGraphicのサブクラスSKTCircle.m</dd>
+<dt>曲線</dt>
+	<dd>SKTLineのサブクラスSKTCurve.m。</dd>
+<dt>直線</dt>
+	<dd>SKTGraphicのサブクラスSKTLine.m。</dd>
+<dt>多角形</dt>
+	<dd>SKTScribbleのサブクラスSKTPolygon.m。</dd>
+<dt>長方形</dt>
+	<dd>SKTGraphicのサブクラスSKTRectangle.m。</dd>
+<dt>フリーハンド</dt>
+	<dd>SKTGraphicのサブクラスSKTScribble.m</dd>
+<dt>ベジェ曲線</dt>
+	<dd>SKTGraphicのサブクラスSKTBezierCurve.m</dd>
+<dt>イメージ</dt>
+	<dd>SKTGraphicのサブクラスSKTImage.m。SKTImageのサブクラスにSKTpdf,SKTsvgがある。</dd>
+<dt>グループ化</dt>
+	<dd>SKTGraphicのサブクラスSKTGroup.m</dd>
+<dt>グリッドパネル</dt>
+	<dd>SKTGridPanelController.mがGUIの管理をしている。</dd>
+<dt>アンドゥ</dt>
+	<dd>SKTGraphicViewのundoManagerはNSResponderのundoManagerメソッドから呼ばれるNSUndoManagerである。</dd>
+	<dd>SKTDrawDocumentのundoManagerはNSDocumentのundoManagerメソッドから呼ばれるNSUndoManagerである。</dd>
+	<dd>SKTGrahicのundoManagerはSKTDrawDocumentのundoManagerを呼び出しているだけである。</dd>
+	<dd>SKTGraphicViewから省いたundoはselectGraphic,deselectGraphic,clearSelectionである。</dd>
+<dt>インスペクタパネル</dt>
+	<dd>インスペクタパネルを制御するのは、NSWindowControllerのサブクラスSKTInspectorControllerクラスである。</dd>
+	<dd>それぞれのインターフェースに対応する(IBAction)~Action:(id)senderというアクションメソドが実行される。</dd>
+	<dd>SKTGraphicViewクラスでは、アンドゥ用のデータを設定する。</dd>
+	<dd>破線パターンのテンプレートを示すPopUpボタンはSKTInspectorControllerの- (NSString *)dashTemplate:(int)itemから作られる。</dd>
+<dt>Appleスクリプト</dt>
+	<dd>SKTDrawDocument.mに拡張したSKTGraphicのサブクラスに関するメソッドを実装すれば未対応部分がなくなる。</dd>
+<dt>書き出し</dt>
+	<dd>SKTDrawDocument.mのwriteToFile:ofType:からdataRepresentation:が呼ばれ、保存先のタイプ別のメソッドが呼ばれる。</dd>
+	<dd>sktdはdrawDocumentDataForGraphics:からdrawDocumentDictionaryForGraphics:が呼ばれ、それぞれのgraphicのpropertyListRepresentationからNSDictionaryを得る。NSDictionaryのdescriptionをNSASCIIStringEncodingしたNSDataを得る。</dd>
+	<dd>TIFF,PDF,EPSはそれぞれの...RepresentationForGraphics:からNSDataを得る。</dd>
+	<dd>オブジェクトを寄せ集めた最大サイズの範囲で、データを書き出す。</dd>
+	<dd>SVGの書き出しは、SKTDrawDocument.mの- (NSData *)dataOfType:(NSString *)typeName error:(NSError **)outErrorから- (NSData *)SVGRepresentationForGraphics:(NSArray *)graphicsを呼び出して実行する。ここから、各SKTGraphicに実装された- (NSArray *)svgXMLElements:(NSRect)aRectを呼び出してSVGの要素を加えていく。実装していないときはSKTGraphic.mがnilを返す。</dd>
+	<dd>SKTImageのSVG書き出しは、NSBitmapImageRepを使うのでshadowは無視される。</dd>
+<dt>矢印</dt>
+	<dd>各grpahicのbezierPathからは描かれない。SKTGraphic.mのdrawInView:isSelected:から各grpahicのbezierPathが呼ばれた後、各grpahicのarrowAtStartがYESのときに、arrowBezierPath:が呼ばれる。</dd>
+	<dd>arrowBezierPath:はSKTFoundationExtras.mのpdfArrow()を呼び出す。このpdfArrow()が実際の矢印の大きさと形を決める。</dd>
+<dt>SKTRenderingView</dt>
+	<dd>SKTDrawDocumentから使われる。drawInview:isSelected:の第1引き数はnilとする。オリジナルでもnilとなっていた。SKTGraphic.mのサブクラスでdrawInView:view isSelected:を実装するときに、if ((nil != view) &amp;&amp; (YES == [currentContext isDrawingToScreen]))という判断をするときに使える。NSImageをlockFocusするときなど有効である。</dd>
+</dl>
+</div><!--closes outroprimtext--></div><!--closes outrobox --></body>
+</html>

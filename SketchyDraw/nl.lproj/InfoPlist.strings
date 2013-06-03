@@ -1,0 +1,14 @@
+/* For the app's menu bar. */
+CFBundleName = "Schetsmatig trek";
+
+/* For the Finder's info panel. */
+CFBundleGetInfoString = "Copyright 1995 Next Computer, Inc.\n2.0.1, Copyright © 1998-2012, Apple Inc.\nCopyright © 2012 SatoAkira";
+
+/* For the app's About panel.*/
+NSHumanReadableCopyright = "Copyright © 1998-2012 Apple Inc.\nAll rights reserved.\nCopyright © 2012 SatoAkira";
+
+CFBundleDisplayName = "Schetsmatig trek";
+
+"SketchyDraw Graphic Format" = "skt3:Schetsmatig trek Graphic Format";
+"Apple Sketch 1 document" = "sketch:Apple Sketch1 Graphic Format";
+"Apple Sketch Graphic Format" = "sketch2:Apple Sketch Graphic Format";

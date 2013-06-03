@@ -1,0 +1,895 @@
+TASWebView
+v5
+r1
+cCheck dependencies
+cSymLink /Users/me/Developer/Frameworks/ASWebView/build/Release/ASWebView.framework/Versions/Current A
+cSymLink /Users/me/Developer/Frameworks/ASWebView/build/Release/ASWebView.framework/Resources Versions/Current/Resources
+cSymLink /Users/me/Developer/Frameworks/ASWebView/build/Release/ASWebView.framework/ASWebView Versions/Current/ASWebView
+cSymLink /Users/me/Developer/Frameworks/ASWebView/build/Release/ASWebView.framework/Headers Versions/Current/Headers
+cProcessInfoPlistFile /Users/me/Developer/Frameworks/ASWebView/build/Release/ASWebView.framework/Versions/A/Resources/Info.plist ASWebView/ASWebView-Info.plist
+cProcessPCH /var/folders/01/y5tqtdy51xv31hrwc0r9m1400000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/ASWebView-Prefix-aymszrlhzfjtdiaecfchphykfeke/ASWebView-Prefix.pch.pth ASWebView/ASWebView-Prefix.pch normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/ASWebView.build/Release/ASWebView.build/Objects-normal/x86_64/ASDialKnobCell.o /Users/me/Developer/Frameworks/ASWebView/ASWebView/ASDialKnobCell.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/ASWebView.build/Release/ASWebView.build/Objects-normal/x86_64/ASImageViewCell.o /Users/me/Developer/Frameworks/ASWebView/ASWebView/ASImageViewCell.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/ASWebView.build/Release/ASWebView.build/Objects-normal/x86_64/ASWebImageRep.o /Users/me/Developer/Frameworks/ASWebView/ASWebView/ASWebImageRep.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/ASWebView.build/Release/ASWebView.build/Objects-normal/x86_64/ASDialKnob.o /Users/me/Developer/Frameworks/ASWebView/ASWebView/ASDialKnob.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/ASWebView.build/Release/ASWebView.build/Objects-normal/x86_64/ASImageView.o /Users/me/Developer/Frameworks/ASWebView/ASWebView/ASImageView.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/ASWebView.build/Release/ASWebView.build/Objects-normal/x86_64/ASWebViewFunctions.o /Users/me/Developer/Frameworks/ASWebView/ASWebView/ASWebViewFunctions.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/ASWebView.build/Release/ASWebView.build/Objects-normal/x86_64/NSData+CocoaDevUsersAdditions.o /Users/me/Developer/Frameworks/ASWebView/ASWebView/NSData+CocoaDevUsersAdditions.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cLd /Users/me/Developer/Frameworks/ASWebView/build/Release/ASWebView.framework/Versions/A/ASWebView normal x86_64
+cCpHeader ASWebView/ASDialKnob.h build/Release/ASWebView.framework/Versions/A/Headers/ASDialKnob.h
+cCpHeader ASWebView/ASWebImageRep.h build/Release/ASWebView.framework/Versions/A/Headers/ASWebImageRep.h
+cCpHeader ASWebView/ASImageView.h build/Release/ASWebView.framework/Versions/A/Headers/ASImageView.h
+cCpHeader ASWebView/ASImageViewCell.h build/Release/ASWebView.framework/Versions/A/Headers/ASImageViewCell.h
+cCopyStringsFile /Users/me/Developer/Frameworks/ASWebView/build/Release/ASWebView.framework/Versions/A/Resources/en.lproj/InfoPlist.strings ASWebView/en.lproj/InfoPlist.strings
+cCopyStringsFile /Users/me/Developer/Frameworks/ASWebView/build/Release/ASWebView.framework/Versions/A/Resources/ja.lproj/InfoPlist.strings ASWebView/ja.lproj/InfoPlist.strings
+cCopyStringsFile /Users/me/Developer/Frameworks/ASWebView/build/Release/ASWebView.framework/Versions/A/Resources/en.lproj/ASWebViewError.strings ASWebView/en.lproj/ASWebViewError.strings
+cCopyStringsFile /Users/me/Developer/Frameworks/ASWebView/build/Release/ASWebView.framework/Versions/A/Resources/ja.lproj/ASWebViewError.strings ASWebView/ja.lproj/ASWebViewError.strings
+cTouch /Users/me/Developer/Frameworks/ASWebView/build/Release/ASWebView.framework
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk
+c00000000503F1B7700000000000000AA
+t1346313079
+s170
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/System/Library/Frameworks/Cocoa.framework/Cocoa
+c0000000050901DC300000000000025C8
+t1351622083
+s9672
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/System/Library/Frameworks/Quartz.framework/Versions/A/Frameworks/PDFKit.framework/Headers/PDFDocument.h
+c0000000050901DE90000000000003894
+t1351622121
+s14484
+
+N/Applications/Xcode45-DP2.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk
+c000000004FD86C7600000000000000AA
+t1339583606
+s170
+
+N/Applications/Xcode45-DP2.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/System/Library/Frameworks/Cocoa.framework/Cocoa
+c000000004FE5249400000000000025C8
+t1340417172
+s9672
+
+N/Applications/Xcode45-DP2.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/System/Library/Frameworks/Quartz.framework/Versions/A/Frameworks/PDFKit.framework/Headers/PDFDocument.h
+c00000000000000000000000000000000
+t2
+s0
+
+N/Developer/SDKs/MacOSX10.6.sdk
+c000000004DA8871100000000000000EE
+t1302890257
+s238
+
+N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/AppKit.framework/Headers/AppKit.h
+c000000004CC4198400000000000017ED
+t1287920004
+s6125
+
+N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Cocoa.framework/Cocoa
+c000000004DA341E70000000000003430
+t1302544871
+s13360
+
+N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Cocoa.framework/Headers/Cocoa.h
+c0000000040C4AA6800000000000001E5
+t1086630504
+s485
+
+N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004CC401D100000000000013E6
+t1287913937
+s5094
+
+N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Quartz.framework/Versions/A/Frameworks/PDFKit.framework/Headers/PDFDocument.h
+c000000004CC41DBC00000000000036E5
+t1287921084
+s14053
+
+N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/WebKit.framework/Headers/WebKit.h
+c000000004CC4316B0000000000000957
+t1287926123
+s2391
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/libc.h
+c000000004BBD2CE900000000000007F3
+t1270689001
+s2035
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/openssl/md5.h
+c000000004CC3F9A40000000000001272
+t1287911844
+s4722
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/openssl/ripemd.h
+c000000004CC3F9A50000000000001104
+t1287911845
+s4356
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/openssl/sha.h
+c000000004CC3F9A50000000000001CDE
+t1287911845
+s7390
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/zlib.h
+c000000004CC3E09300000000000102A5
+t1287905427
+s66213
+
+N/Developer/SDKs/MacOSX10.7.sdk
+c000000004E7AD70B00000000000000EE
+t1316673291
+s238
+
+N/Developer/SDKs/MacOSX10.7.sdk/System/Library/Frameworks/Cocoa.framework/Cocoa
+c000000004E7AD7020000000000002470
+t1316673282
+s9328
+
+N/Developer/SDKs/MacOSX10.7.sdk/System/Library/Frameworks/Quartz.framework/Versions/A/Frameworks/PDFKit.framework/Headers/PDFDocument.h
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/me/Developer/Frameworks/ASWebView/../../../../../System/Library/Frameworks/Quartz.framework/Versions/A/Frameworks/PDFKit.framework/PDFKit
+c00000000505A82B500000000001D0E80
+t1348108981
+s1904256
+
+N/Users/me/Developer/Frameworks/ASWebView/../../../../../System/Library/Frameworks/WebKit.framework/WebKit
+c00000000505A82CB000000000044AF90
+t1348109003
+s4501392
+
+N/Users/me/Developer/Frameworks/ASWebView/../../../../../usr/lib/libcrypto.dylib
+c000000005006C2840000000000299350
+t1342620292
+s2724688
+
+N/Users/me/Developer/Frameworks/ASWebView/../../../../../usr/lib/libz.dylib
+c000000005006C297000000000002A730
+t1342620311
+s173872
+
+N/Users/me/Developer/Frameworks/ASWebView/ASWebView/ASDialKnob.h
+c000000005038C5D40000000000002760
+t1345897940
+s10080
+i<AppKit/AppKit.h>
+
+N/Users/me/Developer/Frameworks/ASWebView/ASWebView/ASDialKnob.m
+c000000004D96BC600000000000004F93
+t1301724256
+s20371
+i"ASDialKnob.h"
+i"ASDialKnobCell.h"
+i"ASWebViewFunctions.h"
+i<libc.h>
+
+N/Users/me/Developer/Frameworks/ASWebView/ASWebView/ASDialKnobCell.h
+c000000004D2A9F650000000000000A95
+t1294638949
+s2709
+i<AppKit/AppKit.h>
+i"ASWebImageRep.h"
+
+N/Users/me/Developer/Frameworks/ASWebView/ASWebView/ASDialKnobCell.m
+c0000000050232E8C000000000000816E
+t1344482956
+s33134
+i"ASDialKnobCell.h"
+i"ASDialKnob.h"
+
+N/Users/me/Developer/Frameworks/ASWebView/ASWebView/ASImageView.h
+c0000000050232E430000000000001FB4
+t1344482883
+s8116
+i<AppKit/AppKit.h>
+i"ASImageViewCell.h"
+
+N/Users/me/Developer/Frameworks/ASWebView/ASWebView/ASImageView.m
+c0000000050233B9F000000000000BE18
+t1344486303
+s48664
+i"ASImageView.h"
+i"ASWebViewFunctions.h"
+i<libc.h>
+
+N/Users/me/Developer/Frameworks/ASWebView/ASWebView/ASImageViewCell.h
+c000000004E539B450000000000000CC5
+t1314102085
+s3269
+i<Cocoa/Cocoa.h>
+i"ASWebImageRep.h"
+
+N/Users/me/Developer/Frameworks/ASWebView/ASWebView/ASImageViewCell.m
+c000000004FF2B545000000000000ABC7
+t1341306181
+s43975
+i"ASImageViewCell.h"
+i<PDFKit/PDFDocument.h>
+
+N/Users/me/Developer/Frameworks/ASWebView/ASWebView/ASWebImageRep.h
+c00000000502DAFD300000000000022BE
+t1345171411
+s8894
+i<Cocoa/Cocoa.h>
+i<WebKit/WebKit.h>
+
+N/Users/me/Developer/Frameworks/ASWebView/ASWebView/ASWebImageRep.m
+c0000000050A3C108000000000000A5C4
+t1352909064
+s42436
+i"ASWebImageRep.h"
+i"ASWebViewFunctions.h"
+i"NSData+CocoaDevUsersAdditions.h"
+
+N/Users/me/Developer/Frameworks/ASWebView/ASWebView/ASWebView-Prefix.pch
+c000000004DE6469C0000000000000092
+t1306936988
+s146
+i<Cocoa/Cocoa.h>
+
+N/Users/me/Developer/Frameworks/ASWebView/ASWebView/ASWebViewFunctions.h
+c000000004D4F85C00000000000000198
+t1297057216
+s408
+i<Foundation/Foundation.h>
+
+N/Users/me/Developer/Frameworks/ASWebView/ASWebView/ASWebViewFunctions.m
+c000000004EA6D73400000000000040FF
+t1319556916
+s16639
+i"ASWebViewFunctions.h"
+
+N/Users/me/Developer/Frameworks/ASWebView/ASWebView/NSData+CocoaDevUsersAdditions.h
+c000000004E280ACD000000000000030C
+t1311247053
+s780
+i<Foundation/Foundation.h>
+
+N/Users/me/Developer/Frameworks/ASWebView/ASWebView/NSData+CocoaDevUsersAdditions.m
+c000000004E280D530000000000005307
+t1311247699
+s21255
+i"NSData+CocoaDevUsersAdditions.h"
+i"ASWebImageRep.h"
+i<zlib.h>
+i<openssl/md5.h>
+i<openssl/sha.h>
+i<openssl/ripemd.h>
+
+N/Users/me/Developer/Frameworks/ASWebView/ASWebView/en.lproj/ASWebViewError.strings
+c000000004DE7BAAB0000000000000214
+t1307032235
+s532
+
+N/Users/me/Developer/Frameworks/ASWebView/ASWebView/en.lproj/InfoPlist.strings
+c000000004DE6469C000000000000002D
+t1306936988
+s45
+
+N/Users/me/Developer/Frameworks/ASWebView/ASWebView/ja.lproj/ASWebViewError.strings
+c000000004DE7BB0000000000000001EC
+t1307032320
+s492
+
+N/Users/me/Developer/Frameworks/ASWebView/ASWebView/ja.lproj/InfoPlist.strings
+c000000004DE6469C000000000000002D
+t1306936988
+s45
+
+N/Users/me/Developer/Frameworks/ASWebView/build/ASWebView.build/Release/ASWebView.build/Objects-normal/x86_64/ASDialKnob.o
+t2
+s0
+
+N/Users/me/Developer/Frameworks/ASWebView/build/ASWebView.build/Release/ASWebView.build/Objects-normal/x86_64/ASDialKnobCell.o
+t2
+s0
+
+N/Users/me/Developer/Frameworks/ASWebView/build/ASWebView.build/Release/ASWebView.build/Objects-normal/x86_64/ASImageView.o
+t2
+s0
+
+N/Users/me/Developer/Frameworks/ASWebView/build/ASWebView.build/Release/ASWebView.build/Objects-normal/x86_64/ASImageViewCell.o
+t2
+s0
+
+N/Users/me/Developer/Frameworks/ASWebView/build/ASWebView.build/Release/ASWebView.build/Objects-normal/x86_64/ASWebImageRep.o
+t2
+s0
+
+N/Users/me/Developer/Frameworks/ASWebView/build/ASWebView.build/Release/ASWebView.build/Objects-normal/x86_64/ASWebView.LinkFileList
+c0000000050A3C15A000000000000037E
+t1352909146
+s894
+
+N/Users/me/Developer/Frameworks/ASWebView/build/ASWebView.build/Release/ASWebView.build/Objects-normal/x86_64/ASWebViewFunctions.o
+t2
+s0
+
+N/Users/me/Developer/Frameworks/ASWebView/build/ASWebView.build/Release/ASWebView.build/Objects-normal/x86_64/NSData+CocoaDevUsersAdditions.o
+t2
+s0
+
+N/Users/me/Developer/Frameworks/ASWebView/build/ASWebView.build/Release/ASWebView.build/StaticAnalyzer/normal/x86_64/ASDialKnob.plist
+t2
+s0
+
+N/Users/me/Developer/Frameworks/ASWebView/build/ASWebView.build/Release/ASWebView.build/StaticAnalyzer/normal/x86_64/ASDialKnobCell.plist
+t2
+s0
+
+N/Users/me/Developer/Frameworks/ASWebView/build/ASWebView.build/Release/ASWebView.build/StaticAnalyzer/normal/x86_64/ASImageView.plist
+t2
+s0
+
+N/Users/me/Developer/Frameworks/ASWebView/build/ASWebView.build/Release/ASWebView.build/StaticAnalyzer/normal/x86_64/ASImageViewCell.plist
+t2
+s0
+
+N/Users/me/Developer/Frameworks/ASWebView/build/ASWebView.build/Release/ASWebView.build/StaticAnalyzer/normal/x86_64/ASWebImageRep.plist
+t2
+s0
+
+N/Users/me/Developer/Frameworks/ASWebView/build/ASWebView.build/Release/ASWebView.build/StaticAnalyzer/normal/x86_64/ASWebViewFunctions.plist
+t2
+s0
+
+N/Users/me/Developer/Frameworks/ASWebView/build/ASWebView.build/Release/ASWebView.build/StaticAnalyzer/normal/x86_64/NSData+CocoaDevUsersAdditions.plist
+t2
+s0
+
+N/Users/me/Developer/Frameworks/ASWebView/build/Release/ASWebView.framework
+t2
+s0
+
+N/Users/me/Developer/Frameworks/ASWebView/build/Release/ASWebView.framework/ASWebView
+t2
+s0
+
+N/Users/me/Developer/Frameworks/ASWebView/build/Release/ASWebView.framework/Headers
+t2
+s0
+
+N/Users/me/Developer/Frameworks/ASWebView/build/Release/ASWebView.framework/Resources
+t2
+s0
+
+N/Users/me/Developer/Frameworks/ASWebView/build/Release/ASWebView.framework/Versions/A/ASWebView
+t2
+s0
+
+N/Users/me/Developer/Frameworks/ASWebView/build/Release/ASWebView.framework/Versions/A/Headers/ASDialKnob.h
+t2
+s0
+
+N/Users/me/Developer/Frameworks/ASWebView/build/Release/ASWebView.framework/Versions/A/Headers/ASImageView.h
+t2
+s0
+
+N/Users/me/Developer/Frameworks/ASWebView/build/Release/ASWebView.framework/Versions/A/Headers/ASImageViewCell.h
+t2
+s0
+
+N/Users/me/Developer/Frameworks/ASWebView/build/Release/ASWebView.framework/Versions/A/Headers/ASWebImageRep.h
+t2
+s0
+
+N/Users/me/Developer/Frameworks/ASWebView/build/Release/ASWebView.framework/Versions/A/Resources/Info.plist
+t2
+s0
+
+N/Users/me/Developer/Frameworks/ASWebView/build/Release/ASWebView.framework/Versions/A/Resources/en.lproj/ASWebViewError.strings
+t2
+s0
+
+N/Users/me/Developer/Frameworks/ASWebView/build/Release/ASWebView.framework/Versions/A/Resources/en.lproj/InfoPlist.strings
+t2
+s0
+
+N/Users/me/Developer/Frameworks/ASWebView/build/Release/ASWebView.framework/Versions/A/Resources/ja.lproj/ASWebViewError.strings
+t2
+s0
+
+N/Users/me/Developer/Frameworks/ASWebView/build/Release/ASWebView.framework/Versions/A/Resources/ja.lproj/InfoPlist.strings
+t2
+s0
+
+N/Users/me/Developer/Frameworks/ASWebView/build/Release/ASWebView.framework/Versions/Current
+t2
+s0
+
+N/var/folders/01/y5tqtdy51xv31hrwc0r9m1400000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/ASWebView-Prefix-aymszrlhzfjtdiaecfchphykfeke/ASWebView-Prefix.pch.pth
+t2
+s0
+
+N/var/folders/01/y5tqtdy51xv31hrwc0r9m1400000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/ASWebView-Prefix-dlvxhrkqtmtonvanxkbdohwqltlh/ASWebView-Prefix.pch.pth
+t1344482893
+s13712236
+
+N/var/folders/01/y5tqtdy51xv31hrwc0r9m1400000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/ASWebView-Prefix-dyfacqgtqycmhpfkecwkwprtjiog/ASWebView-Prefix.pch.pth
+t2
+s0
+
+N/var/folders/01/y5tqtdy51xv31hrwc0r9m1400000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/ASWebView-Prefix-efmjdgqmfcmirhdiytkwizctpdco/ASWebView-Prefix.pch.pth
+t1319545385
+s11070092
+
+N/var/folders/5w/xk1m9_ms5m3557s6v4dg007c0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/ASWebView-Prefix-brecetjtvdkvpubrzhiabeaqhxek/ASWebView-Prefix.pch.pth
+t1311247159
+s12463512
+
+N/var/folders/5w/xk1m9_ms5m3557s6v4dg007c0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/ASWebView-Prefix-efmjdgqmfcmirhdiytkwizctpdco/ASWebView-Prefix.pch.pth
+t2
+s0
+
+N/var/folders/9n/9ngUoGeaGo4IdwaqFfk+Ck+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ASWebView-Prefix-fbydmsmuykktukfnukmlergpztym/ASWebView-Prefix.pch.pth
+t1306938626
+s10945812
+
+N/var/folders/9n/9ngUoGeaGo4IdwaqFfk+Ck+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ASWebView-Prefix-fedbkfdkcggtamfuyekklbbjwrlv/ASWebView-Prefix.pch.pth
+t1306939196
+s10950432
+
+N/var/folders/9n/9ngUoGeaGo4IdwaqFfk+Ck+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ASWebView-Prefix-gwabnxuaqcxypibandrcixmastiy/ASWebView-Prefix.pch.pth
+t1310745877
+s10945812
+
+N/var/folders/t9/7cwgjzv56ylcq_0_58t869sc0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/ASWebView-Prefix-aimznssnmteuvcgqurlzqecgllnr/ASWebView-Prefix.pch.pth
+t2
+s0
+
+NASWebView/ASWebView-Info.plist
+c000000004FF2B88700000000000003BE
+t1341307015
+s958
+
+CAnalyze /Users/me/Developer/Frameworks/ASWebView/ASWebView/ASDialKnob.m
+s335160587.082296
+e335160587.942156
+r1
+xAnalyze
+x/Users/me/Developer/Frameworks/ASWebView/ASWebView/ASDialKnob.m
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection71"Analyze /Users/me/Developer/Frameworks/ASWebView/ASWebView/ASDialKnob.m3d27150b25fab341^1231f10b25fab341^---0#0#0#-19%DVTDocumentLocation2@79"file://localhost/Users/me/Developer/Frameworks/ASWebView/ASWebView/ASDialKnob.m0000000000000000^2165"Analyze ASWebView/ASDialKnob.m    cd /Users/me/Developer/Frameworks/ASWebView    setenv LANG en_US.US-ASCII    /Developer/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=gnu99 -Wno-trigraphs -fpascal-strings -Os -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wshorten-64-to-32 -isysroot /Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -mmacosx-version-min=10.7 -gdwarf-2 "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -iquote /Users/me/Developer/Frameworks/ASWebView/build/ASWebView.build/Release/ASWebView.build/ASWebView-generated-files.hmap -I/Users/me/Developer/Frameworks/ASWebView/build/ASWebView.build/Release/ASWebView.build/ASWebView-own-target-headers.hmap -I/Users/me/Developer/Frameworks/ASWebView/build/ASWebView.build/Release/ASWebView.build/ASWebView-all-target-headers.hmap -iquote /Users/me/Developer/Frameworks/ASWebView/build/ASWebView.build/Release/ASWebView.build/ASWebView-project-headers.hmap -I/Users/me/Developer/Frameworks/ASWebView/build/Release/include -I/Users/me/Developer/Frameworks/ASWebView/build/ASWebView.build/Release/ASWebView.build/DerivedSources/x86_64 -I/Users/me/Developer/Frameworks/ASWebView/build/ASWebView.build/Release/ASWebView.build/DerivedSources -F/Users/me/Developer/Frameworks/ASWebView/build/Release -F/Developer/SDKs/MacOSX10.7.sdk/System/Library/Frameworks/Quartz.framework/Versions/A/Frameworks -include /var/folders/5w/xk1m9_ms5m3557s6v4dg007c0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/ASWebView-Prefix-brecetjtvdkvpubrzhiabeaqhxek/ASWebView-Prefix.pch -MMD -MT dependencies -MF /Users/me/Developer/Frameworks/ASWebView/build/ASWebView.build/Release/ASWebView.build/StaticAnalyzer/normal/x86_64/ASDialKnob.d --analyze /Users/me/Developer/Frameworks/ASWebView/ASWebView/ASDialKnob.m -o /Users/me/Developer/Frameworks/ASWebView/build/ASWebView.build/Release/ASWebView.build/StaticAnalyzer/normal/x86_64/ASDialKnob.plist
+
+CAnalyze /Users/me/Developer/Frameworks/ASWebView/ASWebView/ASDialKnobCell.m
+s335160587.083465
+e335160588.036137
+r1
+xAnalyze
+x/Users/me/Developer/Frameworks/ASWebView/ASWebView/ASDialKnobCell.m
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection75"Analyze /Users/me/Developer/Frameworks/ASWebView/ASWebView/ASDialKnobCell.m1971150b25fab341^4241090c25fab341^---0#0#0#-19%DVTDocumentLocation2@83"file://localhost/Users/me/Developer/Frameworks/ASWebView/ASWebView/ASDialKnobCell.m0000000000000000^2181"Analyze ASWebView/ASDialKnobCell.m    cd /Users/me/Developer/Frameworks/ASWebView    setenv LANG en_US.US-ASCII    /Developer/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=gnu99 -Wno-trigraphs -fpascal-strings -Os -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wshorten-64-to-32 -isysroot /Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -mmacosx-version-min=10.7 -gdwarf-2 "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -iquote /Users/me/Developer/Frameworks/ASWebView/build/ASWebView.build/Release/ASWebView.build/ASWebView-generated-files.hmap -I/Users/me/Developer/Frameworks/ASWebView/build/ASWebView.build/Release/ASWebView.build/ASWebView-own-target-headers.hmap -I/Users/me/Developer/Frameworks/ASWebView/build/ASWebView.build/Release/ASWebView.build/ASWebView-all-target-headers.hmap -iquote /Users/me/Developer/Frameworks/ASWebView/build/ASWebView.build/Release/ASWebView.build/ASWebView-project-headers.hmap -I/Users/me/Developer/Frameworks/ASWebView/build/Release/include -I/Users/me/Developer/Frameworks/ASWebView/build/ASWebView.build/Release/ASWebView.build/DerivedSources/x86_64 -I/Users/me/Developer/Frameworks/ASWebView/build/ASWebView.build/Release/ASWebView.build/DerivedSources -F/Users/me/Developer/Frameworks/ASWebView/build/Release -F/Developer/SDKs/MacOSX10.7.sdk/System/Library/Frameworks/Quartz.framework/Versions/A/Frameworks -include /var/folders/5w/xk1m9_ms5m3557s6v4dg007c0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/ASWebView-Prefix-brecetjtvdkvpubrzhiabeaqhxek/ASWebView-Prefix.pch -MMD -MT dependencies -MF /Users/me/Developer/Frameworks/ASWebView/build/ASWebView.build/Release/ASWebView.build/StaticAnalyzer/normal/x86_64/ASDialKnobCell.d --analyze /Users/me/Developer/Frameworks/ASWebView/ASWebView/ASDialKnobCell.m -o /Users/me/Developer/Frameworks/ASWebView/build/ASWebView.build/Release/ASWebView.build/StaticAnalyzer/normal/x86_64/ASDialKnobCell.plist
+
+CAnalyze /Users/me/Developer/Frameworks/ASWebView/ASWebView/ASImageView.m
+s335795466.091933
+e335795472.534808
+r1
+xAnalyze
+x/Users/me/Developer/Frameworks/ASWebView/ASWebView/ASImageView.m
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection72"Analyze /Users/me/Developer/Frameworks/ASWebView/ASWebView/ASImageView.mcf4a1a0ad503b441^b8e88810d503b441^---0#0#0#-19%DVTDocumentLocation2@80"file://localhost/Users/me/Developer/Frameworks/ASWebView/ASWebView/ASImageView.m0000000000000000^2169"Analyze ASWebView/ASImageView.m    cd /Users/me/Developer/Frameworks/ASWebView    setenv LANG en_US.US-ASCII    /Developer/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=gnu99 -Wno-trigraphs -fpascal-strings -Os -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wshorten-64-to-32 -isysroot /Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -mmacosx-version-min=10.7 -gdwarf-2 "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -iquote /Users/me/Developer/Frameworks/ASWebView/build/ASWebView.build/Release/ASWebView.build/ASWebView-generated-files.hmap -I/Users/me/Developer/Frameworks/ASWebView/build/ASWebView.build/Release/ASWebView.build/ASWebView-own-target-headers.hmap -I/Users/me/Developer/Frameworks/ASWebView/build/ASWebView.build/Release/ASWebView.build/ASWebView-all-target-headers.hmap -iquote /Users/me/Developer/Frameworks/ASWebView/build/ASWebView.build/Release/ASWebView.build/ASWebView-project-headers.hmap -I/Users/me/Developer/Frameworks/ASWebView/build/Release/include -I/Users/me/Developer/Frameworks/ASWebView/build/ASWebView.build/Release/ASWebView.build/DerivedSources/x86_64 -I/Users/me/Developer/Frameworks/ASWebView/build/ASWebView.build/Release/ASWebView.build/DerivedSources -F/Users/me/Developer/Frameworks/ASWebView/build/Release -F/Developer/SDKs/MacOSX10.7.sdk/System/Library/Frameworks/Quartz.framework/Versions/A/Frameworks -include /var/folders/5w/xk1m9_ms5m3557s6v4dg007c0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/ASWebView-Prefix-brecetjtvdkvpubrzhiabeaqhxek/ASWebView-Prefix.pch -MMD -MT dependencies -MF /Users/me/Developer/Frameworks/ASWebView/build/ASWebView.build/Release/ASWebView.build/StaticAnalyzer/normal/x86_64/ASImageView.d --analyze /Users/me/Developer/Frameworks/ASWebView/ASWebView/ASImageView.m -o /Users/me/Developer/Frameworks/ASWebView/build/ASWebView.build/Release/ASWebView.build/StaticAnalyzer/normal/x86_64/ASImageView.plist
+
+CAnalyze /Users/me/Developer/Frameworks/ASWebView/ASWebView/ASImageViewCell.m
+s335795466.093169
+e335795468.192057
+r1
+xAnalyze
+x/Users/me/Developer/Frameworks/ASWebView/ASWebView/ASImageViewCell.m
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection76"Analyze /Users/me/Developer/Frameworks/ASWebView/ASWebView/ASImageViewCell.mf9481a0ad503b441^6f2b310cd503b441^---0#0#0#-19%DVTDocumentLocation2@84"file://localhost/Users/me/Developer/Frameworks/ASWebView/ASWebView/ASImageViewCell.m0000000000000000^2185"Analyze ASWebView/ASImageViewCell.m    cd /Users/me/Developer/Frameworks/ASWebView    setenv LANG en_US.US-ASCII    /Developer/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=gnu99 -Wno-trigraphs -fpascal-strings -Os -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wshorten-64-to-32 -isysroot /Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -mmacosx-version-min=10.7 -gdwarf-2 "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -iquote /Users/me/Developer/Frameworks/ASWebView/build/ASWebView.build/Release/ASWebView.build/ASWebView-generated-files.hmap -I/Users/me/Developer/Frameworks/ASWebView/build/ASWebView.build/Release/ASWebView.build/ASWebView-own-target-headers.hmap -I/Users/me/Developer/Frameworks/ASWebView/build/ASWebView.build/Release/ASWebView.build/ASWebView-all-target-headers.hmap -iquote /Users/me/Developer/Frameworks/ASWebView/build/ASWebView.build/Release/ASWebView.build/ASWebView-project-headers.hmap -I/Users/me/Developer/Frameworks/ASWebView/build/Release/include -I/Users/me/Developer/Frameworks/ASWebView/build/ASWebView.build/Release/ASWebView.build/DerivedSources/x86_64 -I/Users/me/Developer/Frameworks/ASWebView/build/ASWebView.build/Release/ASWebView.build/DerivedSources -F/Users/me/Developer/Frameworks/ASWebView/build/Release -F/Developer/SDKs/MacOSX10.7.sdk/System/Library/Frameworks/Quartz.framework/Versions/A/Frameworks -include /var/folders/5w/xk1m9_ms5m3557s6v4dg007c0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/ASWebView-Prefix-brecetjtvdkvpubrzhiabeaqhxek/ASWebView-Prefix.pch -MMD -MT dependencies -MF /Users/me/Developer/Frameworks/ASWebView/build/ASWebView.build/Release/ASWebView.build/StaticAnalyzer/normal/x86_64/ASImageViewCell.d --analyze /Users/me/Developer/Frameworks/ASWebView/ASWebView/ASImageViewCell.m -o /Users/me/Developer/Frameworks/ASWebView/build/ASWebView.build/Release/ASWebView.build/StaticAnalyzer/normal/x86_64/ASImageViewCell.plist
+
+CAnalyze /Users/me/Developer/Frameworks/ASWebView/ASWebView/ASWebImageRep.m
+s335160588.037430
+e335160588.841032
+r1
+xAnalyze
+x/Users/me/Developer/Frameworks/ASWebView/ASWebView/ASWebImageRep.m
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection74"Analyze /Users/me/Developer/Frameworks/ASWebView/ASWebView/ASWebImageRep.m69ac090c25fab341^494dd70c25fab341^---0#0#0#-19%DVTDocumentLocation2@82"file://localhost/Users/me/Developer/Frameworks/ASWebView/ASWebView/ASWebImageRep.m0000000000000000^2177"Analyze ASWebView/ASWebImageRep.m    cd /Users/me/Developer/Frameworks/ASWebView    setenv LANG en_US.US-ASCII    /Developer/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=gnu99 -Wno-trigraphs -fpascal-strings -Os -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wshorten-64-to-32 -isysroot /Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -mmacosx-version-min=10.7 -gdwarf-2 "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -iquote /Users/me/Developer/Frameworks/ASWebView/build/ASWebView.build/Release/ASWebView.build/ASWebView-generated-files.hmap -I/Users/me/Developer/Frameworks/ASWebView/build/ASWebView.build/Release/ASWebView.build/ASWebView-own-target-headers.hmap -I/Users/me/Developer/Frameworks/ASWebView/build/ASWebView.build/Release/ASWebView.build/ASWebView-all-target-headers.hmap -iquote /Users/me/Developer/Frameworks/ASWebView/build/ASWebView.build/Release/ASWebView.build/ASWebView-project-headers.hmap -I/Users/me/Developer/Frameworks/ASWebView/build/Release/include -I/Users/me/Developer/Frameworks/ASWebView/build/ASWebView.build/Release/ASWebView.build/DerivedSources/x86_64 -I/Users/me/Developer/Frameworks/ASWebView/build/ASWebView.build/Release/ASWebView.build/DerivedSources -F/Users/me/Developer/Frameworks/ASWebView/build/Release -F/Developer/SDKs/MacOSX10.7.sdk/System/Library/Frameworks/Quartz.framework/Versions/A/Frameworks -include /var/folders/5w/xk1m9_ms5m3557s6v4dg007c0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/ASWebView-Prefix-brecetjtvdkvpubrzhiabeaqhxek/ASWebView-Prefix.pch -MMD -MT dependencies -MF /Users/me/Developer/Frameworks/ASWebView/build/ASWebView.build/Release/ASWebView.build/StaticAnalyzer/normal/x86_64/ASWebImageRep.d --analyze /Users/me/Developer/Frameworks/ASWebView/ASWebView/ASWebImageRep.m -o /Users/me/Developer/Frameworks/ASWebView/build/ASWebView.build/Release/ASWebView.build/StaticAnalyzer/normal/x86_64/ASWebImageRep.plist
+
+CAnalyze /Users/me/Developer/Frameworks/ASWebView/ASWebView/ASWebViewFunctions.m
+s335160588.373491
+e335160590.372385
+r1
+xAnalyze
+x/Users/me/Developer/Frameworks/ASWebView/ASWebView/ASWebViewFunctions.m
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection79"Analyze /Users/me/Developer/Frameworks/ASWebView/ASWebView/ASWebViewFunctions.m87c25f0c25fab341^8a555f0e25fab341^---0#0#0#-19%DVTDocumentLocation2@87"file://localhost/Users/me/Developer/Frameworks/ASWebView/ASWebView/ASWebViewFunctions.m0000000000000000^2197"Analyze ASWebView/ASWebViewFunctions.m    cd /Users/me/Developer/Frameworks/ASWebView    setenv LANG en_US.US-ASCII    /Developer/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=gnu99 -Wno-trigraphs -fpascal-strings -Os -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wshorten-64-to-32 -isysroot /Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -mmacosx-version-min=10.7 -gdwarf-2 "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -iquote /Users/me/Developer/Frameworks/ASWebView/build/ASWebView.build/Release/ASWebView.build/ASWebView-generated-files.hmap -I/Users/me/Developer/Frameworks/ASWebView/build/ASWebView.build/Release/ASWebView.build/ASWebView-own-target-headers.hmap -I/Users/me/Developer/Frameworks/ASWebView/build/ASWebView.build/Release/ASWebView.build/ASWebView-all-target-headers.hmap -iquote /Users/me/Developer/Frameworks/ASWebView/build/ASWebView.build/Release/ASWebView.build/ASWebView-project-headers.hmap -I/Users/me/Developer/Frameworks/ASWebView/build/Release/include -I/Users/me/Developer/Frameworks/ASWebView/build/ASWebView.build/Release/ASWebView.build/DerivedSources/x86_64 -I/Users/me/Developer/Frameworks/ASWebView/build/ASWebView.build/Release/ASWebView.build/DerivedSources -F/Users/me/Developer/Frameworks/ASWebView/build/Release -F/Developer/SDKs/MacOSX10.7.sdk/System/Library/Frameworks/Quartz.framework/Versions/A/Frameworks -include /var/folders/5w/xk1m9_ms5m3557s6v4dg007c0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/ASWebView-Prefix-brecetjtvdkvpubrzhiabeaqhxek/ASWebView-Prefix.pch -MMD -MT dependencies -MF /Users/me/Developer/Frameworks/ASWebView/build/ASWebView.build/Release/ASWebView.build/StaticAnalyzer/normal/x86_64/ASWebViewFunctions.d --analyze /Users/me/Developer/Frameworks/ASWebView/ASWebView/ASWebViewFunctions.m -o /Users/me/Developer/Frameworks/ASWebView/build/ASWebView.build/Release/ASWebView.build/StaticAnalyzer/normal/x86_64/ASWebViewFunctions.plist
+
+CAnalyze /Users/me/Developer/Frameworks/ASWebView/ASWebView/NSData+CocoaDevUsersAdditions.m
+s335160588.529743
+e335160588.887588
+r1
+xAnalyze
+x/Users/me/Developer/Frameworks/ASWebView/ASWebView/NSData+CocoaDevUsersAdditions.m
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection90"Analyze /Users/me/Developer/Frameworks/ASWebView/ASWebView/NSData+CocoaDevUsersAdditions.m1cb4870c25fab341^6138e30c25fab341^---0#0#0#-19%DVTDocumentLocation2@98"file://localhost/Users/me/Developer/Frameworks/ASWebView/ASWebView/NSData+CocoaDevUsersAdditions.m0000000000000000^2241"Analyze ASWebView/NSData+CocoaDevUsersAdditions.m    cd /Users/me/Developer/Frameworks/ASWebView    setenv LANG en_US.US-ASCII    /Developer/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=gnu99 -Wno-trigraphs -fpascal-strings -Os -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wshorten-64-to-32 -isysroot /Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -mmacosx-version-min=10.7 -gdwarf-2 "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -iquote /Users/me/Developer/Frameworks/ASWebView/build/ASWebView.build/Release/ASWebView.build/ASWebView-generated-files.hmap -I/Users/me/Developer/Frameworks/ASWebView/build/ASWebView.build/Release/ASWebView.build/ASWebView-own-target-headers.hmap -I/Users/me/Developer/Frameworks/ASWebView/build/ASWebView.build/Release/ASWebView.build/ASWebView-all-target-headers.hmap -iquote /Users/me/Developer/Frameworks/ASWebView/build/ASWebView.build/Release/ASWebView.build/ASWebView-project-headers.hmap -I/Users/me/Developer/Frameworks/ASWebView/build/Release/include -I/Users/me/Developer/Frameworks/ASWebView/build/ASWebView.build/Release/ASWebView.build/DerivedSources/x86_64 -I/Users/me/Developer/Frameworks/ASWebView/build/ASWebView.build/Release/ASWebView.build/DerivedSources -F/Users/me/Developer/Frameworks/ASWebView/build/Release -F/Developer/SDKs/MacOSX10.7.sdk/System/Library/Frameworks/Quartz.framework/Versions/A/Frameworks -include /var/folders/5w/xk1m9_ms5m3557s6v4dg007c0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/ASWebView-Prefix-brecetjtvdkvpubrzhiabeaqhxek/ASWebView-Prefix.pch -MMD -MT dependencies -MF /Users/me/Developer/Frameworks/ASWebView/build/ASWebView.build/Release/ASWebView.build/StaticAnalyzer/normal/x86_64/NSData+CocoaDevUsersAdditions.d --analyze /Users/me/Developer/Frameworks/ASWebView/ASWebView/NSData+CocoaDevUsersAdditions.m -o /Users/me/Developer/Frameworks/ASWebView/build/ASWebView.build/Release/ASWebView.build/StaticAnalyzer/normal/x86_64/NSData+CocoaDevUsersAdditions.plist
+
+CBuild AST from /Users/me/Developer/Frameworks/ASWebView/ASWebView/ASDialKnob.m
+r0
+
+CBuild AST from /Users/me/Developer/Frameworks/ASWebView/ASWebView/ASDialKnobCell.m
+r0
+
+CBuild AST from /Users/me/Developer/Frameworks/ASWebView/ASWebView/ASImageView.m
+r0
+
+CBuild AST from /Users/me/Developer/Frameworks/ASWebView/ASWebView/ASImageViewCell.m
+r0
+
+CBuild AST from /Users/me/Developer/Frameworks/ASWebView/ASWebView/ASWebImageRep.m
+r0
+
+CBuild AST from /Users/me/Developer/Frameworks/ASWebView/ASWebView/ASWebViewFunctions.m
+r0
+
+CBuild AST from /Users/me/Developer/Frameworks/ASWebView/ASWebView/NSData+CocoaDevUsersAdditions.m
+r0
+
+CCheck dependencies
+r0
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependenciesd942f4d9f853b641^c9021adaf853b641^---0#1#0#--18"Check dependencies36"C39E7661-3B82-4A34-8B05-8B2DB7AE5C12-
+
+CCompileC build/ASWebView.build/Release/ASWebView.build/Objects-normal/x86_64/ASDialKnob.o /Users/me/Developer/Frameworks/ASWebView/ASWebView/ASDialKnob.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s374601947.351316
+e374601948.029885
+r1
+xCompileC
+xbuild/ASWebView.build/Release/ASWebView.build/Objects-normal/x86_64/ASDialKnob.o
+x/Users/me/Developer/Frameworks/ASWebView/ASWebView/ASDialKnob.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection71"Compile /Users/me/Developer/Frameworks/ASWebView/ASWebView/ASDialKnob.m910b5adbf853b641^63b307dcf853b641^---0#0#0#-19%DVTDocumentLocation2@79"file://localhost/Users/me/Developer/Frameworks/ASWebView/ASWebView/ASDialKnob.m0000000000000000^3291"CompileC build/ASWebView.build/Release/ASWebView.build/Objects-normal/x86_64/ASDialKnob.o ASWebView/ASDialKnob.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/me/Developer/Frameworks/ASWebView    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.8 -g -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -iquote /Users/me/Developer/Frameworks/ASWebView/build/ASWebView.build/Release/ASWebView.build/ASWebView-generated-files.hmap -I/Users/me/Developer/Frameworks/ASWebView/build/ASWebView.build/Release/ASWebView.build/ASWebView-own-target-headers.hmap -I/Users/me/Developer/Frameworks/ASWebView/build/ASWebView.build/Release/ASWebView.build/ASWebView-all-target-headers.hmap -iquote /Users/me/Developer/Frameworks/ASWebView/build/ASWebView.build/Release/ASWebView.build/ASWebView-project-headers.hmap -I/Users/me/Developer/Frameworks/ASWebView/build/Release/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/me/Developer/Frameworks/ASWebView/build/ASWebView.build/Release/ASWebView.build/DerivedSources/x86_64 -I/Users/me/Developer/Frameworks/ASWebView/build/ASWebView.build/Release/ASWebView.build/DerivedSources -F/Users/me/Developer/Frameworks/ASWebView/build/Release -F/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/System/Library/Frameworks/Quartz.framework/Versions/A/Frameworks -include /var/folders/01/y5tqtdy51xv31hrwc0r9m1400000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/ASWebView-Prefix-aymszrlhzfjtdiaecfchphykfeke/ASWebView-Prefix.pch -MMD -MT dependencies -MF /Users/me/Developer/Frameworks/ASWebView/build/ASWebView.build/Release/ASWebView.build/Objects-normal/x86_64/ASDialKnob.d --serialize-diagnostics /Users/me/Developer/Frameworks/ASWebView/build/ASWebView.build/Release/ASWebView.build/Objects-normal/x86_64/ASDialKnob.dia -c /Users/me/Developer/Frameworks/ASWebView/ASWebView/ASDialKnob.m -o /Users/me/Developer/Frameworks/ASWebView/build/ASWebView.build/Release/ASWebView.build/Objects-normal/x86_64/ASDialKnob.o36"948D8D16-AB0C-47EE-A92C-926532A60474-
+
+CCompileC build/ASWebView.build/Release/ASWebView.build/Objects-normal/x86_64/ASDialKnobCell.o /Users/me/Developer/Frameworks/ASWebView/ASWebView/ASDialKnobCell.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s374601947.350665
+e374601948.037014
+r1
+xCompileC
+xbuild/ASWebView.build/Release/ASWebView.build/Objects-normal/x86_64/ASDialKnobCell.o
+x/Users/me/Developer/Frameworks/ASWebView/ASWebView/ASDialKnobCell.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection75"Compile /Users/me/Developer/Frameworks/ASWebView/ASWebView/ASDialKnobCell.m1de859dbf853b641^077909dcf853b641^---0#0#0#-19%DVTDocumentLocation2@83"file://localhost/Users/me/Developer/Frameworks/ASWebView/ASWebView/ASDialKnobCell.m0000000000000000^3315"CompileC build/ASWebView.build/Release/ASWebView.build/Objects-normal/x86_64/ASDialKnobCell.o ASWebView/ASDialKnobCell.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/me/Developer/Frameworks/ASWebView    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.8 -g -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -iquote /Users/me/Developer/Frameworks/ASWebView/build/ASWebView.build/Release/ASWebView.build/ASWebView-generated-files.hmap -I/Users/me/Developer/Frameworks/ASWebView/build/ASWebView.build/Release/ASWebView.build/ASWebView-own-target-headers.hmap -I/Users/me/Developer/Frameworks/ASWebView/build/ASWebView.build/Release/ASWebView.build/ASWebView-all-target-headers.hmap -iquote /Users/me/Developer/Frameworks/ASWebView/build/ASWebView.build/Release/ASWebView.build/ASWebView-project-headers.hmap -I/Users/me/Developer/Frameworks/ASWebView/build/Release/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/me/Developer/Frameworks/ASWebView/build/ASWebView.build/Release/ASWebView.build/DerivedSources/x86_64 -I/Users/me/Developer/Frameworks/ASWebView/build/ASWebView.build/Release/ASWebView.build/DerivedSources -F/Users/me/Developer/Frameworks/ASWebView/build/Release -F/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/System/Library/Frameworks/Quartz.framework/Versions/A/Frameworks -include /var/folders/01/y5tqtdy51xv31hrwc0r9m1400000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/ASWebView-Prefix-aymszrlhzfjtdiaecfchphykfeke/ASWebView-Prefix.pch -MMD -MT dependencies -MF /Users/me/Developer/Frameworks/ASWebView/build/ASWebView.build/Release/ASWebView.build/Objects-normal/x86_64/ASDialKnobCell.d --serialize-diagnostics /Users/me/Developer/Frameworks/ASWebView/build/ASWebView.build/Release/ASWebView.build/Objects-normal/x86_64/ASDialKnobCell.dia -c /Users/me/Developer/Frameworks/ASWebView/ASWebView/ASDialKnobCell.m -o /Users/me/Developer/Frameworks/ASWebView/build/ASWebView.build/Release/ASWebView.build/Objects-normal/x86_64/ASDialKnobCell.o36"08D7D2F6-32B0-4872-89CD-A068F5B37CA6-
+
+CCompileC build/ASWebView.build/Release/ASWebView.build/Objects-normal/x86_64/ASImageView.o /Users/me/Developer/Frameworks/ASWebView/ASWebView/ASImageView.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s374601948.031201
+e374601948.408654
+r1
+xCompileC
+xbuild/ASWebView.build/Release/ASWebView.build/Objects-normal/x86_64/ASImageView.o
+x/Users/me/Developer/Frameworks/ASWebView/ASWebView/ASImageView.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection72"Compile /Users/me/Developer/Frameworks/ASWebView/ASWebView/ASImageView.m8a1e08dcf853b641^4da068dcf853b641^---0#0#0#-19%DVTDocumentLocation2@80"file://localhost/Users/me/Developer/Frameworks/ASWebView/ASWebView/ASImageView.m0000000000000000^3297"CompileC build/ASWebView.build/Release/ASWebView.build/Objects-normal/x86_64/ASImageView.o ASWebView/ASImageView.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/me/Developer/Frameworks/ASWebView    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.8 -g -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -iquote /Users/me/Developer/Frameworks/ASWebView/build/ASWebView.build/Release/ASWebView.build/ASWebView-generated-files.hmap -I/Users/me/Developer/Frameworks/ASWebView/build/ASWebView.build/Release/ASWebView.build/ASWebView-own-target-headers.hmap -I/Users/me/Developer/Frameworks/ASWebView/build/ASWebView.build/Release/ASWebView.build/ASWebView-all-target-headers.hmap -iquote /Users/me/Developer/Frameworks/ASWebView/build/ASWebView.build/Release/ASWebView.build/ASWebView-project-headers.hmap -I/Users/me/Developer/Frameworks/ASWebView/build/Release/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/me/Developer/Frameworks/ASWebView/build/ASWebView.build/Release/ASWebView.build/DerivedSources/x86_64 -I/Users/me/Developer/Frameworks/ASWebView/build/ASWebView.build/Release/ASWebView.build/DerivedSources -F/Users/me/Developer/Frameworks/ASWebView/build/Release -F/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/System/Library/Frameworks/Quartz.framework/Versions/A/Frameworks -include /var/folders/01/y5tqtdy51xv31hrwc0r9m1400000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/ASWebView-Prefix-aymszrlhzfjtdiaecfchphykfeke/ASWebView-Prefix.pch -MMD -MT dependencies -MF /Users/me/Developer/Frameworks/ASWebView/build/ASWebView.build/Release/ASWebView.build/Objects-normal/x86_64/ASImageView.d --serialize-diagnostics /Users/me/Developer/Frameworks/ASWebView/build/ASWebView.build/Release/ASWebView.build/Objects-normal/x86_64/ASImageView.dia -c /Users/me/Developer/Frameworks/ASWebView/ASWebView/ASImageView.m -o /Users/me/Developer/Frameworks/ASWebView/build/ASWebView.build/Release/ASWebView.build/Objects-normal/x86_64/ASImageView.o36"FC3A6442-D59E-407A-89A1-D475A578EEF6-
+
+CCompileC build/ASWebView.build/Release/ASWebView.build/Objects-normal/x86_64/ASImageViewCell.o /Users/me/Developer/Frameworks/ASWebView/ASWebView/ASImageViewCell.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s374601947.350696
+e374601948.029898
+r1
+xCompileC
+xbuild/ASWebView.build/Release/ASWebView.build/Objects-normal/x86_64/ASImageViewCell.o
+x/Users/me/Developer/Frameworks/ASWebView/ASWebView/ASImageViewCell.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection76"Compile /Users/me/Developer/Frameworks/ASWebView/ASWebView/ASImageViewCell.m0bec59dbf853b641^07b107dcf853b641^---0#0#0#-19%DVTDocumentLocation2@84"file://localhost/Users/me/Developer/Frameworks/ASWebView/ASWebView/ASImageViewCell.m0000000000000000^3321"CompileC build/ASWebView.build/Release/ASWebView.build/Objects-normal/x86_64/ASImageViewCell.o ASWebView/ASImageViewCell.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/me/Developer/Frameworks/ASWebView    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.8 -g -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -iquote /Users/me/Developer/Frameworks/ASWebView/build/ASWebView.build/Release/ASWebView.build/ASWebView-generated-files.hmap -I/Users/me/Developer/Frameworks/ASWebView/build/ASWebView.build/Release/ASWebView.build/ASWebView-own-target-headers.hmap -I/Users/me/Developer/Frameworks/ASWebView/build/ASWebView.build/Release/ASWebView.build/ASWebView-all-target-headers.hmap -iquote /Users/me/Developer/Frameworks/ASWebView/build/ASWebView.build/Release/ASWebView.build/ASWebView-project-headers.hmap -I/Users/me/Developer/Frameworks/ASWebView/build/Release/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/me/Developer/Frameworks/ASWebView/build/ASWebView.build/Release/ASWebView.build/DerivedSources/x86_64 -I/Users/me/Developer/Frameworks/ASWebView/build/ASWebView.build/Release/ASWebView.build/DerivedSources -F/Users/me/Developer/Frameworks/ASWebView/build/Release -F/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/System/Library/Frameworks/Quartz.framework/Versions/A/Frameworks -include /var/folders/01/y5tqtdy51xv31hrwc0r9m1400000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/ASWebView-Prefix-aymszrlhzfjtdiaecfchphykfeke/ASWebView-Prefix.pch -MMD -MT dependencies -MF /Users/me/Developer/Frameworks/ASWebView/build/ASWebView.build/Release/ASWebView.build/Objects-normal/x86_64/ASImageViewCell.d --serialize-diagnostics /Users/me/Developer/Frameworks/ASWebView/build/ASWebView.build/Release/ASWebView.build/Objects-normal/x86_64/ASImageViewCell.dia -c /Users/me/Developer/Frameworks/ASWebView/ASWebView/ASImageViewCell.m -o /Users/me/Developer/Frameworks/ASWebView/build/ASWebView.build/Release/ASWebView.build/Objects-normal/x86_64/ASImageViewCell.o36"30EF05A3-6F6F-4D88-B859-83F1132E55A7-
+
+CCompileC build/ASWebView.build/Release/ASWebView.build/Objects-normal/x86_64/ASWebImageRep.o /Users/me/Developer/Frameworks/ASWebView/ASWebView/ASWebImageRep.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s374601947.350698
+e374601948.029875
+r1
+xCompileC
+xbuild/ASWebView.build/Release/ASWebView.build/Objects-normal/x86_64/ASWebImageRep.o
+x/Users/me/Developer/Frameworks/ASWebView/ASWebView/ASWebImageRep.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection74"Compile /Users/me/Developer/Frameworks/ASWebView/ASWebView/ASWebImageRep.md9eb59dbf853b641^22ab07dcf853b641^---0#0#0#-19%DVTDocumentLocation2@82"file://localhost/Users/me/Developer/Frameworks/ASWebView/ASWebView/ASWebImageRep.m0000000000000000^3309"CompileC build/ASWebView.build/Release/ASWebView.build/Objects-normal/x86_64/ASWebImageRep.o ASWebView/ASWebImageRep.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/me/Developer/Frameworks/ASWebView    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.8 -g -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -iquote /Users/me/Developer/Frameworks/ASWebView/build/ASWebView.build/Release/ASWebView.build/ASWebView-generated-files.hmap -I/Users/me/Developer/Frameworks/ASWebView/build/ASWebView.build/Release/ASWebView.build/ASWebView-own-target-headers.hmap -I/Users/me/Developer/Frameworks/ASWebView/build/ASWebView.build/Release/ASWebView.build/ASWebView-all-target-headers.hmap -iquote /Users/me/Developer/Frameworks/ASWebView/build/ASWebView.build/Release/ASWebView.build/ASWebView-project-headers.hmap -I/Users/me/Developer/Frameworks/ASWebView/build/Release/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/me/Developer/Frameworks/ASWebView/build/ASWebView.build/Release/ASWebView.build/DerivedSources/x86_64 -I/Users/me/Developer/Frameworks/ASWebView/build/ASWebView.build/Release/ASWebView.build/DerivedSources -F/Users/me/Developer/Frameworks/ASWebView/build/Release -F/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/System/Library/Frameworks/Quartz.framework/Versions/A/Frameworks -include /var/folders/01/y5tqtdy51xv31hrwc0r9m1400000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/ASWebView-Prefix-aymszrlhzfjtdiaecfchphykfeke/ASWebView-Prefix.pch -MMD -MT dependencies -MF /Users/me/Developer/Frameworks/ASWebView/build/ASWebView.build/Release/ASWebView.build/Objects-normal/x86_64/ASWebImageRep.d --serialize-diagnostics /Users/me/Developer/Frameworks/ASWebView/build/ASWebView.build/Release/ASWebView.build/Objects-normal/x86_64/ASWebImageRep.dia -c /Users/me/Developer/Frameworks/ASWebView/ASWebView/ASWebImageRep.m -o /Users/me/Developer/Frameworks/ASWebView/build/ASWebView.build/Release/ASWebView.build/Objects-normal/x86_64/ASWebImageRep.o36"4E6686A4-6805-4796-8687-78B6C1F1DA5F-
+
+CCompileC build/ASWebView.build/Release/ASWebView.build/Objects-normal/x86_64/ASWebViewFunctions.o /Users/me/Developer/Frameworks/ASWebView/ASWebView/ASWebViewFunctions.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s374601948.031243
+e374601948.134296
+r1
+xCompileC
+xbuild/ASWebView.build/Release/ASWebView.build/Objects-normal/x86_64/ASWebViewFunctions.o
+x/Users/me/Developer/Frameworks/ASWebView/ASWebView/ASWebViewFunctions.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection79"Compile /Users/me/Developer/Frameworks/ASWebView/ASWebView/ASWebViewFunctions.m032208dcf853b641^b36022dcf853b641^---0#0#0#-19%DVTDocumentLocation2@87"file://localhost/Users/me/Developer/Frameworks/ASWebView/ASWebView/ASWebViewFunctions.m0000000000000000^3339"CompileC build/ASWebView.build/Release/ASWebView.build/Objects-normal/x86_64/ASWebViewFunctions.o ASWebView/ASWebViewFunctions.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/me/Developer/Frameworks/ASWebView    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.8 -g -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -iquote /Users/me/Developer/Frameworks/ASWebView/build/ASWebView.build/Release/ASWebView.build/ASWebView-generated-files.hmap -I/Users/me/Developer/Frameworks/ASWebView/build/ASWebView.build/Release/ASWebView.build/ASWebView-own-target-headers.hmap -I/Users/me/Developer/Frameworks/ASWebView/build/ASWebView.build/Release/ASWebView.build/ASWebView-all-target-headers.hmap -iquote /Users/me/Developer/Frameworks/ASWebView/build/ASWebView.build/Release/ASWebView.build/ASWebView-project-headers.hmap -I/Users/me/Developer/Frameworks/ASWebView/build/Release/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/me/Developer/Frameworks/ASWebView/build/ASWebView.build/Release/ASWebView.build/DerivedSources/x86_64 -I/Users/me/Developer/Frameworks/ASWebView/build/ASWebView.build/Release/ASWebView.build/DerivedSources -F/Users/me/Developer/Frameworks/ASWebView/build/Release -F/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/System/Library/Frameworks/Quartz.framework/Versions/A/Frameworks -include /var/folders/01/y5tqtdy51xv31hrwc0r9m1400000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/ASWebView-Prefix-aymszrlhzfjtdiaecfchphykfeke/ASWebView-Prefix.pch -MMD -MT dependencies -MF /Users/me/Developer/Frameworks/ASWebView/build/ASWebView.build/Release/ASWebView.build/Objects-normal/x86_64/ASWebViewFunctions.d --serialize-diagnostics /Users/me/Developer/Frameworks/ASWebView/build/ASWebView.build/Release/ASWebView.build/Objects-normal/x86_64/ASWebViewFunctions.dia -c /Users/me/Developer/Frameworks/ASWebView/ASWebView/ASWebViewFunctions.m -o /Users/me/Developer/Frameworks/ASWebView/build/ASWebView.build/Release/ASWebView.build/Objects-normal/x86_64/ASWebViewFunctions.o36"8B231DBC-0A71-4FE6-B502-EB3D15685361-
+
+CCompileC build/ASWebView.build/Release/ASWebView.build/Objects-normal/x86_64/NSData+CocoaDevUsersAdditions.o /Users/me/Developer/Frameworks/ASWebView/ASWebView/NSData+CocoaDevUsersAdditions.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s374601948.031720
+e374601948.210002
+r1
+xCompileC
+xbuild/ASWebView.build/Release/ASWebView.build/Objects-normal/x86_64/NSData+CocoaDevUsersAdditions.o
+x/Users/me/Developer/Frameworks/ASWebView/ASWebView/NSData+CocoaDevUsersAdditions.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection90"Compile /Users/me/Developer/Frameworks/ASWebView/ASWebView/NSData+CocoaDevUsersAdditions.mc13808dcf853b641^7fc235dcf853b641^---0#0#0#-19%DVTDocumentLocation2@98"file://localhost/Users/me/Developer/Frameworks/ASWebView/ASWebView/NSData+CocoaDevUsersAdditions.m0000000000000000^3405"CompileC build/ASWebView.build/Release/ASWebView.build/Objects-normal/x86_64/NSData+CocoaDevUsersAdditions.o ASWebView/NSData+CocoaDevUsersAdditions.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/me/Developer/Frameworks/ASWebView    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.8 -g -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -iquote /Users/me/Developer/Frameworks/ASWebView/build/ASWebView.build/Release/ASWebView.build/ASWebView-generated-files.hmap -I/Users/me/Developer/Frameworks/ASWebView/build/ASWebView.build/Release/ASWebView.build/ASWebView-own-target-headers.hmap -I/Users/me/Developer/Frameworks/ASWebView/build/ASWebView.build/Release/ASWebView.build/ASWebView-all-target-headers.hmap -iquote /Users/me/Developer/Frameworks/ASWebView/build/ASWebView.build/Release/ASWebView.build/ASWebView-project-headers.hmap -I/Users/me/Developer/Frameworks/ASWebView/build/Release/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/me/Developer/Frameworks/ASWebView/build/ASWebView.build/Release/ASWebView.build/DerivedSources/x86_64 -I/Users/me/Developer/Frameworks/ASWebView/build/ASWebView.build/Release/ASWebView.build/DerivedSources -F/Users/me/Developer/Frameworks/ASWebView/build/Release -F/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/System/Library/Frameworks/Quartz.framework/Versions/A/Frameworks -include /var/folders/01/y5tqtdy51xv31hrwc0r9m1400000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/ASWebView-Prefix-aymszrlhzfjtdiaecfchphykfeke/ASWebView-Prefix.pch -MMD -MT dependencies -MF /Users/me/Developer/Frameworks/ASWebView/build/ASWebView.build/Release/ASWebView.build/Objects-normal/x86_64/NSData+CocoaDevUsersAdditions.d --serialize-diagnostics /Users/me/Developer/Frameworks/ASWebView/build/ASWebView.build/Release/ASWebView.build/Objects-normal/x86_64/NSData+CocoaDevUsersAdditions.dia -c /Users/me/Developer/Frameworks/ASWebView/ASWebView/NSData+CocoaDevUsersAdditions.m -o /Users/me/Developer/Frameworks/ASWebView/build/ASWebView.build/Release/ASWebView.build/Objects-normal/x86_64/NSData+CocoaDevUsersAdditions.o36"63A9FA12-765F-46AB-AB4E-D97FA7D4B78A-
+
+CCopyStringsFile /Users/me/Developer/Frameworks/ASWebView/build/Release/ASWebView.framework/Versions/A/Resources/en.lproj/ASWebViewError.strings ASWebView/en.lproj/ASWebViewError.strings
+s374601949.690543
+e374601949.712026
+r1
+xCopyStringsFile
+x/Users/me/Developer/Frameworks/ASWebView/build/Release/ASWebView.framework/Versions/A/Resources/en.lproj/ASWebViewError.strings
+xASWebView/en.lproj/ASWebViewError.strings
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection46"Copy ASWebView/en.lproj/ASWebViewError.strings62d9b0ddf853b641^ed47b6ddf853b641^---0#0#0#-19%DVTDocumentLocation2@98"file://localhost/Users/me/Developer/Frameworks/ASWebView/ASWebView/en.lproj/ASWebViewError.strings0000000000000000^434"CopyStringsFile build/Release/ASWebView.framework/Versions/A/Resources/en.lproj/ASWebViewError.strings ASWebView/en.lproj/ASWebViewError.strings    cd /Users/me/Developer/Frameworks/ASWebView    builtin-copyStrings --validate --inputencoding utf-16 --outputencoding UTF-16 --outdir /Users/me/Developer/Frameworks/ASWebView/build/Release/ASWebView.framework/Versions/A/Resources/en.lproj -- ASWebView/en.lproj/ASWebViewError.strings36"552DFB94-A25C-495D-A7EC-69DA269FD8B4-
+
+CCopyStringsFile /Users/me/Developer/Frameworks/ASWebView/build/Release/ASWebView.framework/Versions/A/Resources/en.lproj/InfoPlist.strings ASWebView/en.lproj/InfoPlist.strings
+s374601949.690525
+e374601949.712275
+r1
+xCopyStringsFile
+x/Users/me/Developer/Frameworks/ASWebView/build/Release/ASWebView.framework/Versions/A/Resources/en.lproj/InfoPlist.strings
+xASWebView/en.lproj/InfoPlist.strings
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection41"Copy ASWebView/en.lproj/InfoPlist.strings2bdab0ddf853b641^8657b6ddf853b641^---0#0#0#-19%DVTDocumentLocation2@93"file://localhost/Users/me/Developer/Frameworks/ASWebView/ASWebView/en.lproj/InfoPlist.strings0000000000000000^418"CopyStringsFile build/Release/ASWebView.framework/Versions/A/Resources/en.lproj/InfoPlist.strings ASWebView/en.lproj/InfoPlist.strings    cd /Users/me/Developer/Frameworks/ASWebView    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding UTF-16 --outdir /Users/me/Developer/Frameworks/ASWebView/build/Release/ASWebView.framework/Versions/A/Resources/en.lproj -- ASWebView/en.lproj/InfoPlist.strings36"5B8A4841-07D3-4E73-8616-0A9D476CB92F-
+
+CCopyStringsFile /Users/me/Developer/Frameworks/ASWebView/build/Release/ASWebView.framework/Versions/A/Resources/ja.lproj/ASWebViewError.strings ASWebView/ja.lproj/ASWebViewError.strings
+s374601949.690739
+e374601949.712486
+r1
+xCopyStringsFile
+x/Users/me/Developer/Frameworks/ASWebView/build/Release/ASWebView.framework/Versions/A/Resources/ja.lproj/ASWebViewError.strings
+xASWebView/ja.lproj/ASWebViewError.strings
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection46"Copy ASWebView/ja.lproj/ASWebViewError.strings26e3b0ddf853b641^7c65b6ddf853b641^---0#0#0#-19%DVTDocumentLocation2@98"file://localhost/Users/me/Developer/Frameworks/ASWebView/ASWebView/ja.lproj/ASWebViewError.strings0000000000000000^434"CopyStringsFile build/Release/ASWebView.framework/Versions/A/Resources/ja.lproj/ASWebViewError.strings ASWebView/ja.lproj/ASWebViewError.strings    cd /Users/me/Developer/Frameworks/ASWebView    builtin-copyStrings --validate --inputencoding utf-16 --outputencoding UTF-16 --outdir /Users/me/Developer/Frameworks/ASWebView/build/Release/ASWebView.framework/Versions/A/Resources/ja.lproj -- ASWebView/ja.lproj/ASWebViewError.strings36"EFE2172A-14D0-4357-BED2-1A6F99AA5BA3-
+
+CCopyStringsFile /Users/me/Developer/Frameworks/ASWebView/build/Release/ASWebView.framework/Versions/A/Resources/ja.lproj/InfoPlist.strings ASWebView/ja.lproj/InfoPlist.strings
+s374601949.690534
+e374601949.712609
+r1
+xCopyStringsFile
+x/Users/me/Developer/Frameworks/ASWebView/build/Release/ASWebView.framework/Versions/A/Resources/ja.lproj/InfoPlist.strings
+xASWebView/ja.lproj/InfoPlist.strings
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection41"Copy ASWebView/ja.lproj/InfoPlist.strings0adab0ddf853b641^936fb6ddf853b641^---0#0#0#-19%DVTDocumentLocation2@93"file://localhost/Users/me/Developer/Frameworks/ASWebView/ASWebView/ja.lproj/InfoPlist.strings0000000000000000^418"CopyStringsFile build/Release/ASWebView.framework/Versions/A/Resources/ja.lproj/InfoPlist.strings ASWebView/ja.lproj/InfoPlist.strings    cd /Users/me/Developer/Frameworks/ASWebView    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding UTF-16 --outdir /Users/me/Developer/Frameworks/ASWebView/build/Release/ASWebView.framework/Versions/A/Resources/ja.lproj -- ASWebView/ja.lproj/InfoPlist.strings36"D043625C-3AD1-4BA4-9DE0-0836893B394E-
+
+CCpHeader ASWebView/ASDialKnob.h build/Release/ASWebView.framework/Versions/A/Headers/ASDialKnob.h
+s374601949.677131
+e374601949.680565
+r1
+xCpHeader
+xASWebView/ASDialKnob.h
+xbuild/Release/ASWebView.framework/Versions/A/Headers/ASDialKnob.h
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection70"Copy build/Release/ASWebView.framework/Versions/A/Headers/ASDialKnob.h6972adddf853b641^083aaeddf853b641^---0#0#0#-19%DVTDocumentLocation2@122"file://localhost/Users/me/Developer/Frameworks/ASWebView/build/Release/ASWebView.framework/Versions/A/Headers/ASDialKnob.h000000000080d041^542"CpHeader ASWebView/ASDialKnob.h build/Release/ASWebView.framework/Versions/A/Headers/ASDialKnob.h    cd /Users/me/Developer/Frameworks/ASWebView    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -strip-debug-symbols -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip -resolve-src-symlinks /Users/me/Developer/Frameworks/ASWebView/ASWebView/ASDialKnob.h /Users/me/Developer/Frameworks/ASWebView/build/Release/ASWebView.framework/Versions/A/Headers36"58B86CC9-6845-4DB1-9214-18D7E6936E7F-
+
+CCpHeader ASWebView/ASImageView.h build/Release/ASWebView.framework/Versions/A/Headers/ASImageView.h
+s374601949.677173
+e374601949.679568
+r1
+xCpHeader
+xASWebView/ASImageView.h
+xbuild/Release/ASWebView.framework/Versions/A/Headers/ASImageView.h
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection71"Copy build/Release/ASWebView.framework/Versions/A/Headers/ASImageView.hd670adddf853b641^e4f8adddf853b641^---0#0#0#-19%DVTDocumentLocation2@123"file://localhost/Users/me/Developer/Frameworks/ASWebView/build/Release/ASWebView.framework/Versions/A/Headers/ASImageView.h000000000080d041^545"CpHeader ASWebView/ASImageView.h build/Release/ASWebView.framework/Versions/A/Headers/ASImageView.h    cd /Users/me/Developer/Frameworks/ASWebView    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -strip-debug-symbols -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip -resolve-src-symlinks /Users/me/Developer/Frameworks/ASWebView/ASWebView/ASImageView.h /Users/me/Developer/Frameworks/ASWebView/build/Release/ASWebView.framework/Versions/A/Headers36"692E322E-80EB-4EC9-8D52-64B3FAD56179-
+
+CCpHeader ASWebView/ASImageViewCell.h build/Release/ASWebView.framework/Versions/A/Headers/ASImageViewCell.h
+s374601949.677361
+e374601949.682825
+r1
+xCpHeader
+xASWebView/ASImageViewCell.h
+xbuild/Release/ASWebView.framework/Versions/A/Headers/ASImageViewCell.h
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection75"Copy build/Release/ASWebView.framework/Versions/A/Headers/ASImageViewCell.h2177adddf853b641^03ceaeddf853b641^---0#0#0#-19%DVTDocumentLocation2@127"file://localhost/Users/me/Developer/Frameworks/ASWebView/build/Release/ASWebView.framework/Versions/A/Headers/ASImageViewCell.h000000000080d041^557"CpHeader ASWebView/ASImageViewCell.h build/Release/ASWebView.framework/Versions/A/Headers/ASImageViewCell.h    cd /Users/me/Developer/Frameworks/ASWebView    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -strip-debug-symbols -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip -resolve-src-symlinks /Users/me/Developer/Frameworks/ASWebView/ASWebView/ASImageViewCell.h /Users/me/Developer/Frameworks/ASWebView/build/Release/ASWebView.framework/Versions/A/Headers36"485269A4-8C91-49C5-8C29-EE39CED73DC5-
+
+CCpHeader ASWebView/ASWebImageRep.h build/Release/ASWebView.framework/Versions/A/Headers/ASWebImageRep.h
+s374601949.677164
+e374601949.681636
+r1
+xCpHeader
+xASWebView/ASWebImageRep.h
+xbuild/Release/ASWebView.framework/Versions/A/Headers/ASWebImageRep.h
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection73"Copy build/Release/ASWebView.framework/Versions/A/Headers/ASWebImageRep.h6170adddf853b641^9d80aeddf853b641^---0#0#0#-19%DVTDocumentLocation2@125"file://localhost/Users/me/Developer/Frameworks/ASWebView/build/Release/ASWebView.framework/Versions/A/Headers/ASWebImageRep.h000000000080d041^551"CpHeader ASWebView/ASWebImageRep.h build/Release/ASWebView.framework/Versions/A/Headers/ASWebImageRep.h    cd /Users/me/Developer/Frameworks/ASWebView    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -strip-debug-symbols -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip -resolve-src-symlinks /Users/me/Developer/Frameworks/ASWebView/ASWebView/ASWebImageRep.h /Users/me/Developer/Frameworks/ASWebView/build/Release/ASWebView.framework/Versions/A/Headers36"74BF5FC5-478C-45DE-8D39-9B37D977D853-
+
+CLd /Users/me/Developer/Frameworks/ASWebView/build/Release/ASWebView.framework/Versions/A/ASWebView normal x86_64
+s374601948.415471
+e374601949.669122
+r1
+xLd
+x/Users/me/Developer/Frameworks/ASWebView/build/Release/ASWebView.framework/Versions/A/ASWebView
+xnormal
+xx86_64
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection100"Link /Users/me/Developer/Frameworks/ASWebView/build/Release/ASWebView.framework/Versions/A/ASWebView19c96adcf853b641^a54babddf853b641^---0#0#0#--1148"Ld build/Release/ASWebView.framework/Versions/A/ASWebView normal x86_64    cd /Users/me/Developer/Frameworks/ASWebView    setenv MACOSX_DEPLOYMENT_TARGET 10.8    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch x86_64 -dynamiclib -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -L/Users/me/Developer/Frameworks/ASWebView/build/Release -F/Users/me/Developer/Frameworks/ASWebView/build/Release -F/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/System/Library/Frameworks/Quartz.framework/Versions/A/Frameworks -filelist /Users/me/Developer/Frameworks/ASWebView/build/ASWebView.build/Release/ASWebView.build/Objects-normal/x86_64/ASWebView.LinkFileList -install_name "@rpath/ASWebView.framework/Versions/A/ASWebView" -mmacosx-version-min=10.8 -fobjc-link-runtime -framework Cocoa -framework PDFKit -framework WebKit -lz -lcrypto -single_module -compatibility_version 1 -current_version 1 -o /Users/me/Developer/Frameworks/ASWebView/build/Release/ASWebView.framework/Versions/A/ASWebView36"0E4896F6-9D86-485C-B2BE-E6D1FFD5804F-
+
+CProcessInfoPlistFile /Users/me/Developer/Frameworks/ASWebView/build/Release/ASWebView.framework/Versions/A/Resources/Info.plist ASWebView/ASWebView-Info.plist
+s374601946.241938
+e374601946.267205
+r1
+xProcessInfoPlistFile
+x/Users/me/Developer/Frameworks/ASWebView/build/Release/ASWebView.framework/Versions/A/Resources/Info.plist
+xASWebView/ASWebView-Info.plist
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection38"Process ASWebView/ASWebView-Info.plistfb023edaf853b641^736944daf853b641^---0#0#0#-19%DVTDocumentLocation2@87"file://localhost/Users/me/Developer/Frameworks/ASWebView/ASWebView/ASWebView-Info.plist0000000000000000^374"ProcessInfoPlistFile build/Release/ASWebView.framework/Versions/A/Resources/Info.plist ASWebView/ASWebView-Info.plist    cd /Users/me/Developer/Frameworks/ASWebView    builtin-infoPlistUtility ASWebView/ASWebView-Info.plist -expandbuildsettings -platform macosx -o /Users/me/Developer/Frameworks/ASWebView/build/Release/ASWebView.framework/Versions/A/Resources/Info.plist36"ECB1C013-6A20-44BA-98BE-F6829B98DED5-
+
+CProcessPCH /Users/me/Library/Developer/Xcode/DerivedData/ASWebView-fasbrpuffrlpcheloqmpzipzkmir/Index/PrecompiledHeaders/ASWebView-Prefix-acoqpfocwiccundxvgwgebgnaiwe_ast/ASWebView-Prefix.pch.pth ASWebView/ASWebView-Prefix.pch normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
+r0
+
+CProcessPCH /Users/me/Library/Developer/Xcode/DerivedData/ASWebView-fasbrpuffrlpcheloqmpzipzkmir/Index/PrecompiledHeaders/ASWebView-Prefix-ckdbuvsmvwhkcufelkdqmhdlnmdd_ast/ASWebView-Prefix.pch.pth ASWebView/ASWebView-Prefix.pch normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
+r0
+
+CProcessPCH /Users/me/Library/Developer/Xcode/DerivedData/ASWebView-fasbrpuffrlpcheloqmpzipzkmir/Index/PrecompiledHeaders/ASWebView-Prefix-desyygtglazwvcgwaxiuvmmqcene_ast/ASWebView-Prefix.pch.pth ASWebView/ASWebView-Prefix.pch normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
+r0
+
+CProcessPCH /Users/me/Library/Developer/Xcode/DerivedData/ASWebView-fasbrpuffrlpcheloqmpzipzkmir/Index/PrecompiledHeaders/ASWebView-Prefix-dosautnskxtjglessezcybpzbdsj_ast/ASWebView-Prefix.pch.pth ASWebView/ASWebView-Prefix.pch normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
+r0
+
+CProcessPCH /Users/me/Library/Developer/Xcode/DerivedData/ASWebView-fasbrpuffrlpcheloqmpzipzkmir/Index/PrecompiledHeaders/ASWebView-Prefix-eubjgrgaepdntwhjzhksiiijqpwh_ast/ASWebView-Prefix.pch.pth ASWebView/ASWebView-Prefix.pch normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
+r0
+
+CProcessPCH /Users/me/Library/Developer/Xcode/DerivedData/ASWebView-fasbrpuffrlpcheloqmpzipzkmir/Index/PrecompiledHeaders/ASWebView-Prefix-evqszarahapysidoghpelehyafzs_ast/ASWebView-Prefix.pch.pth ASWebView/ASWebView-Prefix.pch normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
+r0
+
+CProcessPCH /Users/me/Library/Developer/Xcode/DerivedData/ASWebView-fasbrpuffrlpcheloqmpzipzkmir/Index/PrecompiledHeaders/ASWebView-Prefix-fahsgfuijwycpmdwwbazhcnbelwt_ast/ASWebView-Prefix.pch.pth ASWebView/ASWebView-Prefix.pch normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
+r0
+
+CProcessPCH /var/folders/01/y5tqtdy51xv31hrwc0r9m1400000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/ASWebView-Prefix-aymszrlhzfjtdiaecfchphykfeke/ASWebView-Prefix.pch.pth ASWebView/ASWebView-Prefix.pch normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s374601946.276185
+e374601947.343847
+r1
+xProcessPCH
+x/var/folders/01/y5tqtdy51xv31hrwc0r9m1400000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/ASWebView-Prefix-aymszrlhzfjtdiaecfchphykfeke/ASWebView-Prefix.pch.pth
+xASWebView/ASWebView-Prefix.pch
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection41"Precompile ASWebView/ASWebView-Prefix.pch9a4148daf853b641^920558dbf853b641^---0#0#0#-19%DVTDocumentLocation2@87"file://localhost/Users/me/Developer/Frameworks/ASWebView/ASWebView/ASWebView-Prefix.pch0000000000000000^3355"ProcessPCH /var/folders/01/y5tqtdy51xv31hrwc0r9m1400000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/ASWebView-Prefix-aymszrlhzfjtdiaecfchphykfeke/ASWebView-Prefix.pch.pth ASWebView/ASWebView-Prefix.pch normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/me/Developer/Frameworks/ASWebView    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch x86_64 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.8 -g -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -iquote /Users/me/Developer/Frameworks/ASWebView/build/ASWebView.build/Release/ASWebView.build/ASWebView-generated-files.hmap -I/Users/me/Developer/Frameworks/ASWebView/build/ASWebView.build/Release/ASWebView.build/ASWebView-own-target-headers.hmap -I/Users/me/Developer/Frameworks/ASWebView/build/ASWebView.build/Release/ASWebView.build/ASWebView-all-target-headers.hmap -iquote /Users/me/Developer/Frameworks/ASWebView/build/ASWebView.build/Release/ASWebView.build/ASWebView-project-headers.hmap -I/Users/me/Developer/Frameworks/ASWebView/build/Release/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/me/Developer/Frameworks/ASWebView/build/ASWebView.build/Release/ASWebView.build/DerivedSources/x86_64 -I/Users/me/Developer/Frameworks/ASWebView/build/ASWebView.build/Release/ASWebView.build/DerivedSources -F/Users/me/Developer/Frameworks/ASWebView/build/Release -F/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/System/Library/Frameworks/Quartz.framework/Versions/A/Frameworks --serialize-diagnostics /var/folders/01/y5tqtdy51xv31hrwc0r9m1400000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/ASWebView-Prefix-aymszrlhzfjtdiaecfchphykfeke/ASWebView-Prefix.pch.dia -c /Users/me/Developer/Frameworks/ASWebView/ASWebView/ASWebView-Prefix.pch -o /var/folders/01/y5tqtdy51xv31hrwc0r9m1400000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/ASWebView-Prefix-aymszrlhzfjtdiaecfchphykfeke/ASWebView-Prefix.pch.pth -MMD -MT dependencies -MF /var/folders/01/y5tqtdy51xv31hrwc0r9m1400000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/ASWebView-Prefix-aymszrlhzfjtdiaecfchphykfeke/ASWebView-Prefix.pch.d36"7F130626-0D74-4182-BCFD-3EB6EE14A83D-
+
+CProcessPCH /var/folders/01/y5tqtdy51xv31hrwc0r9m1400000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/ASWebView-Prefix-dlvxhrkqtmtonvanxkbdohwqltlh/ASWebView-Prefix.pch.pth ASWebView/ASWebView-Prefix.pch normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s366175691.558670
+e366175693.340328
+r1
+xProcessPCH
+x/var/folders/01/y5tqtdy51xv31hrwc0r9m1400000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/ASWebView-Prefix-dlvxhrkqtmtonvanxkbdohwqltlh/ASWebView-Prefix.pch.pth
+xASWebView/ASWebView-Prefix.pch
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection41"Precompile ASWebView/ASWebView-Prefix.pch49498fcb65d3b541^251f57cd65d3b541^---0#0#0#-19%DVTDocumentLocation2@87"file://localhost/Users/me/Developer/Frameworks/ASWebView/ASWebView/ASWebView-Prefix.pch0000000000000000^3171"ProcessPCH /var/folders/01/y5tqtdy51xv31hrwc0r9m1400000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/ASWebView-Prefix-dlvxhrkqtmtonvanxkbdohwqltlh/ASWebView-Prefix.pch.pth ASWebView/ASWebView-Prefix.pch normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/me/Developer/Frameworks/ASWebView    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch x86_64 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-sign-compare -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.8 -g -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -iquote /Users/me/Developer/Frameworks/ASWebView/build/ASWebView.build/Release/ASWebView.build/ASWebView-generated-files.hmap -I/Users/me/Developer/Frameworks/ASWebView/build/ASWebView.build/Release/ASWebView.build/ASWebView-own-target-headers.hmap -I/Users/me/Developer/Frameworks/ASWebView/build/ASWebView.build/Release/ASWebView.build/ASWebView-all-target-headers.hmap -iquote /Users/me/Developer/Frameworks/ASWebView/build/ASWebView.build/Release/ASWebView.build/ASWebView-project-headers.hmap -I/Users/me/Developer/Frameworks/ASWebView/build/Release/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/me/Developer/Frameworks/ASWebView/build/ASWebView.build/Release/ASWebView.build/DerivedSources/x86_64 -I/Users/me/Developer/Frameworks/ASWebView/build/ASWebView.build/Release/ASWebView.build/DerivedSources -F/Users/me/Developer/Frameworks/ASWebView/build/Release -F/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/System/Library/Frameworks/Quartz.framework/Versions/A/Frameworks --serialize-diagnostics /var/folders/01/y5tqtdy51xv31hrwc0r9m1400000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/ASWebView-Prefix-dlvxhrkqtmtonvanxkbdohwqltlh/ASWebView-Prefix.pch.dia -c /Users/me/Developer/Frameworks/ASWebView/ASWebView/ASWebView-Prefix.pch -o /var/folders/01/y5tqtdy51xv31hrwc0r9m1400000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/ASWebView-Prefix-dlvxhrkqtmtonvanxkbdohwqltlh/ASWebView-Prefix.pch.pth -MMD -MT dependencies -MF /var/folders/01/y5tqtdy51xv31hrwc0r9m1400000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/ASWebView-Prefix-dlvxhrkqtmtonvanxkbdohwqltlh/ASWebView-Prefix.pch.d36"7584AF31-7B2F-496D-BE32-CBEBE953DFBB-
+
+CProcessPCH /var/folders/01/y5tqtdy51xv31hrwc0r9m1400000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/ASWebView-Prefix-dyfacqgtqycmhpfkecwkwprtjiog/ASWebView-Prefix.pch.pth ASWebView/ASWebView-Prefix.pch normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.analyzer
+r0
+
+CProcessPCH /var/folders/01/y5tqtdy51xv31hrwc0r9m1400000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/ASWebView-Prefix-efmjdgqmfcmirhdiytkwizctpdco/ASWebView-Prefix.pch.pth ASWebView/ASWebView-Prefix.pch normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s341238184.423984
+e341238185.216732
+r1
+xProcessPCH
+x/var/folders/01/y5tqtdy51xv31hrwc0r9m1400000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/ASWebView-Prefix-efmjdgqmfcmirhdiytkwizctpdco/ASWebView-Prefix.pch.pth
+xASWebView/ASWebView-Prefix.pch
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection41"Precompile ASWebView/ASWebView-Prefix.pch45a16da8e156b441^187b37a9e156b441^---0#0#0#-19%DVTDocumentLocation2@87"file://localhost/Users/me/Developer/Frameworks/ASWebView/ASWebView/ASWebView-Prefix.pch0000000000000000^2336"ProcessPCH /var/folders/01/y5tqtdy51xv31hrwc0r9m1400000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/ASWebView-Prefix-efmjdgqmfcmirhdiytkwizctpdco/ASWebView-Prefix.pch.pth ASWebView/ASWebView-Prefix.pch normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/me/Developer/Frameworks/ASWebView    setenv LANG en_US.US-ASCII    /Developer/usr/bin/clang -x objective-c-header -arch x86_64 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=gnu99 -Wno-trigraphs -fpascal-strings -Os -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wshorten-64-to-32 -isysroot /Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -mmacosx-version-min=10.7 -gdwarf-2 -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -iquote /Users/me/Developer/Frameworks/ASWebView/build/ASWebView.build/Release/ASWebView.build/ASWebView-generated-files.hmap -I/Users/me/Developer/Frameworks/ASWebView/build/ASWebView.build/Release/ASWebView.build/ASWebView-own-target-headers.hmap -I/Users/me/Developer/Frameworks/ASWebView/build/ASWebView.build/Release/ASWebView.build/ASWebView-all-target-headers.hmap -iquote /Users/me/Developer/Frameworks/ASWebView/build/ASWebView.build/Release/ASWebView.build/ASWebView-project-headers.hmap -I/Users/me/Developer/Frameworks/ASWebView/build/Release/include -I/Users/me/Developer/Frameworks/ASWebView/build/ASWebView.build/Release/ASWebView.build/DerivedSources/x86_64 -I/Users/me/Developer/Frameworks/ASWebView/build/ASWebView.build/Release/ASWebView.build/DerivedSources -F/Users/me/Developer/Frameworks/ASWebView/build/Release -F/Developer/SDKs/MacOSX10.7.sdk/System/Library/Frameworks/Quartz.framework/Versions/A/Frameworks -c /Users/me/Developer/Frameworks/ASWebView/ASWebView/ASWebView-Prefix.pch -o /var/folders/01/y5tqtdy51xv31hrwc0r9m1400000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/ASWebView-Prefix-efmjdgqmfcmirhdiytkwizctpdco/ASWebView-Prefix.pch.pth -MMD -MT dependencies -MF /var/folders/01/y5tqtdy51xv31hrwc0r9m1400000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/ASWebView-Prefix-efmjdgqmfcmirhdiytkwizctpdco/ASWebView-Prefix.pch.d36"43B85098-A4F5-4233-B469-D8AD61F90D35-
+
+CProcessPCH /var/folders/5w/xk1m9_ms5m3557s6v4dg007c0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/ASWebView-Prefix-brecetjtvdkvpubrzhiabeaqhxek/ASWebView-Prefix.pch.pth ASWebView/ASWebView-Prefix.pch normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s332939958.756606
+e332939959.671935
+r1
+xProcessPCH
+x/var/folders/5w/xk1m9_ms5m3557s6v4dg007c0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/ASWebView-Prefix-brecetjtvdkvpubrzhiabeaqhxek/ASWebView-Prefix.pch.pth
+xASWebView/ASWebView-Prefix.pch
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection41"Precompile ASWebView/ASWebView-Prefix.pchdecbc1b642d8b341^6d02acb742d8b341^---0#0#0#-19%DVTDocumentLocation2@87"file://localhost/Users/me/Developer/Frameworks/ASWebView/ASWebView/ASWebView-Prefix.pch0000000000000000^2315"ProcessPCH /var/folders/5w/xk1m9_ms5m3557s6v4dg007c0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/ASWebView-Prefix-brecetjtvdkvpubrzhiabeaqhxek/ASWebView-Prefix.pch.pth ASWebView/ASWebView-Prefix.pch normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/me/Developer/Frameworks/ASWebView    setenv LANG en_US.US-ASCII    /Developer/usr/bin/clang -x objective-c-header -arch x86_64 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=gnu99 -Wno-trigraphs -fpascal-strings -Os -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wshorten-64-to-32 -isysroot /Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -mmacosx-version-min=10.7 -gdwarf-2 "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -iquote /Users/me/Developer/Frameworks/ASWebView/build/ASWebView.build/Release/ASWebView.build/ASWebView-generated-files.hmap -I/Users/me/Developer/Frameworks/ASWebView/build/ASWebView.build/Release/ASWebView.build/ASWebView-own-target-headers.hmap -I/Users/me/Developer/Frameworks/ASWebView/build/ASWebView.build/Release/ASWebView.build/ASWebView-all-target-headers.hmap -iquote /Users/me/Developer/Frameworks/ASWebView/build/ASWebView.build/Release/ASWebView.build/ASWebView-project-headers.hmap -I/Users/me/Developer/Frameworks/ASWebView/build/Release/include -I/Users/me/Developer/Frameworks/ASWebView/build/ASWebView.build/Release/ASWebView.build/DerivedSources/x86_64 -I/Users/me/Developer/Frameworks/ASWebView/build/ASWebView.build/Release/ASWebView.build/DerivedSources -F/Users/me/Developer/Frameworks/ASWebView/build/Release -F/Developer/SDKs/MacOSX10.7.sdk/System/Library/Frameworks/Quartz.framework/Versions/A/Frameworks -c /Users/me/Developer/Frameworks/ASWebView/ASWebView/ASWebView-Prefix.pch -o /var/folders/5w/xk1m9_ms5m3557s6v4dg007c0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/ASWebView-Prefix-brecetjtvdkvpubrzhiabeaqhxek/ASWebView-Prefix.pch.pth -MMD -MT dependencies -MF /var/folders/5w/xk1m9_ms5m3557s6v4dg007c0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/ASWebView-Prefix-brecetjtvdkvpubrzhiabeaqhxek/ASWebView-Prefix.pch.d
+
+CProcessPCH /var/folders/5w/xk1m9_ms5m3557s6v4dg007c0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/ASWebView-Prefix-efmjdgqmfcmirhdiytkwizctpdco/ASWebView-Prefix.pch.pth ASWebView/ASWebView-Prefix.pch normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s340203473.804208
+e340203474.523327
+r1
+xProcessPCH
+x/var/folders/5w/xk1m9_ms5m3557s6v4dg007c0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/ASWebView-Prefix-efmjdgqmfcmirhdiytkwizctpdco/ASWebView-Prefix.pch.pth
+xASWebView/ASWebView-Prefix.pch
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection41"Precompile ASWebView/ASWebView-Prefix.pch22facdd11747b441^2bf885d21747b441^---0#0#0#-19%DVTDocumentLocation2@87"file://localhost/Users/me/Developer/Frameworks/ASWebView/ASWebView/ASWebView-Prefix.pch0000000000000000^2336"ProcessPCH /var/folders/5w/xk1m9_ms5m3557s6v4dg007c0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/ASWebView-Prefix-efmjdgqmfcmirhdiytkwizctpdco/ASWebView-Prefix.pch.pth ASWebView/ASWebView-Prefix.pch normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/me/Developer/Frameworks/ASWebView    setenv LANG en_US.US-ASCII    /Developer/usr/bin/clang -x objective-c-header -arch x86_64 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=gnu99 -Wno-trigraphs -fpascal-strings -Os -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wshorten-64-to-32 -isysroot /Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -mmacosx-version-min=10.7 -gdwarf-2 -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -iquote /Users/me/Developer/Frameworks/ASWebView/build/ASWebView.build/Release/ASWebView.build/ASWebView-generated-files.hmap -I/Users/me/Developer/Frameworks/ASWebView/build/ASWebView.build/Release/ASWebView.build/ASWebView-own-target-headers.hmap -I/Users/me/Developer/Frameworks/ASWebView/build/ASWebView.build/Release/ASWebView.build/ASWebView-all-target-headers.hmap -iquote /Users/me/Developer/Frameworks/ASWebView/build/ASWebView.build/Release/ASWebView.build/ASWebView-project-headers.hmap -I/Users/me/Developer/Frameworks/ASWebView/build/Release/include -I/Users/me/Developer/Frameworks/ASWebView/build/ASWebView.build/Release/ASWebView.build/DerivedSources/x86_64 -I/Users/me/Developer/Frameworks/ASWebView/build/ASWebView.build/Release/ASWebView.build/DerivedSources -F/Users/me/Developer/Frameworks/ASWebView/build/Release -F/Developer/SDKs/MacOSX10.7.sdk/System/Library/Frameworks/Quartz.framework/Versions/A/Frameworks -c /Users/me/Developer/Frameworks/ASWebView/ASWebView/ASWebView-Prefix.pch -o /var/folders/5w/xk1m9_ms5m3557s6v4dg007c0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/ASWebView-Prefix-efmjdgqmfcmirhdiytkwizctpdco/ASWebView-Prefix.pch.pth -MMD -MT dependencies -MF /var/folders/5w/xk1m9_ms5m3557s6v4dg007c0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/ASWebView-Prefix-efmjdgqmfcmirhdiytkwizctpdco/ASWebView-Prefix.pch.d36"41888B80-7CB6-425A-A549-D434EDBF6F33-
+
+CProcessPCH /var/folders/9n/9ngUoGeaGo4IdwaqFfk+Ck+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ASWebView-Prefix-fbydmsmuykktukfnukmlergpztym/ASWebView-Prefix.pch.pth ASWebView/ASWebView-Prefix.pch normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s328631425.373142
+e328631426.236258
+r1
+xProcessPCH
+x/var/folders/9n/9ngUoGeaGo4IdwaqFfk+Ck+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ASWebView-Prefix-fbydmsmuykktukfnukmlergpztym/ASWebView-Prefix.pch.pth
+xASWebView/ASWebView-Prefix.pch
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection41"Precompile ASWebView/ASWebView-Prefix.pch809d5f818496b341^8d7a3c828496b341^---0#0#0#-19%DVTDocumentLocation2@87"file://localhost/Users/me/Developer/Frameworks/ASWebView/ASWebView/ASWebView-Prefix.pch0000000000000000^1873"ProcessPCH /var/folders/9n/9ngUoGeaGo4IdwaqFfk+Ck+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ASWebView-Prefix-fbydmsmuykktukfnukmlergpztym/ASWebView-Prefix.pch.pth ASWebView/ASWebView-Prefix.pch normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/me/Developer/Frameworks/ASWebView    setenv LANG en_US.US-ASCII    /Developer/usr/bin/clang -x objective-c-header -arch x86_64 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=gnu99 -Wno-trigraphs -fpascal-strings -Os -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wshorten-64-to-32 -isysroot /Developer/SDKs/MacOSX10.6.sdk -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/me/Developer/Frameworks/ASWebView/build/ASWebView.build/Release/ASWebView.build/ASWebView-generated-files.hmap -I/Users/me/Developer/Frameworks/ASWebView/build/ASWebView.build/Release/ASWebView.build/ASWebView-own-target-headers.hmap -I/Users/me/Developer/Frameworks/ASWebView/build/ASWebView.build/Release/ASWebView.build/ASWebView-all-target-headers.hmap -iquote /Users/me/Developer/Frameworks/ASWebView/build/ASWebView.build/Release/ASWebView.build/ASWebView-project-headers.hmap -I/Users/me/Developer/Frameworks/ASWebView/build/Release/include -I/Users/me/Developer/Frameworks/ASWebView/build/ASWebView.build/Release/ASWebView.build/DerivedSources/x86_64 -I/Users/me/Developer/Frameworks/ASWebView/build/ASWebView.build/Release/ASWebView.build/DerivedSources -F/Users/me/Developer/Frameworks/ASWebView/build/Release -c /Users/me/Developer/Frameworks/ASWebView/ASWebView/ASWebView-Prefix.pch -o /var/folders/9n/9ngUoGeaGo4IdwaqFfk+Ck+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ASWebView-Prefix-fbydmsmuykktukfnukmlergpztym/ASWebView-Prefix.pch.pth
+
+CProcessPCH /var/folders/9n/9ngUoGeaGo4IdwaqFfk+Ck+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ASWebView-Prefix-fedbkfdkcggtamfuyekklbbjwrlv/ASWebView-Prefix.pch.pth ASWebView/ASWebView-Prefix.pch normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.analyzer
+s328631996.182867
+e328631996.975086
+r1
+xProcessPCH
+x/var/folders/9n/9ngUoGeaGo4IdwaqFfk+Ck+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ASWebView-Prefix-fedbkfdkcggtamfuyekklbbjwrlv/ASWebView-Prefix.pch.pth
+xASWebView/ASWebView-Prefix.pch
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.analyzer
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection41"Precompile ASWebView/ASWebView-Prefix.pch151f2fbc8696b341^bb9df9bc8696b341^---0#0#0#-19%DVTDocumentLocation2@87"file://localhost/Users/me/Developer/Frameworks/ASWebView/ASWebView/ASWebView-Prefix.pch0000000000000000^2117"ProcessPCH /var/folders/9n/9ngUoGeaGo4IdwaqFfk+Ck+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ASWebView-Prefix-fedbkfdkcggtamfuyekklbbjwrlv/ASWebView-Prefix.pch.pth ASWebView/ASWebView-Prefix.pch normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.analyzer    cd /Users/me/Developer/Frameworks/ASWebView    setenv LANG en_US.US-ASCII    /Developer/usr/bin/clang -x objective-c-header -arch x86_64 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=gnu99 -Wno-trigraphs -fpascal-strings -Os -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wshorten-64-to-32 -isysroot /Developer/SDKs/MacOSX10.6.sdk -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -DIBOutlet=__attribute__((iboutlet)) -DIBOutletCollection(ClassName)=__attribute__((iboutletcollection)) -DIBAction=void)__attribute__((ibaction) -iquote /Users/me/Developer/Frameworks/ASWebView/build/ASWebView.build/Release/ASWebView.build/ASWebView-generated-files.hmap -I/Users/me/Developer/Frameworks/ASWebView/build/ASWebView.build/Release/ASWebView.build/ASWebView-own-target-headers.hmap -I/Users/me/Developer/Frameworks/ASWebView/build/ASWebView.build/Release/ASWebView.build/ASWebView-all-target-headers.hmap -iquote /Users/me/Developer/Frameworks/ASWebView/build/ASWebView.build/Release/ASWebView.build/ASWebView-project-headers.hmap -I/Users/me/Developer/Frameworks/ASWebView/build/Release/include -I/Users/me/Developer/Frameworks/ASWebView/build/ASWebView.build/Release/ASWebView.build/DerivedSources/x86_64 -I/Users/me/Developer/Frameworks/ASWebView/build/ASWebView.build/Release/ASWebView.build/DerivedSources -F/Users/me/Developer/Frameworks/ASWebView/build/Release -F/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Quartz.framework/Versions/A/Frameworks -c /Users/me/Developer/Frameworks/ASWebView/ASWebView/ASWebView-Prefix.pch -o /var/folders/9n/9ngUoGeaGo4IdwaqFfk+Ck+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ASWebView-Prefix-fedbkfdkcggtamfuyekklbbjwrlv/ASWebView-Prefix.pch.pth
+
+CProcessPCH /var/folders/9n/9ngUoGeaGo4IdwaqFfk+Ck+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ASWebView-Prefix-gwabnxuaqcxypibandrcixmastiy/ASWebView-Prefix.pch.pth ASWebView/ASWebView-Prefix.pch normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s332438675.214491
+e332438677.527623
+r1
+xProcessPCH
+x/var/folders/9n/9ngUoGeaGo4IdwaqFfk+Ck+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ASWebView-Prefix-gwabnxuaqcxypibandrcixmastiy/ASWebView-Prefix.pch.pth
+xASWebView/ASWebView-Prefix.pch
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection41"Precompile ASWebView/ASWebView-Prefix.pch920637939cd0b341^1f1187959cd0b341^---0#0#0#-19%DVTDocumentLocation2@87"file://localhost/Users/me/Developer/Frameworks/ASWebView/ASWebView/ASWebView-Prefix.pch0000000000000000^1971"ProcessPCH /var/folders/9n/9ngUoGeaGo4IdwaqFfk+Ck+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ASWebView-Prefix-gwabnxuaqcxypibandrcixmastiy/ASWebView-Prefix.pch.pth ASWebView/ASWebView-Prefix.pch normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/me/Developer/Frameworks/ASWebView    setenv LANG en_US.US-ASCII    /Developer/usr/bin/clang -x objective-c-header -arch x86_64 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=gnu99 -Wno-trigraphs -fpascal-strings -Os -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wshorten-64-to-32 -isysroot /Developer/SDKs/MacOSX10.6.sdk -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/me/Developer/Frameworks/ASWebView/build/ASWebView.build/Release/ASWebView.build/ASWebView-generated-files.hmap -I/Users/me/Developer/Frameworks/ASWebView/build/ASWebView.build/Release/ASWebView.build/ASWebView-own-target-headers.hmap -I/Users/me/Developer/Frameworks/ASWebView/build/ASWebView.build/Release/ASWebView.build/ASWebView-all-target-headers.hmap -iquote /Users/me/Developer/Frameworks/ASWebView/build/ASWebView.build/Release/ASWebView.build/ASWebView-project-headers.hmap -I/Users/me/Developer/Frameworks/ASWebView/build/Release/include -I/Users/me/Developer/Frameworks/ASWebView/build/ASWebView.build/Release/ASWebView.build/DerivedSources/x86_64 -I/Users/me/Developer/Frameworks/ASWebView/build/ASWebView.build/Release/ASWebView.build/DerivedSources -F/Users/me/Developer/Frameworks/ASWebView/build/Release -F/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Quartz.framework/Versions/A/Frameworks -c /Users/me/Developer/Frameworks/ASWebView/ASWebView/ASWebView-Prefix.pch -o /var/folders/9n/9ngUoGeaGo4IdwaqFfk+Ck+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ASWebView-Prefix-gwabnxuaqcxypibandrcixmastiy/ASWebView-Prefix.pch.pth
+
+CProcessPCH /var/folders/t9/7cwgjzv56ylcq_0_58t869sc0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/ASWebView-Prefix-aimznssnmteuvcgqurlzqecgllnr/ASWebView-Prefix.pch.pth ASWebView/ASWebView-Prefix.pch normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s363096441.950762
+e363096443.106911
+r1
+xProcessPCH
+x/var/folders/t9/7cwgjzv56ylcq_0_58t869sc0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/ASWebView-Prefix-aimznssnmteuvcgqurlzqecgllnr/ASWebView-Prefix.pch.pth
+xASWebView/ASWebView-Prefix.pch
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection41"Precompile ASWebView/ASWebView-Prefix.pchdf8bf37969a4b541^795d1b7b69a4b541^---0#0#0#-19%DVTDocumentLocation2@87"file://localhost/Users/me/Developer/Frameworks/ASWebView/ASWebView/ASWebView-Prefix.pch0000000000000000^3195"ProcessPCH /var/folders/t9/7cwgjzv56ylcq_0_58t869sc0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/ASWebView-Prefix-aimznssnmteuvcgqurlzqecgllnr/ASWebView-Prefix.pch.pth ASWebView/ASWebView-Prefix.pch normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/me/Developer/Frameworks/ASWebView    setenv LANG en_US.US-ASCII    /Applications/Xcode45-DP2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch x86_64 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-sign-compare -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode45-DP2.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.8 -g -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -iquote /Users/me/Developer/Frameworks/ASWebView/build/ASWebView.build/Release/ASWebView.build/ASWebView-generated-files.hmap -I/Users/me/Developer/Frameworks/ASWebView/build/ASWebView.build/Release/ASWebView.build/ASWebView-own-target-headers.hmap -I/Users/me/Developer/Frameworks/ASWebView/build/ASWebView.build/Release/ASWebView.build/ASWebView-all-target-headers.hmap -iquote /Users/me/Developer/Frameworks/ASWebView/build/ASWebView.build/Release/ASWebView.build/ASWebView-project-headers.hmap -I/Users/me/Developer/Frameworks/ASWebView/build/Release/include -I/Applications/Xcode45-DP2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/me/Developer/Frameworks/ASWebView/build/ASWebView.build/Release/ASWebView.build/DerivedSources/x86_64 -I/Users/me/Developer/Frameworks/ASWebView/build/ASWebView.build/Release/ASWebView.build/DerivedSources -F/Users/me/Developer/Frameworks/ASWebView/build/Release -F/Applications/Xcode45-DP2.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/System/Library/Frameworks/Quartz.framework/Versions/A/Frameworks --serialize-diagnostics /var/folders/t9/7cwgjzv56ylcq_0_58t869sc0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/ASWebView-Prefix-aimznssnmteuvcgqurlzqecgllnr/ASWebView-Prefix.pch.dia -c /Users/me/Developer/Frameworks/ASWebView/ASWebView/ASWebView-Prefix.pch -o /var/folders/t9/7cwgjzv56ylcq_0_58t869sc0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/ASWebView-Prefix-aimznssnmteuvcgqurlzqecgllnr/ASWebView-Prefix.pch.pth -MMD -MT dependencies -MF /var/folders/t9/7cwgjzv56ylcq_0_58t869sc0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/ASWebView-Prefix-aimznssnmteuvcgqurlzqecgllnr/ASWebView-Prefix.pch.d36"5221E6BC-78B5-4C55-BE19-C51E94957495-
+
+CSymLink /Users/me/Developer/Frameworks/ASWebView/build/Release/ASWebView.framework/ASWebView Versions/Current/ASWebView
+s374601946.116884
+e374601946.217822
+r1
+xSymLink
+x/Users/me/Developer/Frameworks/ASWebView/build/Release/ASWebView.framework/ASWebView
+xVersions/Current/ASWebView
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection92"Process /Users/me/Developer/Frameworks/ASWebView/build/Release/ASWebView.framework/ASWebView25041fdaf853b641^1ac437daf853b641^---0#0#0#--255"SymLink build/Release/ASWebView.framework/ASWebView Versions/Current/ASWebView    cd /Users/me/Developer/Frameworks/ASWebView    /bin/ln -sf Versions/Current/ASWebView /Users/me/Developer/Frameworks/ASWebView/build/Release/ASWebView.framework/ASWebView36"DE31158F-77B7-47CB-A303-6936D1819874-
+
+CSymLink /Users/me/Developer/Frameworks/ASWebView/build/Release/ASWebView.framework/Headers Versions/Current/Headers
+s374601946.224352
+e374601946.231322
+r1
+xSymLink
+x/Users/me/Developer/Frameworks/ASWebView/build/Release/ASWebView.framework/Headers
+xVersions/Current/Headers
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection90"Process /Users/me/Developer/Frameworks/ASWebView/build/Release/ASWebView.framework/Headers558639daf853b641^71383bdaf853b641^---0#0#0#--247"SymLink build/Release/ASWebView.framework/Headers Versions/Current/Headers    cd /Users/me/Developer/Frameworks/ASWebView    /bin/ln -sf Versions/Current/Headers /Users/me/Developer/Frameworks/ASWebView/build/Release/ASWebView.framework/Headers36"4834D563-A3DF-4D46-AC5E-76B7F6E4CB83-
+
+CSymLink /Users/me/Developer/Frameworks/ASWebView/build/Release/ASWebView.framework/Resources Versions/Current/Resources
+s374601946.115550
+e374601946.216769
+r1
+xSymLink
+x/Users/me/Developer/Frameworks/ASWebView/build/Release/ASWebView.framework/Resources
+xVersions/Current/Resources
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection92"Process /Users/me/Developer/Frameworks/ASWebView/build/Release/ASWebView.framework/Resourcesd00b1fdaf853b641^6f7e37daf853b641^---0#0#0#--255"SymLink build/Release/ASWebView.framework/Resources Versions/Current/Resources    cd /Users/me/Developer/Frameworks/ASWebView    /bin/ln -sf Versions/Current/Resources /Users/me/Developer/Frameworks/ASWebView/build/Release/ASWebView.framework/Resources36"9A84D31A-BC4D-4048-89C3-E4ED8AE2A38B-
+
+CSymLink /Users/me/Developer/Frameworks/ASWebView/build/Release/ASWebView.framework/Versions/Current A
+s374601946.115536
+e374601946.215713
+r1
+xSymLink
+x/Users/me/Developer/Frameworks/ASWebView/build/Release/ASWebView.framework/Versions/Current
+xA
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection99"Process /Users/me/Developer/Frameworks/ASWebView/build/Release/ASWebView.framework/Versions/Current8cf51ddaf853b641^6d3937daf853b641^---0#0#0#--219"SymLink build/Release/ASWebView.framework/Versions/Current A    cd /Users/me/Developer/Frameworks/ASWebView    /bin/ln -sf A /Users/me/Developer/Frameworks/ASWebView/build/Release/ASWebView.framework/Versions/Current36"F8A5BD6B-12FA-4858-AAA2-DA04E8A92C4D-
+
+CTouch /Users/me/Developer/Frameworks/ASWebView/build/Release/ASWebView.framework
+s374601949.720604
+e374601949.803743
+r1
+xTouch
+x/Users/me/Developer/Frameworks/ASWebView/build/Release/ASWebView.framework
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection80"Touch /Users/me/Developer/Frameworks/ASWebView/build/Release/ASWebView.frameworkbe86b8ddf853b641^7fc2cdddf853b641^---0#0#0#--185"Touch build/Release/ASWebView.framework    cd /Users/me/Developer/Frameworks/ASWebView    /usr/bin/touch -c /Users/me/Developer/Frameworks/ASWebView/build/Release/ASWebView.framework36"8CEC296B-68F4-4E8F-B234-CC0D9AC6BAAA-
+

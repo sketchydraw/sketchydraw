@@ -1,0 +1,48 @@
+/* SKTUnknownFileReadError */
+
+/* In Sketch this particular localized description won't be presented to the user, but it's always a good idea to provide a decent description that's a full sentence, just in case the error gets reused in a new way. */
+"description1" = "データが破壊されているのでスケッチ風ドロー・ドキュメントデータは読まれません。";
+
+/* In Sketch this localized failure reason will be presented to the user if we're trying to open a document. When -[SKTDocument readFromData:ofType:error:] returns an error NSDocumentController will take the failure reason and tack it onto the end of a "The document "so-and-so" could not be opened." message and use the whole thing as an error description. Full sentence! */
+"failureReason1" = "破壊されているようです。";
+
+/* SKTUnknownPasteboardReadError */
+
+/* In Sketch this localized description will be presented to the user by -[SKTGraphicView paste:]. */
+"description2" = "スケッチ風ドローのペーストボード・データは未知の理由により読み込まれませんでした。";
+
+/* In Sketch this particular localized failure reason won't be presented to the user, but it's always a good idea to provide a decent failure reason that's a full sentence, just in case the error gets reused in a new way. */
+"failureReason2" = "未知のエラーが発生しました。";
+
+/* SKTWriteCouldntMakeTIFFError */
+
+/* In Sketch this particular localized description won't be presented to the user, but it's always a good idea to provide a decent description that's a full sentence, just in case the error gets reused in a new way. */
+"description3" = "空なのでTIFFイメージは作成されません。";
+
+/* In Sketch this localized failure reason will be presented to the user. When -[SKTDocument dataOfType:error:] returns an error NSDocument will take the error reason and tack it onto the end of a "The document "so-and-so" could not be saved." message and use the whole thing as an error description. Full sentence! */
+"failureReason3" = "TIFFイメージは空です。";
+"A TIFF image could not be made because it would be empty."	=	"空なのでTIFFイメージが生成されませんでした。";
+"The TIFF image would be empty."	=	"TIFFイメージは空です。";
+"Sketch document data could not be read for an unknown reason."	=	"未知の理由でドキュメントが読めませんでした。";
+"An unknown error occured."	=	"未知のエラーが発生しました。";
+"File format is not well-formed."	=	"ファイル形式が間違っています。";
+"A TIFF image could not be made for an unknown reason."	=	"何らかの理由でTIFFイメージが生成されませんでした。";
+/* このファイルで定義するのは[NSResponder presentError:]でやれるものだけとする。 */
+"suggestion1"	=	"データが破壊されているのでスケッチ風ドロー・ドキュメントデータは読まれません。";
+"suggestion2"	=	"スケッチ風ドローのペーストボード・データは未知の理由により読み込まれませんでした。";
+"suggestion3"	=	"オブジェクトを幾つか作成する必要があります。";
+"description4"	=	"イメージが空です。";
+"failureReason4"	=	"イメージが空です。";
+"suggestion4"	=	"破壊されているようです。";
+"description5"	=	"イメージをロードできませんでした。";
+"failureReason5"	=	"イメージをロードできませんでした。";
+"suggestion5"	=	"ファイル形式が間違っています。";
+"description6"	=	"データのタイプを識別する文字列が認識されませんでした。";
+"failureReason6"	=	"データのタイプを識別する文字列が認識されませんでした。";
+"suggestion6"	=	"サポートされていないデータのタイプです。";
+"description7"	=	"サポートされていないIllustratorのフォーマットです。";
+"failureReason7"	=	"サポートされていないIllustratorのフォーマットです。";
+"suggestion7"	=	"PDF互換やEPS互換でない可能性があります。";
+"\'%@\' type is not supported."	=	"\'%@\'タイプのデータはサポートされていません。";
+"'%@' image is not created."	=	"%@イメージが生成されませんでした。";
+"%u objects are not written out, was."	=	"%lu個のオブジェクトが書き出されませんでした。";

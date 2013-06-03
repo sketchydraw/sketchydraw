@@ -1,0 +1,551 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8C69A0FC1397C3CC00CA568E /* ASWebViewError.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8C69A0FA1397C3CC00CA568E /* ASWebViewError.strings */; };
+		8CA55222139681F5009B9931 /* ASDialKnob.h in Headers */ = {isa = PBXBuildFile; fileRef = 8CA55218139681F5009B9931 /* ASDialKnob.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8CA55223139681F5009B9931 /* ASDialKnob.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CA55219139681F5009B9931 /* ASDialKnob.m */; };
+		8CA55224139681F5009B9931 /* ASDialKnobCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 8CA5521A139681F5009B9931 /* ASDialKnobCell.h */; };
+		8CA55225139681F5009B9931 /* ASDialKnobCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CA5521B139681F5009B9931 /* ASDialKnobCell.m */; };
+		8CA55226139681F5009B9931 /* ASImageView.h in Headers */ = {isa = PBXBuildFile; fileRef = 8CA5521C139681F5009B9931 /* ASImageView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8CA55227139681F5009B9931 /* ASImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CA5521D139681F5009B9931 /* ASImageView.m */; };
+		8CA55228139681F5009B9931 /* ASImageViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 8CA5521E139681F5009B9931 /* ASImageViewCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8CA55229139681F5009B9931 /* ASImageViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CA5521F139681F5009B9931 /* ASImageViewCell.m */; };
+		8CA5522A139681F5009B9931 /* ASWebImageRep.h in Headers */ = {isa = PBXBuildFile; fileRef = 8CA55220139681F5009B9931 /* ASWebImageRep.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8CA5522B139681F5009B9931 /* ASWebImageRep.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CA55221139681F5009B9931 /* ASWebImageRep.m */; };
+		8CA5522F1396820F009B9931 /* ASWebViewFunctions.h in Headers */ = {isa = PBXBuildFile; fileRef = 8CA5522D1396820F009B9931 /* ASWebViewFunctions.h */; };
+		8CA552301396820F009B9931 /* ASWebViewFunctions.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CA5522E1396820F009B9931 /* ASWebViewFunctions.m */; };
+		8CA552331396821A009B9931 /* NSData+CocoaDevUsersAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 8CA552311396821A009B9931 /* NSData+CocoaDevUsersAdditions.h */; };
+		8CA552341396821A009B9931 /* NSData+CocoaDevUsersAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CA552321396821A009B9931 /* NSData+CocoaDevUsersAdditions.m */; };
+		8CA55236139684E1009B9931 /* PDFKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8CA55235139684E1009B9931 /* PDFKit.framework */; };
+		8CA5523813968510009B9931 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8CA5523713968510009B9931 /* WebKit.framework */; };
+		8CA552521396862C009B9931 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 8CA552511396862C009B9931 /* libz.dylib */; };
+		8CA5525513968647009B9931 /* libcrypto.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 8CA5525413968647009B9931 /* libcrypto.dylib */; };
+		8CF8602A13967E1C00ABB179 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8CF8602913967E1C00ABB179 /* Cocoa.framework */; };
+		8CF8603413967E1C00ABB179 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8CF8603213967E1C00ABB179 /* InfoPlist.strings */; };
+		8CF8603C13967E1C00ABB179 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8CF8602913967E1C00ABB179 /* Cocoa.framework */; };
+		8CF8603F13967E1C00ABB179 /* ASWebView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8CF8602613967E1C00ABB179 /* ASWebView.framework */; };
+		8CF8604513967E1C00ABB179 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8CF8604313967E1C00ABB179 /* InfoPlist.strings */; };
+		8CF8604813967E1C00ABB179 /* ASWebViewTests.h in Resources */ = {isa = PBXBuildFile; fileRef = 8CF8604713967E1C00ABB179 /* ASWebViewTests.h */; };
+		8CF8604A13967E1C00ABB179 /* ASWebViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CF8604913967E1C00ABB179 /* ASWebViewTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8CF8603D13967E1C00ABB179 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8CF8601C13967E1B00ABB179 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8CF8602513967E1C00ABB179;
+			remoteInfo = ASWebView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8C69A0FB1397C3CC00CA568E /* en */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/ASWebViewError.strings; sourceTree = "<group>"; };
+		8C69A0FE1397C5D200CA568E /* ja */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/ASWebViewError.strings; sourceTree = "<group>"; };
+		8C69A1001397C61A00CA568E /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8CA55218139681F5009B9931 /* ASDialKnob.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASDialKnob.h; sourceTree = "<group>"; };
+		8CA55219139681F5009B9931 /* ASDialKnob.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASDialKnob.m; sourceTree = "<group>"; };
+		8CA5521A139681F5009B9931 /* ASDialKnobCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASDialKnobCell.h; sourceTree = "<group>"; };
+		8CA5521B139681F5009B9931 /* ASDialKnobCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASDialKnobCell.m; sourceTree = "<group>"; };
+		8CA5521C139681F5009B9931 /* ASImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASImageView.h; sourceTree = "<group>"; };
+		8CA5521D139681F5009B9931 /* ASImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASImageView.m; sourceTree = "<group>"; };
+		8CA5521E139681F5009B9931 /* ASImageViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASImageViewCell.h; sourceTree = "<group>"; };
+		8CA5521F139681F5009B9931 /* ASImageViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASImageViewCell.m; sourceTree = "<group>"; };
+		8CA55220139681F5009B9931 /* ASWebImageRep.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASWebImageRep.h; sourceTree = "<group>"; };
+		8CA55221139681F5009B9931 /* ASWebImageRep.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASWebImageRep.m; sourceTree = "<group>"; };
+		8CA5522D1396820F009B9931 /* ASWebViewFunctions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASWebViewFunctions.h; sourceTree = "<group>"; };
+		8CA5522E1396820F009B9931 /* ASWebViewFunctions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASWebViewFunctions.m; sourceTree = "<group>"; };
+		8CA552311396821A009B9931 /* NSData+CocoaDevUsersAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+CocoaDevUsersAdditions.h"; sourceTree = "<group>"; };
+		8CA552321396821A009B9931 /* NSData+CocoaDevUsersAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+CocoaDevUsersAdditions.m"; sourceTree = "<group>"; };
+		8CA55235139684E1009B9931 /* PDFKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PDFKit.framework; path = ../../../../../System/Library/Frameworks/Quartz.framework/Versions/A/Frameworks/PDFKit.framework; sourceTree = "<group>"; };
+		8CA5523713968510009B9931 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = ../../../../../System/Library/Frameworks/WebKit.framework; sourceTree = "<group>"; };
+		8CA552511396862C009B9931 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = ../../../../../usr/lib/libz.dylib; sourceTree = "<group>"; };
+		8CA5525413968647009B9931 /* libcrypto.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libcrypto.dylib; path = ../../../../../usr/lib/libcrypto.dylib; sourceTree = "<group>"; };
+		8CF8602613967E1C00ABB179 /* ASWebView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ASWebView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8CF8602913967E1C00ABB179 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		8CF8602C13967E1C00ABB179 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		8CF8602D13967E1C00ABB179 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		8CF8602E13967E1C00ABB179 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		8CF8603113967E1C00ABB179 /* ASWebView-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ASWebView-Info.plist"; sourceTree = "<group>"; };
+		8CF8603313967E1C00ABB179 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8CF8603513967E1C00ABB179 /* ASWebView-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ASWebView-Prefix.pch"; sourceTree = "<group>"; };
+		8CF8603B13967E1C00ABB179 /* ASWebViewTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ASWebViewTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8CF8604213967E1C00ABB179 /* ASWebViewTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ASWebViewTests-Info.plist"; sourceTree = "<group>"; };
+		8CF8604413967E1C00ABB179 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8CF8604613967E1C00ABB179 /* ASWebViewTests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ASWebViewTests-Prefix.pch"; sourceTree = "<group>"; };
+		8CF8604713967E1C00ABB179 /* ASWebViewTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ASWebViewTests.h; sourceTree = "<group>"; };
+		8CF8604913967E1C00ABB179 /* ASWebViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ASWebViewTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8CF8602213967E1C00ABB179 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8CF8602A13967E1C00ABB179 /* Cocoa.framework in Frameworks */,
+				8CA55236139684E1009B9931 /* PDFKit.framework in Frameworks */,
+				8CA5523813968510009B9931 /* WebKit.framework in Frameworks */,
+				8CA552521396862C009B9931 /* libz.dylib in Frameworks */,
+				8CA5525513968647009B9931 /* libcrypto.dylib in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8CF8603713967E1C00ABB179 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8CF8603C13967E1C00ABB179 /* Cocoa.framework in Frameworks */,
+				8CF8603F13967E1C00ABB179 /* ASWebView.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8CF8601A13967E1B00ABB179 = {
+			isa = PBXGroup;
+			children = (
+				8CF8602F13967E1C00ABB179 /* ASWebView */,
+				8CF8604013967E1C00ABB179 /* ASWebViewTests */,
+				8CF8602813967E1C00ABB179 /* Frameworks */,
+				8CF8602713967E1C00ABB179 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8CF8602713967E1C00ABB179 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8CF8602613967E1C00ABB179 /* ASWebView.framework */,
+				8CF8603B13967E1C00ABB179 /* ASWebViewTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8CF8602813967E1C00ABB179 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8CA5525413968647009B9931 /* libcrypto.dylib */,
+				8CA552511396862C009B9931 /* libz.dylib */,
+				8CA5523713968510009B9931 /* WebKit.framework */,
+				8CA55235139684E1009B9931 /* PDFKit.framework */,
+				8CF8602913967E1C00ABB179 /* Cocoa.framework */,
+				8CF8602B13967E1C00ABB179 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8CF8602B13967E1C00ABB179 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8CF8602C13967E1C00ABB179 /* AppKit.framework */,
+				8CF8602D13967E1C00ABB179 /* CoreData.framework */,
+				8CF8602E13967E1C00ABB179 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		8CF8602F13967E1C00ABB179 /* ASWebView */ = {
+			isa = PBXGroup;
+			children = (
+				8CA552311396821A009B9931 /* NSData+CocoaDevUsersAdditions.h */,
+				8CA552321396821A009B9931 /* NSData+CocoaDevUsersAdditions.m */,
+				8CA5522D1396820F009B9931 /* ASWebViewFunctions.h */,
+				8CA5522E1396820F009B9931 /* ASWebViewFunctions.m */,
+				8CA55218139681F5009B9931 /* ASDialKnob.h */,
+				8CA55219139681F5009B9931 /* ASDialKnob.m */,
+				8CA5521A139681F5009B9931 /* ASDialKnobCell.h */,
+				8CA5521B139681F5009B9931 /* ASDialKnobCell.m */,
+				8CA5521C139681F5009B9931 /* ASImageView.h */,
+				8CA5521D139681F5009B9931 /* ASImageView.m */,
+				8CA5521E139681F5009B9931 /* ASImageViewCell.h */,
+				8CA5521F139681F5009B9931 /* ASImageViewCell.m */,
+				8CA55220139681F5009B9931 /* ASWebImageRep.h */,
+				8CA55221139681F5009B9931 /* ASWebImageRep.m */,
+				8CF8603013967E1C00ABB179 /* Supporting Files */,
+			);
+			path = ASWebView;
+			sourceTree = "<group>";
+		};
+		8CF8603013967E1C00ABB179 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8C69A0FA1397C3CC00CA568E /* ASWebViewError.strings */,
+				8CF8603113967E1C00ABB179 /* ASWebView-Info.plist */,
+				8CF8603213967E1C00ABB179 /* InfoPlist.strings */,
+				8CF8603513967E1C00ABB179 /* ASWebView-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8CF8604013967E1C00ABB179 /* ASWebViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				8CF8604713967E1C00ABB179 /* ASWebViewTests.h */,
+				8CF8604913967E1C00ABB179 /* ASWebViewTests.m */,
+				8CF8604113967E1C00ABB179 /* Supporting Files */,
+			);
+			path = ASWebViewTests;
+			sourceTree = "<group>";
+		};
+		8CF8604113967E1C00ABB179 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8CF8604213967E1C00ABB179 /* ASWebViewTests-Info.plist */,
+				8CF8604313967E1C00ABB179 /* InfoPlist.strings */,
+				8CF8604613967E1C00ABB179 /* ASWebViewTests-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		8CF8602313967E1C00ABB179 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8CA55222139681F5009B9931 /* ASDialKnob.h in Headers */,
+				8CA55226139681F5009B9931 /* ASImageView.h in Headers */,
+				8CA5522A139681F5009B9931 /* ASWebImageRep.h in Headers */,
+				8CA55228139681F5009B9931 /* ASImageViewCell.h in Headers */,
+				8CA55224139681F5009B9931 /* ASDialKnobCell.h in Headers */,
+				8CA5522F1396820F009B9931 /* ASWebViewFunctions.h in Headers */,
+				8CA552331396821A009B9931 /* NSData+CocoaDevUsersAdditions.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		8CF8602513967E1C00ABB179 /* ASWebView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8CF8604D13967E1C00ABB179 /* Build configuration list for PBXNativeTarget "ASWebView" */;
+			buildPhases = (
+				8CF8602113967E1C00ABB179 /* Sources */,
+				8CF8602213967E1C00ABB179 /* Frameworks */,
+				8CF8602313967E1C00ABB179 /* Headers */,
+				8CF8602413967E1C00ABB179 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ASWebView;
+			productName = ASWebView;
+			productReference = 8CF8602613967E1C00ABB179 /* ASWebView.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		8CF8603A13967E1C00ABB179 /* ASWebViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8CF8605013967E1C00ABB179 /* Build configuration list for PBXNativeTarget "ASWebViewTests" */;
+			buildPhases = (
+				8CF8603613967E1C00ABB179 /* Sources */,
+				8CF8603713967E1C00ABB179 /* Frameworks */,
+				8CF8603813967E1C00ABB179 /* Resources */,
+				8CF8603913967E1C00ABB179 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8CF8603E13967E1C00ABB179 /* PBXTargetDependency */,
+			);
+			name = ASWebViewTests;
+			productName = ASWebViewTests;
+			productReference = 8CF8603B13967E1C00ABB179 /* ASWebViewTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8CF8601C13967E1B00ABB179 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+			};
+			buildConfigurationList = 8CF8601F13967E1B00ABB179 /* Build configuration list for PBXProject "ASWebView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				ja,
+			);
+			mainGroup = 8CF8601A13967E1B00ABB179;
+			productRefGroup = 8CF8602713967E1C00ABB179 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8CF8602513967E1C00ABB179 /* ASWebView */,
+				8CF8603A13967E1C00ABB179 /* ASWebViewTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8CF8602413967E1C00ABB179 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8CF8603413967E1C00ABB179 /* InfoPlist.strings in Resources */,
+				8C69A0FC1397C3CC00CA568E /* ASWebViewError.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8CF8603813967E1C00ABB179 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8CF8604513967E1C00ABB179 /* InfoPlist.strings in Resources */,
+				8CF8604813967E1C00ABB179 /* ASWebViewTests.h in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		8CF8603913967E1C00ABB179 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8CF8602113967E1C00ABB179 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8CA55223139681F5009B9931 /* ASDialKnob.m in Sources */,
+				8CA55225139681F5009B9931 /* ASDialKnobCell.m in Sources */,
+				8CA55227139681F5009B9931 /* ASImageView.m in Sources */,
+				8CA55229139681F5009B9931 /* ASImageViewCell.m in Sources */,
+				8CA5522B139681F5009B9931 /* ASWebImageRep.m in Sources */,
+				8CA552301396820F009B9931 /* ASWebViewFunctions.m in Sources */,
+				8CA552341396821A009B9931 /* NSData+CocoaDevUsersAdditions.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8CF8603613967E1C00ABB179 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8CF8604A13967E1C00ABB179 /* ASWebViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8CF8603E13967E1C00ABB179 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8CF8602513967E1C00ABB179 /* ASWebView */;
+			targetProxy = 8CF8603D13967E1C00ABB179 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8C69A0FA1397C3CC00CA568E /* ASWebViewError.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8C69A0FB1397C3CC00CA568E /* en */,
+				8C69A0FE1397C5D200CA568E /* ja */,
+			);
+			name = ASWebViewError.strings;
+			sourceTree = "<group>";
+		};
+		8CF8603213967E1C00ABB179 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8CF8603313967E1C00ABB179 /* en */,
+				8C69A1001397C61A00CA568E /* ja */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		8CF8604313967E1C00ABB179 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8CF8604413967E1C00ABB179 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8CF8604B13967E1C00ABB179 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		8CF8604C13967E1C00ABB179 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		8CF8604E13967E1C00ABB179 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SYSTEM_LIBRARY_DIR)/Frameworks/Quartz.framework/Versions/A/Frameworks\"",
+				);
+				FRAMEWORK_VERSION = A;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ASWebView/ASWebView-Prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				INFOPLIST_FILE = "ASWebView/ASWebView-Info.plist";
+				INSTALL_PATH = "@rpath";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = framework;
+			};
+			name = Debug;
+		};
+		8CF8604F13967E1C00ABB179 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SYSTEM_LIBRARY_DIR)/Frameworks/Quartz.framework/Versions/A/Frameworks\"",
+				);
+				FRAMEWORK_VERSION = A;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ASWebView/ASWebView-Prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				INFOPLIST_FILE = "ASWebView/ASWebView-Info.plist";
+				INSTALL_PATH = "@rpath";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = framework;
+			};
+			name = Release;
+		};
+		8CF8605113967E1C00ABB179 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = "$(DEVELOPER_LIBRARY_DIR)/Frameworks";
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ASWebViewTests/ASWebViewTests-Prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				INFOPLIST_FILE = "ASWebViewTests/ASWebViewTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		8CF8605213967E1C00ABB179 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				FRAMEWORK_SEARCH_PATHS = "$(DEVELOPER_LIBRARY_DIR)/Frameworks";
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ASWebViewTests/ASWebViewTests-Prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				INFOPLIST_FILE = "ASWebViewTests/ASWebViewTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8CF8601F13967E1B00ABB179 /* Build configuration list for PBXProject "ASWebView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8CF8604B13967E1C00ABB179 /* Debug */,
+				8CF8604C13967E1C00ABB179 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8CF8604D13967E1C00ABB179 /* Build configuration list for PBXNativeTarget "ASWebView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8CF8604E13967E1C00ABB179 /* Debug */,
+				8CF8604F13967E1C00ABB179 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8CF8605013967E1C00ABB179 /* Build configuration list for PBXNativeTarget "ASWebViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8CF8605113967E1C00ABB179 /* Debug */,
+				8CF8605213967E1C00ABB179 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8CF8601C13967E1B00ABB179 /* Project object */;
+}

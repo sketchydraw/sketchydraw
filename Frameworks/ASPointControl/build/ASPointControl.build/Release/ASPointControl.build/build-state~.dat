@@ -1,0 +1,404 @@
+TASPointControl
+v4
+r1
+cCheck dependencies
+cSymLink /Users/me/Developer/Frameworks/ASPointControl/build/Release/ASPointControl.framework/Versions/Current A
+cSymLink /Users/me/Developer/Frameworks/ASPointControl/build/Release/ASPointControl.framework/Resources Versions/Current/Resources
+cSymLink /Users/me/Developer/Frameworks/ASPointControl/build/Release/ASPointControl.framework/ASPointControl Versions/Current/ASPointControl
+cSymLink /Users/me/Developer/Frameworks/ASPointControl/build/Release/ASPointControl.framework/Headers Versions/Current/Headers
+cProcessInfoPlistFile /Users/me/Developer/Frameworks/ASPointControl/build/Release/ASPointControl.framework/Versions/A/Resources/Info.plist ASPointControl/ASPointControl-Info.plist
+cProcessPCH /var/folders/5w/xk1m9_ms5m3557s6v4dg007c0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/ASPointControl-Prefix-aqgelwkipzobmccqmptbnunputaj/ASPointControl-Prefix.pch.pth ASPointControl/ASPointControl-Prefix.pch normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/ASPointControl.build/Release/ASPointControl.build/Objects-normal/x86_64/ASPointControl.o /Users/me/Developer/Frameworks/ASPointControl/ASPointControl/ASPointControl.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/ASPointControl.build/Release/ASPointControl.build/Objects-normal/x86_64/ASPointControlCell.o /Users/me/Developer/Frameworks/ASPointControl/ASPointControl/ASPointControlCell.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cLd /Users/me/Developer/Frameworks/ASPointControl/build/Release/ASPointControl.framework/Versions/A/ASPointControl normal x86_64
+cCpHeader ASPointControl/ASPointControl.h build/Release/ASPointControl.framework/Versions/A/Headers/ASPointControl.h
+cCopyStringsFile /Users/me/Developer/Frameworks/ASPointControl/build/Release/ASPointControl.framework/Versions/A/Resources/en.lproj/InfoPlist.strings ASPointControl/en.lproj/InfoPlist.strings
+cTouch /Users/me/Developer/Frameworks/ASPointControl/build/Release/ASPointControl.framework
+
+N/Developer/SDKs/MacOSX10.6.sdk
+c000000004DA8871100000000000000EE
+t1302890257
+s238
+
+N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Cocoa.framework/Cocoa
+c000000004DA341E70000000000003430
+t1302544871
+s13360
+
+N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Cocoa.framework/Headers/Cocoa.h
+c0000000040C4AA6800000000000001E5
+t1086630504
+s485
+
+N/Developer/SDKs/MacOSX10.7.sdk
+c000000004E1106D400000000000000EE
+t1309738708
+s238
+
+N/Developer/SDKs/MacOSX10.7.sdk/System/Library/Frameworks/Cocoa.framework/Cocoa
+c000000004E1106CE0000000000002470
+t1309738702
+s9328
+
+N/System/Library/Frameworks/Cocoa.framework/Cocoa
+c000000004E26F6040000000000006560
+t1311176196
+s25952
+
+N/System/Library/Frameworks/Cocoa.framework/Headers/Cocoa.h
+c0000000040C4AA6800000000000001E5
+t1086630504
+s485
+
+N/Users/me/Developer/Frameworks/ASPointControl/ASPointControl/ASPointControl-Prefix.pch
+c000000004DE6364C000000000000009C
+t1306932812
+s156
+i<Cocoa/Cocoa.h>
+
+N/Users/me/Developer/Frameworks/ASPointControl/ASPointControl/ASPointControl.h
+c000000004D5AA8B60000000000000720
+t1297787062
+s1824
+i<Cocoa/Cocoa.h>
+
+N/Users/me/Developer/Frameworks/ASPointControl/ASPointControl/ASPointControl.m
+c000000004D5A98B90000000000001A0E
+t1297782969
+s6670
+i"ASPointControl.h"
+i"ASPointControlCell.h"
+
+N/Users/me/Developer/Frameworks/ASPointControl/ASPointControl/ASPointControlCell.h
+c000000004D5A98070000000000000306
+t1297782791
+s774
+i<Cocoa/Cocoa.h>
+
+N/Users/me/Developer/Frameworks/ASPointControl/ASPointControl/ASPointControlCell.m
+c000000004D5AA0880000000000002BD6
+t1297784968
+s11222
+i"ASPointControlCell.h"
+i"ASPointControl.h"
+
+N/Users/me/Developer/Frameworks/ASPointControl/ASPointControl/en.lproj/InfoPlist.strings
+c000000004DE6364C000000000000002D
+t1306932812
+s45
+
+N/Users/me/Developer/Frameworks/ASPointControl/build/ASPointControl.build/Release/ASPointControl.build/Objects-normal/x86_64/ASPointControl.LinkFileList
+c000000004E96E25D000000000000011E
+t1318511197
+s286
+
+N/Users/me/Developer/Frameworks/ASPointControl/build/ASPointControl.build/Release/ASPointControl.build/Objects-normal/x86_64/ASPointControl.o
+t2
+s0
+
+N/Users/me/Developer/Frameworks/ASPointControl/build/ASPointControl.build/Release/ASPointControl.build/Objects-normal/x86_64/ASPointControlCell.o
+t2
+s0
+
+N/Users/me/Developer/Frameworks/ASPointControl/build/ASPointControl.build/Release/ASPointControl.build/StaticAnalyzer/normal/x86_64/ASPointControl.plist
+t2
+s0
+
+N/Users/me/Developer/Frameworks/ASPointControl/build/ASPointControl.build/Release/ASPointControl.build/StaticAnalyzer/normal/x86_64/ASPointControlCell.plist
+t2
+s0
+
+N/Users/me/Developer/Frameworks/ASPointControl/build/Release/ASPointControl.framework
+t2
+s0
+
+N/Users/me/Developer/Frameworks/ASPointControl/build/Release/ASPointControl.framework/ASPointControl
+t2
+s0
+
+N/Users/me/Developer/Frameworks/ASPointControl/build/Release/ASPointControl.framework/Headers
+t2
+s0
+
+N/Users/me/Developer/Frameworks/ASPointControl/build/Release/ASPointControl.framework/Resources
+t2
+s0
+
+N/Users/me/Developer/Frameworks/ASPointControl/build/Release/ASPointControl.framework/Versions/A/ASPointControl
+t2
+s0
+
+N/Users/me/Developer/Frameworks/ASPointControl/build/Release/ASPointControl.framework/Versions/A/Headers/ASPointControl.h
+t2
+s0
+
+N/Users/me/Developer/Frameworks/ASPointControl/build/Release/ASPointControl.framework/Versions/A/Resources/Info.plist
+t2
+s0
+
+N/Users/me/Developer/Frameworks/ASPointControl/build/Release/ASPointControl.framework/Versions/A/Resources/en.lproj/InfoPlist.strings
+t2
+s0
+
+N/Users/me/Developer/Frameworks/ASPointControl/build/Release/ASPointControl.framework/Versions/Current
+t2
+s0
+
+N/var/folders/5w/xk1m9_ms5m3557s6v4dg007c0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/ASPointControl-Prefix-aclamolmexttzvbtvcvgjincunsx/ASPointControl-Prefix.pch.pth
+t2
+s0
+
+N/var/folders/5w/xk1m9_ms5m3557s6v4dg007c0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/ASPointControl-Prefix-aebrzfxmjigonohibhjidorhtbzg/ASPointControl-Prefix.pch.gch
+t1311249906
+s39956496
+
+N/var/folders/5w/xk1m9_ms5m3557s6v4dg007c0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/ASPointControl-Prefix-aqgelwkipzobmccqmptbnunputaj/ASPointControl-Prefix.pch.pth
+t2
+s0
+
+N/var/folders/5w/xk1m9_ms5m3557s6v4dg007c0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/ASPointControl-Prefix-bifsvzwtuiuajsajqztqecbtyigt/ASPointControl-Prefix.pch.pth
+t2
+s0
+
+N/var/folders/5w/xk1m9_ms5m3557s6v4dg007c0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/ASPointControl-Prefix-fctonjaxjhsjvecqfuurixgrtgmo/ASPointControl-Prefix.pch.gch
+t2
+s0
+
+N/var/folders/9n/9ngUoGeaGo4IdwaqFfk+Ck+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ASPointControl-Prefix-fplmyqfxkyfzhzgkgbfwajjtmfqr/ASPointControl-Prefix.pch.pth
+t1306933824
+s10945868
+
+NASPointControl/ASPointControl-Info.plist
+c000000004DE636C100000000000003BE
+t1306932929
+s958
+
+CAnalyze /Users/me/Developer/Frameworks/ASPointControl/ASPointControl/ASPointControl.m
+s332942713.706136
+e332942714.039481
+r1
+xAnalyze
+x/Users/me/Developer/Frameworks/ASPointControl/ASPointControl/ASPointControl.m
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection85"Analyze /Users/me/Developer/Frameworks/ASPointControl/ASPointControl/ASPointControl.m82e1b4794dd8b341^a41a0a7a4dd8b341^---0#0#0#-19%DVTDocumentLocation2@93"file://localhost/Users/me/Developer/Frameworks/ASPointControl/ASPointControl/ASPointControl.m0000000000000000^2022"Analyze ASPointControl/ASPointControl.m    cd /Users/me/Developer/Frameworks/ASPointControl    setenv LANG en_US.US-ASCII    /Developer/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=gnu99 -Wno-trigraphs -fpascal-strings -Os -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wshorten-64-to-32 -fasm-blocks -gdwarf-2 "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -iquote /Users/me/Developer/Frameworks/ASPointControl/build/ASPointControl.build/Release/ASPointControl.build/ASPointControl-generated-files.hmap -I/Users/me/Developer/Frameworks/ASPointControl/build/ASPointControl.build/Release/ASPointControl.build/ASPointControl-own-target-headers.hmap -I/Users/me/Developer/Frameworks/ASPointControl/build/ASPointControl.build/Release/ASPointControl.build/ASPointControl-all-target-headers.hmap -iquote /Users/me/Developer/Frameworks/ASPointControl/build/ASPointControl.build/Release/ASPointControl.build/ASPointControl-project-headers.hmap -I/Users/me/Developer/Frameworks/ASPointControl/build/Release/include -I/Users/me/Developer/Frameworks/ASPointControl/build/ASPointControl.build/Release/ASPointControl.build/DerivedSources/x86_64 -I/Users/me/Developer/Frameworks/ASPointControl/build/ASPointControl.build/Release/ASPointControl.build/DerivedSources -F/Users/me/Developer/Frameworks/ASPointControl/build/Release -include /var/folders/5w/xk1m9_ms5m3557s6v4dg007c0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/ASPointControl-Prefix-bifsvzwtuiuajsajqztqecbtyigt/ASPointControl-Prefix.pch --analyze /Users/me/Developer/Frameworks/ASPointControl/ASPointControl/ASPointControl.m -o /Users/me/Developer/Frameworks/ASPointControl/build/ASPointControl.build/Release/ASPointControl.build/StaticAnalyzer/normal/x86_64/ASPointControl.plist
+
+CAnalyze /Users/me/Developer/Frameworks/ASPointControl/ASPointControl/ASPointControlCell.m
+s332942713.706289
+e332942714.072427
+r1
+xAnalyze
+x/Users/me/Developer/Frameworks/ASPointControl/ASPointControl/ASPointControlCell.m
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection89"Analyze /Users/me/Developer/Frameworks/ASPointControl/ASPointControl/ASPointControlCell.m82e5b4794dd8b341^1a8b127a4dd8b341^---0#0#0#-19%DVTDocumentLocation2@97"file://localhost/Users/me/Developer/Frameworks/ASPointControl/ASPointControl/ASPointControlCell.m0000000000000000^2034"Analyze ASPointControl/ASPointControlCell.m    cd /Users/me/Developer/Frameworks/ASPointControl    setenv LANG en_US.US-ASCII    /Developer/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=gnu99 -Wno-trigraphs -fpascal-strings -Os -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wshorten-64-to-32 -fasm-blocks -gdwarf-2 "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -iquote /Users/me/Developer/Frameworks/ASPointControl/build/ASPointControl.build/Release/ASPointControl.build/ASPointControl-generated-files.hmap -I/Users/me/Developer/Frameworks/ASPointControl/build/ASPointControl.build/Release/ASPointControl.build/ASPointControl-own-target-headers.hmap -I/Users/me/Developer/Frameworks/ASPointControl/build/ASPointControl.build/Release/ASPointControl.build/ASPointControl-all-target-headers.hmap -iquote /Users/me/Developer/Frameworks/ASPointControl/build/ASPointControl.build/Release/ASPointControl.build/ASPointControl-project-headers.hmap -I/Users/me/Developer/Frameworks/ASPointControl/build/Release/include -I/Users/me/Developer/Frameworks/ASPointControl/build/ASPointControl.build/Release/ASPointControl.build/DerivedSources/x86_64 -I/Users/me/Developer/Frameworks/ASPointControl/build/ASPointControl.build/Release/ASPointControl.build/DerivedSources -F/Users/me/Developer/Frameworks/ASPointControl/build/Release -include /var/folders/5w/xk1m9_ms5m3557s6v4dg007c0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/ASPointControl-Prefix-bifsvzwtuiuajsajqztqecbtyigt/ASPointControl-Prefix.pch --analyze /Users/me/Developer/Frameworks/ASPointControl/ASPointControl/ASPointControlCell.m -o /Users/me/Developer/Frameworks/ASPointControl/build/ASPointControl.build/Release/ASPointControl.build/StaticAnalyzer/normal/x86_64/ASPointControlCell.plist
+
+CBuild AST from /Users/me/Developer/Frameworks/ASPointControl/ASPointControl/ASPointControl.m
+r0
+
+CBuild AST from /Users/me/Developer/Frameworks/ASPointControl/ASPointControl/ASPointControlCell.m
+r0
+
+CCheck dependencies
+r0
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies126aa2dd1947b441^26fba7dd1947b441^---0#1#0#--18"Check dependencies36"5334E770-CBC1-4B91-BD1D-4893894B3A4C-
+
+CCompileC build/ASPointControl.build/Release/ASPointControl.build/Objects-normal/x86_64/ASPointControl.o /Users/me/Developer/Frameworks/ASPointControl/ASPointControl/ASPointControl.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s340203998.503802
+e340203998.741439
+r1
+xCompileC
+xbuild/ASPointControl.build/Release/ASPointControl.build/Objects-normal/x86_64/ASPointControl.o
+x/Users/me/Developer/Frameworks/ASPointControl/ASPointControl/ASPointControl.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection85"Compile /Users/me/Developer/Frameworks/ASPointControl/ASPointControl/ASPointControl.mdb1681de1947b441^89eabdde1947b441^---0#0#0#-19%DVTDocumentLocation2@93"file://localhost/Users/me/Developer/Frameworks/ASPointControl/ASPointControl/ASPointControl.m0000000000000000^2358"CompileC build/ASPointControl.build/Release/ASPointControl.build/Objects-normal/x86_64/ASPointControl.o ASPointControl/ASPointControl.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/me/Developer/Frameworks/ASPointControl    setenv LANG en_US.US-ASCII    /Developer/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=gnu99 -Wno-trigraphs -fpascal-strings -Os -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wshorten-64-to-32 -fasm-blocks -gdwarf-2 -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -iquote /Users/me/Developer/Frameworks/ASPointControl/build/ASPointControl.build/Release/ASPointControl.build/ASPointControl-generated-files.hmap -I/Users/me/Developer/Frameworks/ASPointControl/build/ASPointControl.build/Release/ASPointControl.build/ASPointControl-own-target-headers.hmap -I/Users/me/Developer/Frameworks/ASPointControl/build/ASPointControl.build/Release/ASPointControl.build/ASPointControl-all-target-headers.hmap -iquote /Users/me/Developer/Frameworks/ASPointControl/build/ASPointControl.build/Release/ASPointControl.build/ASPointControl-project-headers.hmap -I/Users/me/Developer/Frameworks/ASPointControl/build/Release/include -I/Users/me/Developer/Frameworks/ASPointControl/build/ASPointControl.build/Release/ASPointControl.build/DerivedSources/x86_64 -I/Users/me/Developer/Frameworks/ASPointControl/build/ASPointControl.build/Release/ASPointControl.build/DerivedSources -F/Users/me/Developer/Frameworks/ASPointControl/build/Release -include /var/folders/5w/xk1m9_ms5m3557s6v4dg007c0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/ASPointControl-Prefix-aqgelwkipzobmccqmptbnunputaj/ASPointControl-Prefix.pch -MMD -MT dependencies -MF /Users/me/Developer/Frameworks/ASPointControl/build/ASPointControl.build/Release/ASPointControl.build/Objects-normal/x86_64/ASPointControl.d -c /Users/me/Developer/Frameworks/ASPointControl/ASPointControl/ASPointControl.m -o /Users/me/Developer/Frameworks/ASPointControl/build/ASPointControl.build/Release/ASPointControl.build/Objects-normal/x86_64/ASPointControl.o36"619B623C-DA5C-430A-93AC-E6497F161A28-
+
+CCompileC build/ASPointControl.build/Release/ASPointControl.build/Objects-normal/x86_64/ASPointControl.o /Users/me/Developer/Frameworks/ASPointControl/ASPointControl/ASPointControl.m normal x86_64 objective-c com.apple.compilers.llvmgcc42
+s332942707.029869
+e332942707.355412
+r1
+xCompileC
+xbuild/ASPointControl.build/Release/ASPointControl.build/Objects-normal/x86_64/ASPointControl.o
+x/Users/me/Developer/Frameworks/ASPointControl/ASPointControl/ASPointControl.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvmgcc42
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection85"Compile /Users/me/Developer/Frameworks/ASPointControl/ASPointControl/ASPointControl.m66be07734dd8b341^37fc5a734dd8b341^---0#0#0#-19%DVTDocumentLocation2@93"file://localhost/Users/me/Developer/Frameworks/ASPointControl/ASPointControl/ASPointControl.m0000000000000000^1846"CompileC build/ASPointControl.build/Release/ASPointControl.build/Objects-normal/x86_64/ASPointControl.o ASPointControl/ASPointControl.m normal x86_64 objective-c com.apple.compilers.llvmgcc42    cd /Users/me/Developer/Frameworks/ASPointControl    setenv LANG en_US.US-ASCII    /Developer/usr/bin/llvm-gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -Os -Wreturn-type -Wunused-variable -Wshorten-64-to-32 -fasm-blocks -gdwarf-2 -iquote /Users/me/Developer/Frameworks/ASPointControl/build/ASPointControl.build/Release/ASPointControl.build/ASPointControl-generated-files.hmap -I/Users/me/Developer/Frameworks/ASPointControl/build/ASPointControl.build/Release/ASPointControl.build/ASPointControl-own-target-headers.hmap -I/Users/me/Developer/Frameworks/ASPointControl/build/ASPointControl.build/Release/ASPointControl.build/ASPointControl-all-target-headers.hmap -iquote /Users/me/Developer/Frameworks/ASPointControl/build/ASPointControl.build/Release/ASPointControl.build/ASPointControl-project-headers.hmap -I/Users/me/Developer/Frameworks/ASPointControl/build/Release/include -I/Users/me/Developer/Frameworks/ASPointControl/build/ASPointControl.build/Release/ASPointControl.build/DerivedSources/x86_64 -I/Users/me/Developer/Frameworks/ASPointControl/build/ASPointControl.build/Release/ASPointControl.build/DerivedSources -F/Users/me/Developer/Frameworks/ASPointControl/build/Release -include /var/folders/5w/xk1m9_ms5m3557s6v4dg007c0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/ASPointControl-Prefix-aebrzfxmjigonohibhjidorhtbzg/ASPointControl-Prefix.pch -c /Users/me/Developer/Frameworks/ASPointControl/ASPointControl/ASPointControl.m -o /Users/me/Developer/Frameworks/ASPointControl/build/ASPointControl.build/Release/ASPointControl.build/Objects-normal/x86_64/ASPointControl.o
+
+CCompileC build/ASPointControl.build/Release/ASPointControl.build/Objects-normal/x86_64/ASPointControlCell.o /Users/me/Developer/Frameworks/ASPointControl/ASPointControl/ASPointControlCell.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s340203998.504420
+e340203998.774409
+r1
+xCompileC
+xbuild/ASPointControl.build/Release/ASPointControl.build/Objects-normal/x86_64/ASPointControlCell.o
+x/Users/me/Developer/Frameworks/ASPointControl/ASPointControl/ASPointControlCell.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection89"Compile /Users/me/Developer/Frameworks/ASPointControl/ASPointControl/ASPointControlCell.m643d81de1947b441^8a3fc6de1947b441^---0#0#0#-19%DVTDocumentLocation2@97"file://localhost/Users/me/Developer/Frameworks/ASPointControl/ASPointControl/ASPointControlCell.m0000000000000000^2378"CompileC build/ASPointControl.build/Release/ASPointControl.build/Objects-normal/x86_64/ASPointControlCell.o ASPointControl/ASPointControlCell.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/me/Developer/Frameworks/ASPointControl    setenv LANG en_US.US-ASCII    /Developer/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=gnu99 -Wno-trigraphs -fpascal-strings -Os -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wshorten-64-to-32 -fasm-blocks -gdwarf-2 -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -iquote /Users/me/Developer/Frameworks/ASPointControl/build/ASPointControl.build/Release/ASPointControl.build/ASPointControl-generated-files.hmap -I/Users/me/Developer/Frameworks/ASPointControl/build/ASPointControl.build/Release/ASPointControl.build/ASPointControl-own-target-headers.hmap -I/Users/me/Developer/Frameworks/ASPointControl/build/ASPointControl.build/Release/ASPointControl.build/ASPointControl-all-target-headers.hmap -iquote /Users/me/Developer/Frameworks/ASPointControl/build/ASPointControl.build/Release/ASPointControl.build/ASPointControl-project-headers.hmap -I/Users/me/Developer/Frameworks/ASPointControl/build/Release/include -I/Users/me/Developer/Frameworks/ASPointControl/build/ASPointControl.build/Release/ASPointControl.build/DerivedSources/x86_64 -I/Users/me/Developer/Frameworks/ASPointControl/build/ASPointControl.build/Release/ASPointControl.build/DerivedSources -F/Users/me/Developer/Frameworks/ASPointControl/build/Release -include /var/folders/5w/xk1m9_ms5m3557s6v4dg007c0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/ASPointControl-Prefix-aqgelwkipzobmccqmptbnunputaj/ASPointControl-Prefix.pch -MMD -MT dependencies -MF /Users/me/Developer/Frameworks/ASPointControl/build/ASPointControl.build/Release/ASPointControl.build/Objects-normal/x86_64/ASPointControlCell.d -c /Users/me/Developer/Frameworks/ASPointControl/ASPointControl/ASPointControlCell.m -o /Users/me/Developer/Frameworks/ASPointControl/build/ASPointControl.build/Release/ASPointControl.build/Objects-normal/x86_64/ASPointControlCell.o36"F5BE425F-E579-4A63-8EA1-947B402DAECD-
+
+CCompileC build/ASPointControl.build/Release/ASPointControl.build/Objects-normal/x86_64/ASPointControlCell.o /Users/me/Developer/Frameworks/ASPointControl/ASPointControl/ASPointControlCell.m normal x86_64 objective-c com.apple.compilers.llvmgcc42
+s332942707.029900
+e332942707.357268
+r1
+xCompileC
+xbuild/ASPointControl.build/Release/ASPointControl.build/Objects-normal/x86_64/ASPointControlCell.o
+x/Users/me/Developer/Frameworks/ASPointControl/ASPointControl/ASPointControlCell.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvmgcc42
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection89"Compile /Users/me/Developer/Frameworks/ASPointControl/ASPointControl/ASPointControlCell.m98c207734dd8b341^bc745b734dd8b341^---0#0#0#-19%DVTDocumentLocation2@97"file://localhost/Users/me/Developer/Frameworks/ASPointControl/ASPointControl/ASPointControlCell.m0000000000000000^1862"CompileC build/ASPointControl.build/Release/ASPointControl.build/Objects-normal/x86_64/ASPointControlCell.o ASPointControl/ASPointControlCell.m normal x86_64 objective-c com.apple.compilers.llvmgcc42    cd /Users/me/Developer/Frameworks/ASPointControl    setenv LANG en_US.US-ASCII    /Developer/usr/bin/llvm-gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -Os -Wreturn-type -Wunused-variable -Wshorten-64-to-32 -fasm-blocks -gdwarf-2 -iquote /Users/me/Developer/Frameworks/ASPointControl/build/ASPointControl.build/Release/ASPointControl.build/ASPointControl-generated-files.hmap -I/Users/me/Developer/Frameworks/ASPointControl/build/ASPointControl.build/Release/ASPointControl.build/ASPointControl-own-target-headers.hmap -I/Users/me/Developer/Frameworks/ASPointControl/build/ASPointControl.build/Release/ASPointControl.build/ASPointControl-all-target-headers.hmap -iquote /Users/me/Developer/Frameworks/ASPointControl/build/ASPointControl.build/Release/ASPointControl.build/ASPointControl-project-headers.hmap -I/Users/me/Developer/Frameworks/ASPointControl/build/Release/include -I/Users/me/Developer/Frameworks/ASPointControl/build/ASPointControl.build/Release/ASPointControl.build/DerivedSources/x86_64 -I/Users/me/Developer/Frameworks/ASPointControl/build/ASPointControl.build/Release/ASPointControl.build/DerivedSources -F/Users/me/Developer/Frameworks/ASPointControl/build/Release -include /var/folders/5w/xk1m9_ms5m3557s6v4dg007c0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/ASPointControl-Prefix-aebrzfxmjigonohibhjidorhtbzg/ASPointControl-Prefix.pch -c /Users/me/Developer/Frameworks/ASPointControl/ASPointControl/ASPointControlCell.m -o /Users/me/Developer/Frameworks/ASPointControl/build/ASPointControl.build/Release/ASPointControl.build/Objects-normal/x86_64/ASPointControlCell.o
+
+CCopyStringsFile /Users/me/Developer/Frameworks/ASPointControl/build/Release/ASPointControl.framework/Versions/A/Resources/en.lproj/InfoPlist.strings ASPointControl/en.lproj/InfoPlist.strings
+s340203998.862045
+e340203998.871262
+r1
+xCopyStringsFile
+x/Users/me/Developer/Frameworks/ASPointControl/build/Release/ASPointControl.framework/Versions/A/Resources/en.lproj/InfoPlist.strings
+xASPointControl/en.lproj/InfoPlist.strings
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection46"Copy ASPointControl/en.lproj/InfoPlist.strings2bbfdcde1947b441^f20bdfde1947b441^---0#0#0#-19%DVTDocumentLocation2@103"file://localhost/Users/me/Developer/Frameworks/ASPointControl/ASPointControl/en.lproj/InfoPlist.strings0000000000000000^448"CopyStringsFile build/Release/ASPointControl.framework/Versions/A/Resources/en.lproj/InfoPlist.strings ASPointControl/en.lproj/InfoPlist.strings    cd /Users/me/Developer/Frameworks/ASPointControl    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding UTF-16 --outdir /Users/me/Developer/Frameworks/ASPointControl/build/Release/ASPointControl.framework/Versions/A/Resources/en.lproj -- ASPointControl/en.lproj/InfoPlist.strings36"CA0C3A40-1F72-4FD1-9D68-C38CBDBEB748-
+
+CCpHeader ASPointControl/ASPointControl.h build/Release/ASPointControl.framework/Versions/A/Headers/ASPointControl.h
+s340203998.845028
+e340203998.852963
+r1
+xCpHeader
+xASPointControl/ASPointControl.h
+xbuild/Release/ASPointControl.framework/Versions/A/Headers/ASPointControl.h
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection79"Copy build/Release/ASPointControl.framework/Versions/A/Headers/ASPointControl.hc26ad8de1947b441^0c5cdade1947b441^---0#0#0#-19%DVTDocumentLocation2@136"file://localhost/Users/me/Developer/Frameworks/ASPointControl/build/Release/ASPointControl.framework/Versions/A/Headers/ASPointControl.h00f49477dfffdf42^484"CpHeader ASPointControl/ASPointControl.h build/Release/ASPointControl.framework/Versions/A/Headers/ASPointControl.h    cd /Users/me/Developer/Frameworks/ASPointControl    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -strip-debug-symbols -resolve-src-symlinks /Users/me/Developer/Frameworks/ASPointControl/ASPointControl/ASPointControl.h /Users/me/Developer/Frameworks/ASPointControl/build/Release/ASPointControl.framework/Versions/A/Headers36"1E1C2625-8C9C-46F1-961E-7C6681354457-
+
+CLd /Users/me/Developer/Frameworks/ASPointControl/build/Release/ASPointControl.framework/Versions/A/ASPointControl normal x86_64
+s340203998.781265
+e340203998.832127
+r1
+xLd
+x/Users/me/Developer/Frameworks/ASPointControl/build/Release/ASPointControl.framework/Versions/A/ASPointControl
+xnormal
+xx86_64
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection115"Link /Users/me/Developer/Frameworks/ASPointControl/build/Release/ASPointControl.framework/Versions/A/ASPointControl9817c8de1947b441^8a06d5de1947b441^---0#0#0#--739"Ld build/Release/ASPointControl.framework/Versions/A/ASPointControl normal x86_64    cd /Users/me/Developer/Frameworks/ASPointControl    /Developer/usr/bin/clang -arch x86_64 -dynamiclib -L/Users/me/Developer/Frameworks/ASPointControl/build/Release -F/Users/me/Developer/Frameworks/ASPointControl/build/Release -filelist /Users/me/Developer/Frameworks/ASPointControl/build/ASPointControl.build/Release/ASPointControl.build/Objects-normal/x86_64/ASPointControl.LinkFileList -install_name "@rpath/ASPointControl.framework/Versions/A/ASPointControl" -framework Cocoa -single_module -compatibility_version 1 -current_version 1 -o /Users/me/Developer/Frameworks/ASPointControl/build/Release/ASPointControl.framework/Versions/A/ASPointControl36"A8348562-C5A2-4EB2-B717-E34F8D56F49F-
+
+CProcessInfoPlistFile /Users/me/Developer/Frameworks/ASPointControl/build/Release/ASPointControl.framework/Versions/A/Resources/Info.plist ASPointControl/ASPointControl-Info.plist
+s340203997.706167
+e340203997.710557
+r1
+xProcessInfoPlistFile
+x/Users/me/Developer/Frameworks/ASPointControl/build/Release/ASPointControl.framework/Versions/A/Resources/Info.plist
+xASPointControl/ASPointControl-Info.plist
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection48"Process ASPointControl/ASPointControl-Info.plist91d6b4dd1947b441^5bedb5dd1947b441^---0#0#0#-19%DVTDocumentLocation2@102"file://localhost/Users/me/Developer/Frameworks/ASPointControl/ASPointControl/ASPointControl-Info.plist0000000000000000^414"ProcessInfoPlistFile build/Release/ASPointControl.framework/Versions/A/Resources/Info.plist ASPointControl/ASPointControl-Info.plist    cd /Users/me/Developer/Frameworks/ASPointControl    builtin-infoPlistUtility ASPointControl/ASPointControl-Info.plist -expandbuildsettings -platform macosx -o /Users/me/Developer/Frameworks/ASPointControl/build/Release/ASPointControl.framework/Versions/A/Resources/Info.plist36"B37A7772-16CC-4C0C-8AF3-A3429253E695-
+
+CProcessPCH /Users/me/Library/Developer/Xcode/DerivedData/ASPointControl-cuzfyzyodxmcpiepmzvuratjjagu/Index/PrecompiledHeaders/ASPointControl-Prefix-auwcctkzstozljeuldidiscznhwr_ast/ASPointControl-Prefix.pch.pth ASPointControl/ASPointControl-Prefix.pch normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
+r0
+
+CProcessPCH /Users/me/Library/Developer/Xcode/DerivedData/ASPointControl-cuzfyzyodxmcpiepmzvuratjjagu/Index/PrecompiledHeaders/ASPointControl-Prefix-cnjeiamdvicdufglrdhotlphmexm_ast/ASPointControl-Prefix.pch.pth ASPointControl/ASPointControl-Prefix.pch normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
+r0
+
+CProcessPCH /Users/me/Library/Developer/Xcode/DerivedData/ASPointControl-cuzfyzyodxmcpiepmzvuratjjagu/Index/PrecompiledHeaders/ASPointControl-Prefix-fmszzrhweysnzzcgxuiowlggyxvc_ast/ASPointControl-Prefix.pch.pth ASPointControl/ASPointControl-Prefix.pch normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
+r0
+
+CProcessPCH /Users/me/Library/Developer/Xcode/DerivedData/ASPointControl-cuzfyzyodxmcpiepmzvuratjjagu/Index/PrecompiledHeaders/ASPointControl-Prefix-fqcqxxdltmppxbdrxuetangkilqo_ast/ASPointControl-Prefix.pch.pth ASPointControl/ASPointControl-Prefix.pch normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
+r0
+
+CProcessPCH /var/folders/5w/xk1m9_ms5m3557s6v4dg007c0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/ASPointControl-Prefix-aclamolmexttzvbtvcvgjincunsx/ASPointControl-Prefix.pch.pth ASPointControl/ASPointControl-Prefix.pch normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CProcessPCH /var/folders/5w/xk1m9_ms5m3557s6v4dg007c0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/ASPointControl-Prefix-aebrzfxmjigonohibhjidorhtbzg/ASPointControl-Prefix.pch.gch ASPointControl/ASPointControl-Prefix.pch normal x86_64 objective-c com.apple.compilers.llvmgcc42
+s332942703.733762
+e332942707.022352
+r1
+xProcessPCH
+x/var/folders/5w/xk1m9_ms5m3557s6v4dg007c0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/ASPointControl-Prefix-aebrzfxmjigonohibhjidorhtbzg/ASPointControl-Prefix.pch.gch
+xASPointControl/ASPointControl-Prefix.pch
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvmgcc42
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection51"Precompile ASPointControl/ASPointControl-Prefix.pch90f6bb6f4dd8b341^6bb705734dd8b341^---0#0#0#-19%DVTDocumentLocation2@102"file://localhost/Users/me/Developer/Frameworks/ASPointControl/ASPointControl/ASPointControl-Prefix.pch0000000000000000^1807"ProcessPCH /var/folders/5w/xk1m9_ms5m3557s6v4dg007c0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/ASPointControl-Prefix-aebrzfxmjigonohibhjidorhtbzg/ASPointControl-Prefix.pch.gch ASPointControl/ASPointControl-Prefix.pch normal x86_64 objective-c com.apple.compilers.llvmgcc42    cd /Users/me/Developer/Frameworks/ASPointControl    setenv LANG en_US.US-ASCII    /Developer/usr/bin/llvm-gcc-4.2 -x objective-c-header -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -Os -Wreturn-type -Wunused-variable -Wshorten-64-to-32 -fasm-blocks -gdwarf-2 -iquote /Users/me/Developer/Frameworks/ASPointControl/build/ASPointControl.build/Release/ASPointControl.build/ASPointControl-generated-files.hmap -I/Users/me/Developer/Frameworks/ASPointControl/build/ASPointControl.build/Release/ASPointControl.build/ASPointControl-own-target-headers.hmap -I/Users/me/Developer/Frameworks/ASPointControl/build/ASPointControl.build/Release/ASPointControl.build/ASPointControl-all-target-headers.hmap -iquote /Users/me/Developer/Frameworks/ASPointControl/build/ASPointControl.build/Release/ASPointControl.build/ASPointControl-project-headers.hmap -I/Users/me/Developer/Frameworks/ASPointControl/build/Release/include -I/Users/me/Developer/Frameworks/ASPointControl/build/ASPointControl.build/Release/ASPointControl.build/DerivedSources/x86_64 -I/Users/me/Developer/Frameworks/ASPointControl/build/ASPointControl.build/Release/ASPointControl.build/DerivedSources -F/Users/me/Developer/Frameworks/ASPointControl/build/Release -c /Users/me/Developer/Frameworks/ASPointControl/ASPointControl/ASPointControl-Prefix.pch -o /var/folders/5w/xk1m9_ms5m3557s6v4dg007c0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/ASPointControl-Prefix-aebrzfxmjigonohibhjidorhtbzg/ASPointControl-Prefix.pch.gch
+
+CProcessPCH /var/folders/5w/xk1m9_ms5m3557s6v4dg007c0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/ASPointControl-Prefix-aqgelwkipzobmccqmptbnunputaj/ASPointControl-Prefix.pch.pth ASPointControl/ASPointControl-Prefix.pch normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s340203997.723141
+e340203998.496951
+r1
+xProcessPCH
+x/var/folders/5w/xk1m9_ms5m3557s6v4dg007c0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/ASPointControl-Prefix-aqgelwkipzobmccqmptbnunputaj/ASPointControl-Prefix.pch.pth
+xASPointControl/ASPointControl-Prefix.pch
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection51"Precompile ASPointControl/ASPointControl-Prefix.pcha839b9dd1947b441^153a7fde1947b441^---0#0#0#-19%DVTDocumentLocation2@102"file://localhost/Users/me/Developer/Frameworks/ASPointControl/ASPointControl/ASPointControl-Prefix.pch0000000000000000^2351"ProcessPCH /var/folders/5w/xk1m9_ms5m3557s6v4dg007c0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/ASPointControl-Prefix-aqgelwkipzobmccqmptbnunputaj/ASPointControl-Prefix.pch.pth ASPointControl/ASPointControl-Prefix.pch normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/me/Developer/Frameworks/ASPointControl    setenv LANG en_US.US-ASCII    /Developer/usr/bin/clang -x objective-c-header -arch x86_64 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=gnu99 -Wno-trigraphs -fpascal-strings -Os -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wshorten-64-to-32 -fasm-blocks -gdwarf-2 -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -iquote /Users/me/Developer/Frameworks/ASPointControl/build/ASPointControl.build/Release/ASPointControl.build/ASPointControl-generated-files.hmap -I/Users/me/Developer/Frameworks/ASPointControl/build/ASPointControl.build/Release/ASPointControl.build/ASPointControl-own-target-headers.hmap -I/Users/me/Developer/Frameworks/ASPointControl/build/ASPointControl.build/Release/ASPointControl.build/ASPointControl-all-target-headers.hmap -iquote /Users/me/Developer/Frameworks/ASPointControl/build/ASPointControl.build/Release/ASPointControl.build/ASPointControl-project-headers.hmap -I/Users/me/Developer/Frameworks/ASPointControl/build/Release/include -I/Users/me/Developer/Frameworks/ASPointControl/build/ASPointControl.build/Release/ASPointControl.build/DerivedSources/x86_64 -I/Users/me/Developer/Frameworks/ASPointControl/build/ASPointControl.build/Release/ASPointControl.build/DerivedSources -F/Users/me/Developer/Frameworks/ASPointControl/build/Release -c /Users/me/Developer/Frameworks/ASPointControl/ASPointControl/ASPointControl-Prefix.pch -o /var/folders/5w/xk1m9_ms5m3557s6v4dg007c0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/ASPointControl-Prefix-aqgelwkipzobmccqmptbnunputaj/ASPointControl-Prefix.pch.pth -MMD -MT dependencies -MF /var/folders/5w/xk1m9_ms5m3557s6v4dg007c0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/ASPointControl-Prefix-aqgelwkipzobmccqmptbnunputaj/ASPointControl-Prefix.pch.d36"2698B368-8F37-4EC4-ADE3-C184980D1C49-
+
+CProcessPCH /var/folders/5w/xk1m9_ms5m3557s6v4dg007c0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/ASPointControl-Prefix-bifsvzwtuiuajsajqztqecbtyigt/ASPointControl-Prefix.pch.pth ASPointControl/ASPointControl-Prefix.pch normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.analyzer
+s332942712.750185
+e332942713.699062
+r1
+xProcessPCH
+x/var/folders/5w/xk1m9_ms5m3557s6v4dg007c0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/ASPointControl-Prefix-bifsvzwtuiuajsajqztqecbtyigt/ASPointControl-Prefix.pch.pth
+xASPointControl/ASPointControl-Prefix.pch
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.analyzer
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection51"Precompile ASPointControl/ASPointControl-Prefix.pch6423c0784dd8b341^7bf4b2794dd8b341^---0#0#0#-19%DVTDocumentLocation2@102"file://localhost/Users/me/Developer/Frameworks/ASPointControl/ASPointControl/ASPointControl-Prefix.pch0000000000000000^2131"ProcessPCH /var/folders/5w/xk1m9_ms5m3557s6v4dg007c0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/ASPointControl-Prefix-bifsvzwtuiuajsajqztqecbtyigt/ASPointControl-Prefix.pch.pth ASPointControl/ASPointControl-Prefix.pch normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.analyzer    cd /Users/me/Developer/Frameworks/ASPointControl    setenv LANG en_US.US-ASCII    /Developer/usr/bin/clang -x objective-c-header -arch x86_64 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=gnu99 -Wno-trigraphs -fpascal-strings -Os -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wshorten-64-to-32 -fasm-blocks -gdwarf-2 "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -iquote /Users/me/Developer/Frameworks/ASPointControl/build/ASPointControl.build/Release/ASPointControl.build/ASPointControl-generated-files.hmap -I/Users/me/Developer/Frameworks/ASPointControl/build/ASPointControl.build/Release/ASPointControl.build/ASPointControl-own-target-headers.hmap -I/Users/me/Developer/Frameworks/ASPointControl/build/ASPointControl.build/Release/ASPointControl.build/ASPointControl-all-target-headers.hmap -iquote /Users/me/Developer/Frameworks/ASPointControl/build/ASPointControl.build/Release/ASPointControl.build/ASPointControl-project-headers.hmap -I/Users/me/Developer/Frameworks/ASPointControl/build/Release/include -I/Users/me/Developer/Frameworks/ASPointControl/build/ASPointControl.build/Release/ASPointControl.build/DerivedSources/x86_64 -I/Users/me/Developer/Frameworks/ASPointControl/build/ASPointControl.build/Release/ASPointControl.build/DerivedSources -F/Users/me/Developer/Frameworks/ASPointControl/build/Release -c /Users/me/Developer/Frameworks/ASPointControl/ASPointControl/ASPointControl-Prefix.pch -o /var/folders/5w/xk1m9_ms5m3557s6v4dg007c0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/ASPointControl-Prefix-bifsvzwtuiuajsajqztqecbtyigt/ASPointControl-Prefix.pch.pth
+
+CProcessPCH /var/folders/5w/xk1m9_ms5m3557s6v4dg007c0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/ASPointControl-Prefix-fctonjaxjhsjvecqfuurixgrtgmo/ASPointControl-Prefix.pch.gch ASPointControl/ASPointControl-Prefix.pch normal x86_64 objective-c com.apple.compilers.llvmgcc42
+r0
+
+CProcessPCH /var/folders/9n/9ngUoGeaGo4IdwaqFfk+Ck+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ASPointControl-Prefix-fplmyqfxkyfzhzgkgbfwajjtmfqr/ASPointControl-Prefix.pch.pth ASPointControl/ASPointControl-Prefix.pch normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s328626621.994749
+e328626624.276146
+r1
+xProcessPCH
+x/var/folders/9n/9ngUoGeaGo4IdwaqFfk+Ck+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ASPointControl-Prefix-fplmyqfxkyfzhzgkgbfwajjtmfqr/ASPointControl-Prefix.pch.pth
+xASPointControl/ASPointControl-Prefix.pch
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection51"Precompile ASPointControl/ASPointControl-Prefix.pchb1c1febd7196b341^64b046c07196b341^---0#0#0#-19%DVTDocumentLocation2@102"file://localhost/Users/me/Developer/Frameworks/ASPointControl/ASPointControl/ASPointControl-Prefix.pch0000000000000000^2043"ProcessPCH /var/folders/9n/9ngUoGeaGo4IdwaqFfk+Ck+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ASPointControl-Prefix-fplmyqfxkyfzhzgkgbfwajjtmfqr/ASPointControl-Prefix.pch.pth ASPointControl/ASPointControl-Prefix.pch normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/me/Developer/Frameworks/ASPointControl    setenv LANG en_US.US-ASCII    /Developer/usr/bin/clang -x objective-c-header -arch x86_64 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=gnu99 -Wno-trigraphs -fpascal-strings -Os -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wshorten-64-to-32 -isysroot /Developer/SDKs/MacOSX10.6.sdk -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/me/Developer/Frameworks/ASPointControl/build/ASPointControl.build/Release/ASPointControl.build/ASPointControl-generated-files.hmap -I/Users/me/Developer/Frameworks/ASPointControl/build/ASPointControl.build/Release/ASPointControl.build/ASPointControl-own-target-headers.hmap -I/Users/me/Developer/Frameworks/ASPointControl/build/ASPointControl.build/Release/ASPointControl.build/ASPointControl-all-target-headers.hmap -iquote /Users/me/Developer/Frameworks/ASPointControl/build/ASPointControl.build/Release/ASPointControl.build/ASPointControl-project-headers.hmap -I/Users/me/Developer/Frameworks/ASPointControl/build/Release/include -I/Users/me/Developer/Frameworks/ASPointControl/build/ASPointControl.build/Release/ASPointControl.build/DerivedSources/x86_64 -I/Users/me/Developer/Frameworks/ASPointControl/build/ASPointControl.build/Release/ASPointControl.build/DerivedSources -F/Users/me/Developer/Frameworks/ASPointControl/build/Release -c /Users/me/Developer/Frameworks/ASPointControl/ASPointControl/ASPointControl-Prefix.pch -o /var/folders/9n/9ngUoGeaGo4IdwaqFfk+Ck+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ASPointControl-Prefix-fplmyqfxkyfzhzgkgbfwajjtmfqr/ASPointControl-Prefix.pch.pth
+
+CSymLink /Users/me/Developer/Frameworks/ASPointControl/build/Release/ASPointControl.framework/ASPointControl Versions/Current/ASPointControl
+s340203997.664911
+e340203997.680809
+r1
+xSymLink
+x/Users/me/Developer/Frameworks/ASPointControl/build/Release/ASPointControl.framework/ASPointControl
+xVersions/Current/ASPointControl
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection107"Process /Users/me/Developer/Frameworks/ASPointControl/build/Release/ASPointControl.framework/ASPointControla54caadd1947b441^27c2aedd1947b441^---0#0#0#--295"SymLink build/Release/ASPointControl.framework/ASPointControl Versions/Current/ASPointControl    cd /Users/me/Developer/Frameworks/ASPointControl    /bin/ln -sf Versions/Current/ASPointControl /Users/me/Developer/Frameworks/ASPointControl/build/Release/ASPointControl.framework/ASPointControl36"AA28D6BE-1039-4E3A-B524-A32A91A5F476-
+
+CSymLink /Users/me/Developer/Frameworks/ASPointControl/build/Release/ASPointControl.framework/Headers Versions/Current/Headers
+s340203997.683039
+e340203997.693460
+r1
+xSymLink
+x/Users/me/Developer/Frameworks/ASPointControl/build/Release/ASPointControl.framework/Headers
+xVersions/Current/Headers
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection100"Process /Users/me/Developer/Frameworks/ASPointControl/build/Release/ASPointControl.framework/Headers003ab0dd1947b441^6686b1dd1947b441^---0#0#0#--267"SymLink build/Release/ASPointControl.framework/Headers Versions/Current/Headers    cd /Users/me/Developer/Frameworks/ASPointControl    /bin/ln -sf Versions/Current/Headers /Users/me/Developer/Frameworks/ASPointControl/build/Release/ASPointControl.framework/Headers36"32661018-8D00-4F74-BC31-F0BC5C2FF6BD-
+
+CSymLink /Users/me/Developer/Frameworks/ASPointControl/build/Release/ASPointControl.framework/Resources Versions/Current/Resources
+s340203997.664641
+e340203997.680958
+r1
+xSymLink
+x/Users/me/Developer/Frameworks/ASPointControl/build/Release/ASPointControl.framework/Resources
+xVersions/Current/Resources
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection102"Process /Users/me/Developer/Frameworks/ASPointControl/build/Release/ASPointControl.framework/Resources9b3baadd1947b441^7ec9aedd1947b441^---0#0#0#--275"SymLink build/Release/ASPointControl.framework/Resources Versions/Current/Resources    cd /Users/me/Developer/Frameworks/ASPointControl    /bin/ln -sf Versions/Current/Resources /Users/me/Developer/Frameworks/ASPointControl/build/Release/ASPointControl.framework/Resources36"04277006-6499-4355-BB53-913585EF16EF-
+
+CSymLink /Users/me/Developer/Frameworks/ASPointControl/build/Release/ASPointControl.framework/Versions/Current A
+s340203997.664038
+e340203997.675308
+r1
+xSymLink
+x/Users/me/Developer/Frameworks/ASPointControl/build/Release/ASPointControl.framework/Versions/Current
+xA
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection109"Process /Users/me/Developer/Frameworks/ASPointControl/build/Release/ASPointControl.framework/Versions/Currented11aadd1947b441^484faddd1947b441^---0#0#0#--239"SymLink build/Release/ASPointControl.framework/Versions/Current A    cd /Users/me/Developer/Frameworks/ASPointControl    /bin/ln -sf A /Users/me/Developer/Frameworks/ASPointControl/build/Release/ASPointControl.framework/Versions/Current36"4FB9133A-72B5-4047-A1FD-E588F95BA86C-
+
+CTouch /Users/me/Developer/Frameworks/ASPointControl/build/Release/ASPointControl.framework
+s340203998.882485
+e340203998.892011
+r1
+xTouch
+x/Users/me/Developer/Frameworks/ASPointControl/build/Release/ASPointControl.framework
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection90"Touch /Users/me/Developer/Frameworks/ASPointControl/build/Release/ASPointControl.frameworkc806e2de1947b441^645de4de1947b441^---0#0#0#--205"Touch build/Release/ASPointControl.framework    cd /Users/me/Developer/Frameworks/ASPointControl    /usr/bin/touch -c /Users/me/Developer/Frameworks/ASPointControl/build/Release/ASPointControl.framework36"992AE003-4254-4C6B-AAC0-DECA871D7926-
+

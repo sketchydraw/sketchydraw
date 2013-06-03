@@ -1,0 +1,591 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2C05A19C06CAA52B00D84F6F /* GeneratePreviewForURL.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C05A19B06CAA52B00D84F6F /* GeneratePreviewForURL.m */; };
+		8C01109512D6AB2C001B1D62 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C01109412D6AB2C001B1D62 /* WebKit.framework */; };
+		8C4EA3D9161DFFDD0059E274 /* ScriptingBridge.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C4EA3D8161DFFDD0059E274 /* ScriptingBridge.framework */; };
+		8C4EA3DC161E00490059E274 /* SBSendEmail.h in Headers */ = {isa = PBXBuildFile; fileRef = 8C4EA3DA161E00490059E274 /* SBSendEmail.h */; };
+		8C4EA3DD161E00490059E274 /* SBSendEmail.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C4EA3DB161E00490059E274 /* SBSendEmail.m */; };
+		8C4EA3E3161E01150059E274 /* Mail.app in Resources */ = {isa = PBXBuildFile; fileRef = 8C4EA3E2161E01150059E274 /* Mail.app */; };
+		8C8186710E8911D500EEAEBB /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C8186700E8911D500EEAEBB /* Cocoa.framework */; };
+		8C8186870E89124500EEAEBB /* SKTDocument.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C8186850E89124500EEAEBB /* SKTDocument.m */; };
+		8C81869D0E89128800EEAEBB /* SKTError.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C8186910E89128800EEAEBB /* SKTError.m */; };
+		8C81869F0E89128800EEAEBB /* SKTFoundationExtras.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C8186930E89128800EEAEBB /* SKTFoundationExtras.m */; };
+		8C8186A10E89128800EEAEBB /* SKTGraphicView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C8186950E89128800EEAEBB /* SKTGraphicView.m */; };
+		8C8186A30E89128800EEAEBB /* SKTGrid.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C8186970E89128800EEAEBB /* SKTGrid.m */; };
+		8C8186B50E8912B500EEAEBB /* SKTRenderingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C8186B30E8912B500EEAEBB /* SKTRenderingView.m */; };
+		8C8186BD0E8912C400EEAEBB /* SKTToolPaletteController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C8186B70E8912C400EEAEBB /* SKTToolPaletteController.m */; };
+		8C8186BF0E8912C400EEAEBB /* SKTWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C8186B90E8912C400EEAEBB /* SKTWindowController.m */; };
+		8C8186C10E8912C400EEAEBB /* SKTZoomingScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C8186BB0E8912C400EEAEBB /* SKTZoomingScrollView.m */; };
+		8C8186EA0E89131D00EEAEBB /* SKTBezierCurve.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C8186CC0E89131D00EEAEBB /* SKTBezierCurve.m */; };
+		8C8186EC0E89131D00EEAEBB /* SKTCircle.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C8186CE0E89131D00EEAEBB /* SKTCircle.m */; };
+		8C8186EE0E89131D00EEAEBB /* SKTCurve.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C8186D00E89131D00EEAEBB /* SKTCurve.m */; };
+		8C8186F00E89131D00EEAEBB /* SKTeps.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C8186D20E89131D00EEAEBB /* SKTeps.m */; };
+		8C8186F20E89131D00EEAEBB /* SKTGraphic.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C8186D40E89131D00EEAEBB /* SKTGraphic.m */; };
+		8C8186F40E89131D00EEAEBB /* SKTGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C8186D60E89131D00EEAEBB /* SKTGroup.m */; };
+		8C8186F60E89131D00EEAEBB /* SKTImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C8186D80E89131D00EEAEBB /* SKTImage.m */; };
+		8C8186F80E89131D00EEAEBB /* SKTLine.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C8186DA0E89131D00EEAEBB /* SKTLine.m */; };
+		8C8186FA0E89131D00EEAEBB /* SKTpdf.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C8186DC0E89131D00EEAEBB /* SKTpdf.m */; };
+		8C8186FC0E89131D00EEAEBB /* SKTpict.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C8186DE0E89131D00EEAEBB /* SKTpict.m */; };
+		8C8186FE0E89131D00EEAEBB /* SKTPolygon.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C8186E00E89131D00EEAEBB /* SKTPolygon.m */; };
+		8C8187000E89131D00EEAEBB /* SKTRectangle.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C8186E20E89131D00EEAEBB /* SKTRectangle.m */; };
+		8C8187020E89131D00EEAEBB /* SKTScribble.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C8186E40E89131D00EEAEBB /* SKTScribble.m */; };
+		8C8187040E89131D00EEAEBB /* SKTsvg.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C8186E60E89131D00EEAEBB /* SKTsvg.m */; };
+		8C8187060E89131D00EEAEBB /* SKTText.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C8186E80E89131D00EEAEBB /* SKTText.m */; };
+		8C8187190E89134500EEAEBB /* SKTPageLayoutAccessory.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C8187110E89134500EEAEBB /* SKTPageLayoutAccessory.m */; };
+		8C81871C0E89134500EEAEBB /* SKTPageLayoutAccessoryView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C8187140E89134500EEAEBB /* SKTPageLayoutAccessoryView.m */; };
+		8C8AB1BB12D0F4A9000DF2B0 /* ASWebView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C8AB1BA12D0F4A9000DF2B0 /* ASWebView.framework */; };
+		8C8AB1C612D0F4B3000DF2B0 /* ASWebView.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 8C8AB1BA12D0F4A9000DF2B0 /* ASWebView.framework */; };
+		8CB709F7154B06C100D755E9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8CB709F5154B06C100D755E9 /* InfoPlist.strings */; };
+		8CDA3D4F0E89237500193454 /* GenerateThumbnailForURL.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CDA3D4E0E89237500193454 /* GenerateThumbnailForURL.m */; };
+		8CE873040E89152600DF13F1 /* PDFKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8CE873030E89152600DF13F1 /* PDFKit.framework */; };
+		8CE873290E89159100DF13F1 /* PreferencesController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CE873270E89159100DF13F1 /* PreferencesController.m */; };
+		8CE873300E8915BF00DF13F1 /* ASPatternModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CE8732C0E8915BF00DF13F1 /* ASPatternModel.m */; };
+		8CE873320E8915BF00DF13F1 /* ASShadingModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CE8732E0E8915BF00DF13F1 /* ASShadingModel.m */; };
+		8CE873370E8915D900DF13F1 /* ColorSpacePanelController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CE873350E8915D900DF13F1 /* ColorSpacePanelController.m */; };
+		8D576312048677EA00EA77CD /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 08FB77B6FE84183AC02AAC07 /* main.c */; settings = {ATTRIBUTES = (); }; };
+		8D576314048677EA00EA77CD /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0AA1909FFE8422F4C02AAC07 /* CoreFoundation.framework */; };
+		C86B05270671AA6E00DD9006 /* CoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C86B05260671AA6E00DD9006 /* CoreServices.framework */; };
+		F28CFBFD0A3EC0AF000ABFF5 /* ApplicationServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F28CFBFC0A3EC0AF000ABFF5 /* ApplicationServices.framework */; };
+		F28CFC030A3EC0C6000ABFF5 /* QuickLook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F28CFC020A3EC0C6000ABFF5 /* QuickLook.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildRule section */
+		8C4EA3DE161E00700059E274 /* PBXBuildRule */ = {
+			isa = PBXBuildRule;
+			compilerSpec = com.apple.compilers.proxy.script;
+			filePatterns = "*.app";
+			fileType = pattern.proxy;
+			isEditable = 1;
+			name = "Files '*.app' using Script";
+			outputFiles = (
+				"$(DERIVED_FILES_DIR)/$(INPUT_FILE_BASE).h",
+			);
+			script = "sdef \"$INPUT_FILE_PATH\" | sdp -fh -o \"$DERIVED_FILES_DIR\" --basename \"$INPUT_FILE_BASE\" --bundleid `defaults read \"$INPUT_FILE_PATH/Contents/Info\" CFBundleIdentifier`";
+		};
+/* End PBXBuildRule section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		8CF379E50E892E38004C4E6C /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				8C8AB1C612D0F4B3000DF2B0 /* ASWebView.framework in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		08FB77B6FE84183AC02AAC07 /* main.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		0AA1909FFE8422F4C02AAC07 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = /System/Library/Frameworks/CoreFoundation.framework; sourceTree = "<absolute>"; };
+		2C05A19B06CAA52B00D84F6F /* GeneratePreviewForURL.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GeneratePreviewForURL.m; sourceTree = "<group>"; };
+		8C01109412D6AB2C001B1D62 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = /System/Library/Frameworks/WebKit.framework; sourceTree = "<absolute>"; };
+		8C4EA3D8161DFFDD0059E274 /* ScriptingBridge.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ScriptingBridge.framework; path = /System/Library/Frameworks/ScriptingBridge.framework; sourceTree = "<absolute>"; };
+		8C4EA3DA161E00490059E274 /* SBSendEmail.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SBSendEmail.h; path = ../SBSendEmail.h; sourceTree = "<group>"; };
+		8C4EA3DB161E00490059E274 /* SBSendEmail.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SBSendEmail.m; path = ../SBSendEmail.m; sourceTree = "<group>"; };
+		8C4EA3E2161E01150059E274 /* Mail.app */ = {isa = PBXFileReference; lastKnownFileType = wrapper.application; name = Mail.app; path = /Applications/Mail.app; sourceTree = "<absolute>"; };
+		8C8186700E8911D500EEAEBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
+		8C8186840E89124500EEAEBB /* SKTDocument.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SKTDocument.h; path = ../SKTDocument.h; sourceTree = SOURCE_ROOT; };
+		8C8186850E89124500EEAEBB /* SKTDocument.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SKTDocument.m; path = ../SKTDocument.m; sourceTree = SOURCE_ROOT; };
+		8C8186900E89128800EEAEBB /* SKTError.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SKTError.h; path = ../SKTError.h; sourceTree = SOURCE_ROOT; };
+		8C8186910E89128800EEAEBB /* SKTError.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SKTError.m; path = ../SKTError.m; sourceTree = SOURCE_ROOT; };
+		8C8186920E89128800EEAEBB /* SKTFoundationExtras.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SKTFoundationExtras.h; path = ../SKTFoundationExtras.h; sourceTree = SOURCE_ROOT; };
+		8C8186930E89128800EEAEBB /* SKTFoundationExtras.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SKTFoundationExtras.m; path = ../SKTFoundationExtras.m; sourceTree = SOURCE_ROOT; };
+		8C8186940E89128800EEAEBB /* SKTGraphicView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SKTGraphicView.h; path = ../SKTGraphicView.h; sourceTree = SOURCE_ROOT; };
+		8C8186950E89128800EEAEBB /* SKTGraphicView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SKTGraphicView.m; path = ../SKTGraphicView.m; sourceTree = SOURCE_ROOT; };
+		8C8186960E89128800EEAEBB /* SKTGrid.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SKTGrid.h; path = ../SKTGrid.h; sourceTree = SOURCE_ROOT; };
+		8C8186970E89128800EEAEBB /* SKTGrid.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SKTGrid.m; path = ../SKTGrid.m; sourceTree = SOURCE_ROOT; };
+		8C8186B20E8912B500EEAEBB /* SKTRenderingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SKTRenderingView.h; path = ../SKTRenderingView.h; sourceTree = SOURCE_ROOT; };
+		8C8186B30E8912B500EEAEBB /* SKTRenderingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SKTRenderingView.m; path = ../SKTRenderingView.m; sourceTree = SOURCE_ROOT; };
+		8C8186B60E8912C400EEAEBB /* SKTToolPaletteController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SKTToolPaletteController.h; path = ../SKTToolPaletteController.h; sourceTree = SOURCE_ROOT; };
+		8C8186B70E8912C400EEAEBB /* SKTToolPaletteController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SKTToolPaletteController.m; path = ../SKTToolPaletteController.m; sourceTree = SOURCE_ROOT; };
+		8C8186B80E8912C400EEAEBB /* SKTWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SKTWindowController.h; path = ../SKTWindowController.h; sourceTree = SOURCE_ROOT; };
+		8C8186B90E8912C400EEAEBB /* SKTWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SKTWindowController.m; path = ../SKTWindowController.m; sourceTree = SOURCE_ROOT; };
+		8C8186BA0E8912C400EEAEBB /* SKTZoomingScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SKTZoomingScrollView.h; path = ../SKTZoomingScrollView.h; sourceTree = SOURCE_ROOT; };
+		8C8186BB0E8912C400EEAEBB /* SKTZoomingScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SKTZoomingScrollView.m; path = ../SKTZoomingScrollView.m; sourceTree = SOURCE_ROOT; };
+		8C8186CB0E89131D00EEAEBB /* SKTBezierCurve.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKTBezierCurve.h; sourceTree = "<group>"; };
+		8C8186CC0E89131D00EEAEBB /* SKTBezierCurve.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKTBezierCurve.m; sourceTree = "<group>"; };
+		8C8186CD0E89131D00EEAEBB /* SKTCircle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKTCircle.h; sourceTree = "<group>"; };
+		8C8186CE0E89131D00EEAEBB /* SKTCircle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKTCircle.m; sourceTree = "<group>"; };
+		8C8186CF0E89131D00EEAEBB /* SKTCurve.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKTCurve.h; sourceTree = "<group>"; };
+		8C8186D00E89131D00EEAEBB /* SKTCurve.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKTCurve.m; sourceTree = "<group>"; };
+		8C8186D10E89131D00EEAEBB /* SKTeps.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKTeps.h; sourceTree = "<group>"; };
+		8C8186D20E89131D00EEAEBB /* SKTeps.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKTeps.m; sourceTree = "<group>"; };
+		8C8186D30E89131D00EEAEBB /* SKTGraphic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKTGraphic.h; sourceTree = "<group>"; };
+		8C8186D40E89131D00EEAEBB /* SKTGraphic.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKTGraphic.m; sourceTree = "<group>"; };
+		8C8186D50E89131D00EEAEBB /* SKTGroup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKTGroup.h; sourceTree = "<group>"; };
+		8C8186D60E89131D00EEAEBB /* SKTGroup.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKTGroup.m; sourceTree = "<group>"; };
+		8C8186D70E89131D00EEAEBB /* SKTImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKTImage.h; sourceTree = "<group>"; };
+		8C8186D80E89131D00EEAEBB /* SKTImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKTImage.m; sourceTree = "<group>"; };
+		8C8186D90E89131D00EEAEBB /* SKTLine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKTLine.h; sourceTree = "<group>"; };
+		8C8186DA0E89131D00EEAEBB /* SKTLine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKTLine.m; sourceTree = "<group>"; };
+		8C8186DB0E89131D00EEAEBB /* SKTpdf.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKTpdf.h; sourceTree = "<group>"; };
+		8C8186DC0E89131D00EEAEBB /* SKTpdf.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKTpdf.m; sourceTree = "<group>"; };
+		8C8186DD0E89131D00EEAEBB /* SKTpict.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKTpict.h; sourceTree = "<group>"; };
+		8C8186DE0E89131D00EEAEBB /* SKTpict.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKTpict.m; sourceTree = "<group>"; };
+		8C8186DF0E89131D00EEAEBB /* SKTPolygon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKTPolygon.h; sourceTree = "<group>"; };
+		8C8186E00E89131D00EEAEBB /* SKTPolygon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKTPolygon.m; sourceTree = "<group>"; };
+		8C8186E10E89131D00EEAEBB /* SKTRectangle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKTRectangle.h; sourceTree = "<group>"; };
+		8C8186E20E89131D00EEAEBB /* SKTRectangle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKTRectangle.m; sourceTree = "<group>"; };
+		8C8186E30E89131D00EEAEBB /* SKTScribble.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKTScribble.h; sourceTree = "<group>"; };
+		8C8186E40E89131D00EEAEBB /* SKTScribble.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKTScribble.m; sourceTree = "<group>"; };
+		8C8186E50E89131D00EEAEBB /* SKTsvg.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKTsvg.h; sourceTree = "<group>"; };
+		8C8186E60E89131D00EEAEBB /* SKTsvg.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKTsvg.m; sourceTree = "<group>"; };
+		8C8186E70E89131D00EEAEBB /* SKTText.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKTText.h; sourceTree = "<group>"; };
+		8C8186E80E89131D00EEAEBB /* SKTText.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKTText.m; sourceTree = "<group>"; };
+		8C81870A0E89134500EEAEBB /* Dutch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = Dutch; path = Dutch.lproj/SKTPageLayoutAccessory.strings; sourceTree = "<group>"; };
+		8C81870B0E89134500EEAEBB /* English */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/SKTPageLayoutAccessory.strings; sourceTree = "<group>"; };
+		8C81870C0E89134500EEAEBB /* French */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = French; path = French.lproj/SKTPageLayoutAccessory.strings; sourceTree = "<group>"; };
+		8C81870D0E89134500EEAEBB /* German */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = German; path = German.lproj/SKTPageLayoutAccessory.strings; sourceTree = "<group>"; };
+		8C81870E0E89134500EEAEBB /* Italian */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = Italian; path = Italian.lproj/SKTPageLayoutAccessory.strings; sourceTree = "<group>"; };
+		8C81870F0E89134500EEAEBB /* Japanese */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = Japanese; path = Japanese.lproj/SKTPageLayoutAccessory.strings; sourceTree = "<group>"; };
+		8C8187100E89134500EEAEBB /* SKTPageLayoutAccessory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKTPageLayoutAccessory.h; sourceTree = "<group>"; };
+		8C8187110E89134500EEAEBB /* SKTPageLayoutAccessory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKTPageLayoutAccessory.m; sourceTree = "<group>"; };
+		8C8187120E89134500EEAEBB /* SKTPageLayoutAccessory.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SKTPageLayoutAccessory.xib; sourceTree = "<group>"; };
+		8C8187130E89134500EEAEBB /* SKTPageLayoutAccessoryView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKTPageLayoutAccessoryView.h; sourceTree = "<group>"; };
+		8C8187140E89134500EEAEBB /* SKTPageLayoutAccessoryView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKTPageLayoutAccessoryView.m; sourceTree = "<group>"; };
+		8C8187150E89134500EEAEBB /* Spanish */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = Spanish; path = Spanish.lproj/SKTPageLayoutAccessory.strings; sourceTree = "<group>"; };
+		8C8187160E89134500EEAEBB /* sv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = sv; path = sv.lproj/SKTPageLayoutAccessory.strings; sourceTree = "<group>"; };
+		8C8AB1BA12D0F4A9000DF2B0 /* ASWebView.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ASWebView.framework; path = ../../Frameworks/ASWebView/build/Release/ASWebView.framework; sourceTree = SOURCE_ROOT; };
+		8CB709F6154B06C100D755E9 /* en */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8CDA3D4E0E89237500193454 /* GenerateThumbnailForURL.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GenerateThumbnailForURL.m; sourceTree = "<group>"; };
+		8CE873030E89152600DF13F1 /* PDFKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PDFKit.framework; path = /System/Library/Frameworks/Quartz.framework/Versions/A/Frameworks/PDFKit.framework; sourceTree = "<absolute>"; };
+		8CE873260E89159100DF13F1 /* PreferencesController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PreferencesController.h; path = ../PreferencesController.h; sourceTree = SOURCE_ROOT; };
+		8CE873270E89159100DF13F1 /* PreferencesController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PreferencesController.m; path = ../PreferencesController.m; sourceTree = SOURCE_ROOT; };
+		8CE8732B0E8915BF00DF13F1 /* ASPatternModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ASPatternModel.h; path = ../ASPatternModel.h; sourceTree = SOURCE_ROOT; };
+		8CE8732C0E8915BF00DF13F1 /* ASPatternModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ASPatternModel.m; path = ../ASPatternModel.m; sourceTree = SOURCE_ROOT; };
+		8CE8732D0E8915BF00DF13F1 /* ASShadingModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ASShadingModel.h; path = ../ASShadingModel.h; sourceTree = SOURCE_ROOT; };
+		8CE8732E0E8915BF00DF13F1 /* ASShadingModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ASShadingModel.m; path = ../ASShadingModel.m; sourceTree = SOURCE_ROOT; };
+		8CE873340E8915D900DF13F1 /* ColorSpacePanelController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ColorSpacePanelController.h; path = ../ColorSpacePanelController.h; sourceTree = SOURCE_ROOT; };
+		8CE873350E8915D900DF13F1 /* ColorSpacePanelController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ColorSpacePanelController.m; path = ../ColorSpacePanelController.m; sourceTree = SOURCE_ROOT; };
+		8D576316048677EA00EA77CD /* SketchyDrawQL.qlgenerator */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SketchyDrawQL.qlgenerator; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D576317048677EA00EA77CD /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		C86B05260671AA6E00DD9006 /* CoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreServices.framework; path = /System/Library/Frameworks/CoreServices.framework; sourceTree = "<absolute>"; };
+		F28CFBFC0A3EC0AF000ABFF5 /* ApplicationServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ApplicationServices.framework; path = /System/Library/Frameworks/ApplicationServices.framework; sourceTree = "<absolute>"; };
+		F28CFC020A3EC0C6000ABFF5 /* QuickLook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuickLook.framework; path = /System/Library/Frameworks/QuickLook.framework; sourceTree = "<absolute>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8D576313048677EA00EA77CD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D576314048677EA00EA77CD /* CoreFoundation.framework in Frameworks */,
+				C86B05270671AA6E00DD9006 /* CoreServices.framework in Frameworks */,
+				F28CFBFD0A3EC0AF000ABFF5 /* ApplicationServices.framework in Frameworks */,
+				F28CFC030A3EC0C6000ABFF5 /* QuickLook.framework in Frameworks */,
+				8C8186710E8911D500EEAEBB /* Cocoa.framework in Frameworks */,
+				8CE873040E89152600DF13F1 /* PDFKit.framework in Frameworks */,
+				8C8AB1BB12D0F4A9000DF2B0 /* ASWebView.framework in Frameworks */,
+				8C01109512D6AB2C001B1D62 /* WebKit.framework in Frameworks */,
+				8C4EA3D9161DFFDD0059E274 /* ScriptingBridge.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		089C166AFE841209C02AAC07 /* SketchyDrawQL */ = {
+			isa = PBXGroup;
+			children = (
+				8C4EA3E2161E01150059E274 /* Mail.app */,
+				08FB77AFFE84173DC02AAC07 /* Source */,
+				089C167CFE841241C02AAC07 /* Resources */,
+				089C1671FE841209C02AAC07 /* External Frameworks and Libraries */,
+				19C28FB6FE9D52B211CA2CBB /* Products */,
+			);
+			name = SketchyDrawQL;
+			sourceTree = "<group>";
+		};
+		089C1671FE841209C02AAC07 /* External Frameworks and Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				8C4EA3D8161DFFDD0059E274 /* ScriptingBridge.framework */,
+				8C01109412D6AB2C001B1D62 /* WebKit.framework */,
+				8C8AB1BA12D0F4A9000DF2B0 /* ASWebView.framework */,
+				8CE873030E89152600DF13F1 /* PDFKit.framework */,
+				8C8186700E8911D500EEAEBB /* Cocoa.framework */,
+				F28CFC020A3EC0C6000ABFF5 /* QuickLook.framework */,
+				F28CFBFC0A3EC0AF000ABFF5 /* ApplicationServices.framework */,
+				C86B05260671AA6E00DD9006 /* CoreServices.framework */,
+				0AA1909FFE8422F4C02AAC07 /* CoreFoundation.framework */,
+			);
+			name = "External Frameworks and Libraries";
+			sourceTree = "<group>";
+		};
+		089C167CFE841241C02AAC07 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				8CB709F5154B06C100D755E9 /* InfoPlist.strings */,
+				8D576317048677EA00EA77CD /* Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		08FB77AFFE84173DC02AAC07 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				2C05A19B06CAA52B00D84F6F /* GeneratePreviewForURL.m */,
+				8CDA3D4E0E89237500193454 /* GenerateThumbnailForURL.m */,
+				08FB77B6FE84183AC02AAC07 /* main.c */,
+				8C8186840E89124500EEAEBB /* SKTDocument.h */,
+				8C8186850E89124500EEAEBB /* SKTDocument.m */,
+				8C8186900E89128800EEAEBB /* SKTError.h */,
+				8C8186910E89128800EEAEBB /* SKTError.m */,
+				8C8186920E89128800EEAEBB /* SKTFoundationExtras.h */,
+				8C8186930E89128800EEAEBB /* SKTFoundationExtras.m */,
+				8C8186940E89128800EEAEBB /* SKTGraphicView.h */,
+				8C8186950E89128800EEAEBB /* SKTGraphicView.m */,
+				8C8186960E89128800EEAEBB /* SKTGrid.h */,
+				8C8186970E89128800EEAEBB /* SKTGrid.m */,
+				8C8186B20E8912B500EEAEBB /* SKTRenderingView.h */,
+				8C8186B30E8912B500EEAEBB /* SKTRenderingView.m */,
+				8C8186B60E8912C400EEAEBB /* SKTToolPaletteController.h */,
+				8C8186B70E8912C400EEAEBB /* SKTToolPaletteController.m */,
+				8C8186B80E8912C400EEAEBB /* SKTWindowController.h */,
+				8C8186B90E8912C400EEAEBB /* SKTWindowController.m */,
+				8C8186BA0E8912C400EEAEBB /* SKTZoomingScrollView.h */,
+				8C8186BB0E8912C400EEAEBB /* SKTZoomingScrollView.m */,
+				8CE873260E89159100DF13F1 /* PreferencesController.h */,
+				8CE873270E89159100DF13F1 /* PreferencesController.m */,
+				8CE8732B0E8915BF00DF13F1 /* ASPatternModel.h */,
+				8CE8732C0E8915BF00DF13F1 /* ASPatternModel.m */,
+				8CE8732D0E8915BF00DF13F1 /* ASShadingModel.h */,
+				8CE8732E0E8915BF00DF13F1 /* ASShadingModel.m */,
+				8CE873340E8915D900DF13F1 /* ColorSpacePanelController.h */,
+				8CE873350E8915D900DF13F1 /* ColorSpacePanelController.m */,
+				8C4EA3DA161E00490059E274 /* SBSendEmail.h */,
+				8C4EA3DB161E00490059E274 /* SBSendEmail.m */,
+				8C8187080E89134500EEAEBB /* SKTPageLayoutAccessory.subproj */,
+				8C8186CA0E89131D00EEAEBB /* DocumentModel.subproj */,
+			);
+			name = Source;
+			sourceTree = "<group>";
+		};
+		19C28FB6FE9D52B211CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8D576316048677EA00EA77CD /* SketchyDrawQL.qlgenerator */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8C8186CA0E89131D00EEAEBB /* DocumentModel.subproj */ = {
+			isa = PBXGroup;
+			children = (
+				8C8186CB0E89131D00EEAEBB /* SKTBezierCurve.h */,
+				8C8186CC0E89131D00EEAEBB /* SKTBezierCurve.m */,
+				8C8186CD0E89131D00EEAEBB /* SKTCircle.h */,
+				8C8186CE0E89131D00EEAEBB /* SKTCircle.m */,
+				8C8186CF0E89131D00EEAEBB /* SKTCurve.h */,
+				8C8186D00E89131D00EEAEBB /* SKTCurve.m */,
+				8C8186D10E89131D00EEAEBB /* SKTeps.h */,
+				8C8186D20E89131D00EEAEBB /* SKTeps.m */,
+				8C8186D30E89131D00EEAEBB /* SKTGraphic.h */,
+				8C8186D40E89131D00EEAEBB /* SKTGraphic.m */,
+				8C8186D50E89131D00EEAEBB /* SKTGroup.h */,
+				8C8186D60E89131D00EEAEBB /* SKTGroup.m */,
+				8C8186D70E89131D00EEAEBB /* SKTImage.h */,
+				8C8186D80E89131D00EEAEBB /* SKTImage.m */,
+				8C8186D90E89131D00EEAEBB /* SKTLine.h */,
+				8C8186DA0E89131D00EEAEBB /* SKTLine.m */,
+				8C8186DB0E89131D00EEAEBB /* SKTpdf.h */,
+				8C8186DC0E89131D00EEAEBB /* SKTpdf.m */,
+				8C8186DD0E89131D00EEAEBB /* SKTpict.h */,
+				8C8186DE0E89131D00EEAEBB /* SKTpict.m */,
+				8C8186DF0E89131D00EEAEBB /* SKTPolygon.h */,
+				8C8186E00E89131D00EEAEBB /* SKTPolygon.m */,
+				8C8186E10E89131D00EEAEBB /* SKTRectangle.h */,
+				8C8186E20E89131D00EEAEBB /* SKTRectangle.m */,
+				8C8186E30E89131D00EEAEBB /* SKTScribble.h */,
+				8C8186E40E89131D00EEAEBB /* SKTScribble.m */,
+				8C8186E50E89131D00EEAEBB /* SKTsvg.h */,
+				8C8186E60E89131D00EEAEBB /* SKTsvg.m */,
+				8C8186E70E89131D00EEAEBB /* SKTText.h */,
+				8C8186E80E89131D00EEAEBB /* SKTText.m */,
+			);
+			name = DocumentModel.subproj;
+			path = ../DocumentModel.subproj;
+			sourceTree = SOURCE_ROOT;
+		};
+		8C8187080E89134500EEAEBB /* SKTPageLayoutAccessory.subproj */ = {
+			isa = PBXGroup;
+			children = (
+				8C8187090E89134500EEAEBB /* SKTPageLayoutAccessory.strings */,
+				8C8187100E89134500EEAEBB /* SKTPageLayoutAccessory.h */,
+				8C8187110E89134500EEAEBB /* SKTPageLayoutAccessory.m */,
+				8C8187120E89134500EEAEBB /* SKTPageLayoutAccessory.xib */,
+				8C8187130E89134500EEAEBB /* SKTPageLayoutAccessoryView.h */,
+				8C8187140E89134500EEAEBB /* SKTPageLayoutAccessoryView.m */,
+			);
+			name = SKTPageLayoutAccessory.subproj;
+			path = ../SKTPageLayoutAccessory.subproj;
+			sourceTree = SOURCE_ROOT;
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		8D57630E048677EA00EA77CD /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C4EA3DC161E00490059E274 /* SBSendEmail.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		8D57630D048677EA00EA77CD /* SketchyDrawQL */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2CA3261E0896AD4900168862 /* Build configuration list for PBXNativeTarget "SketchyDrawQL" */;
+			buildPhases = (
+				8D57630E048677EA00EA77CD /* Headers */,
+				8D57630F048677EA00EA77CD /* Resources */,
+				8D576311048677EA00EA77CD /* Sources */,
+				8D576313048677EA00EA77CD /* Frameworks */,
+				8D576315048677EA00EA77CD /* Rez */,
+				8CF379E50E892E38004C4E6C /* CopyFiles */,
+			);
+			buildRules = (
+				8C4EA3DE161E00700059E274 /* PBXBuildRule */,
+			);
+			dependencies = (
+			);
+			name = SketchyDrawQL;
+			productInstallPath = /Library/QuickLook;
+			productName = SketchyDrawQL;
+			productReference = 8D576316048677EA00EA77CD /* SketchyDrawQL.qlgenerator */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		089C1669FE841209C02AAC07 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+			};
+			buildConfigurationList = 2CA326220896AD4900168862 /* Build configuration list for PBXProject "SketchyDrawQL" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+				Dutch,
+				Italian,
+				Spanish,
+				sv,
+				en,
+			);
+			mainGroup = 089C166AFE841209C02AAC07 /* SketchyDrawQL */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8D57630D048677EA00EA77CD /* SketchyDrawQL */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8D57630F048677EA00EA77CD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8CB709F7154B06C100D755E9 /* InfoPlist.strings in Resources */,
+				8C4EA3E3161E01150059E274 /* Mail.app in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXRezBuildPhase section */
+		8D576315048677EA00EA77CD /* Rez */ = {
+			isa = PBXRezBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXRezBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8D576311048677EA00EA77CD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D576312048677EA00EA77CD /* main.c in Sources */,
+				2C05A19C06CAA52B00D84F6F /* GeneratePreviewForURL.m in Sources */,
+				8C8186870E89124500EEAEBB /* SKTDocument.m in Sources */,
+				8C81869D0E89128800EEAEBB /* SKTError.m in Sources */,
+				8C81869F0E89128800EEAEBB /* SKTFoundationExtras.m in Sources */,
+				8C8186A10E89128800EEAEBB /* SKTGraphicView.m in Sources */,
+				8C8186A30E89128800EEAEBB /* SKTGrid.m in Sources */,
+				8C8186B50E8912B500EEAEBB /* SKTRenderingView.m in Sources */,
+				8C8186BD0E8912C400EEAEBB /* SKTToolPaletteController.m in Sources */,
+				8C8186BF0E8912C400EEAEBB /* SKTWindowController.m in Sources */,
+				8C8186C10E8912C400EEAEBB /* SKTZoomingScrollView.m in Sources */,
+				8C8186EA0E89131D00EEAEBB /* SKTBezierCurve.m in Sources */,
+				8C8186EC0E89131D00EEAEBB /* SKTCircle.m in Sources */,
+				8C8186EE0E89131D00EEAEBB /* SKTCurve.m in Sources */,
+				8C8186F00E89131D00EEAEBB /* SKTeps.m in Sources */,
+				8C8186F20E89131D00EEAEBB /* SKTGraphic.m in Sources */,
+				8C8186F40E89131D00EEAEBB /* SKTGroup.m in Sources */,
+				8C8186F60E89131D00EEAEBB /* SKTImage.m in Sources */,
+				8C8186F80E89131D00EEAEBB /* SKTLine.m in Sources */,
+				8C8186FA0E89131D00EEAEBB /* SKTpdf.m in Sources */,
+				8C8186FC0E89131D00EEAEBB /* SKTpict.m in Sources */,
+				8C8186FE0E89131D00EEAEBB /* SKTPolygon.m in Sources */,
+				8C8187000E89131D00EEAEBB /* SKTRectangle.m in Sources */,
+				8C8187020E89131D00EEAEBB /* SKTScribble.m in Sources */,
+				8C8187040E89131D00EEAEBB /* SKTsvg.m in Sources */,
+				8C8187060E89131D00EEAEBB /* SKTText.m in Sources */,
+				8C8187190E89134500EEAEBB /* SKTPageLayoutAccessory.m in Sources */,
+				8C81871C0E89134500EEAEBB /* SKTPageLayoutAccessoryView.m in Sources */,
+				8CE873290E89159100DF13F1 /* PreferencesController.m in Sources */,
+				8CE873300E8915BF00DF13F1 /* ASPatternModel.m in Sources */,
+				8CE873320E8915BF00DF13F1 /* ASShadingModel.m in Sources */,
+				8CE873370E8915D900DF13F1 /* ColorSpacePanelController.m in Sources */,
+				8CDA3D4F0E89237500193454 /* GenerateThumbnailForURL.m in Sources */,
+				8C4EA3DD161E00490059E274 /* SBSendEmail.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		8C8187090E89134500EEAEBB /* SKTPageLayoutAccessory.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8C81870A0E89134500EEAEBB /* Dutch */,
+				8C81870B0E89134500EEAEBB /* English */,
+				8C81870C0E89134500EEAEBB /* French */,
+				8C81870D0E89134500EEAEBB /* German */,
+				8C81870E0E89134500EEAEBB /* Italian */,
+				8C81870F0E89134500EEAEBB /* Japanese */,
+				8C8187150E89134500EEAEBB /* Spanish */,
+				8C8187160E89134500EEAEBB /* sv */,
+			);
+			name = SKTPageLayoutAccessory.strings;
+			sourceTree = "<group>";
+		};
+		8CB709F5154B06C100D755E9 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8CB709F6154B06C100D755E9 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2CA3261F0896AD4900168862 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../../Frameworks/ASSVGImageRep/build/Release\"",
+					"\"$(SRCROOT)/../../Frameworks/ASDialKnob/build/Release\"",
+					"\"$(SYSTEM_LIBRARY_DIR)/Frameworks/Quartz.framework/Versions/A/Frameworks\"",
+					"\"$(SRCROOT)/../../Frameworks/ASWebView/build/Release\"",
+					"\"$(SRCROOT)/../../Frameworks/ASPointControl/build/Release\"",
+				);
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				GCC_VERSION = "";
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = /Library/QuickLook;
+				PRODUCT_NAME = SketchyDrawQL;
+				WRAPPER_EXTENSION = qlgenerator;
+			};
+			name = Debug;
+		};
+		2CA326200896AD4900168862 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SYSTEM_LIBRARY_DIR)/Frameworks/Quartz.framework/Versions/A/Frameworks\"",
+					"\"$(SRCROOT)/../../Frameworks/ASWebView/build/Release\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				GCC_VERSION = "";
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = /Library/QuickLook;
+				PRODUCT_NAME = SketchyDrawQL;
+				WRAPPER_EXTENSION = qlgenerator;
+			};
+			name = Release;
+		};
+		2CA326230896AD4900168862 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = "";
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		2CA326240896AD4900168862 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_VERSION = "";
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LD_RUNPATH_SEARCH_PATHS = "@loader_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = "";
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2CA3261E0896AD4900168862 /* Build configuration list for PBXNativeTarget "SketchyDrawQL" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2CA3261F0896AD4900168862 /* Debug */,
+				2CA326200896AD4900168862 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2CA326220896AD4900168862 /* Build configuration list for PBXProject "SketchyDrawQL" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2CA326230896AD4900168862 /* Debug */,
+				2CA326240896AD4900168862 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 089C1669FE841209C02AAC07 /* Project object */;
+}

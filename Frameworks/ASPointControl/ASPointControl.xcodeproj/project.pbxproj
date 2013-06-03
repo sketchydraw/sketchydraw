@@ -1,0 +1,469 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8CC97BBC13966DCC0085687B /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8CC97BBB13966DCC0085687B /* Cocoa.framework */; };
+		8CC97BC613966DCC0085687B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8CC97BC413966DCC0085687B /* InfoPlist.strings */; };
+		8CC97BCE13966DCC0085687B /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8CC97BBB13966DCC0085687B /* Cocoa.framework */; };
+		8CC97BD113966DCC0085687B /* ASPointControl.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8CC97BB813966DCC0085687B /* ASPointControl.framework */; };
+		8CC97BD713966DCC0085687B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8CC97BD513966DCC0085687B /* InfoPlist.strings */; };
+		8CC97BDA13966DCC0085687B /* ASPointControlTests.h in Resources */ = {isa = PBXBuildFile; fileRef = 8CC97BD913966DCC0085687B /* ASPointControlTests.h */; };
+		8CC97BDC13966DCC0085687B /* ASPointControlTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CC97BDB13966DCC0085687B /* ASPointControlTests.m */; };
+		8CC97BE71396718A0085687B /* ASPointControl.h in Headers */ = {isa = PBXBuildFile; fileRef = 8CC97BE51396718A0085687B /* ASPointControl.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8CC97BE81396718A0085687B /* ASPointControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CC97BE61396718A0085687B /* ASPointControl.m */; };
+		8CC97BEC139671A00085687B /* ASPointControlCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CC97BEA139671A00085687B /* ASPointControlCell.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8CC97BCF13966DCC0085687B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8CC97BAE13966DCC0085687B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8CC97BB713966DCC0085687B;
+			remoteInfo = ASPointControl;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8CC97BB813966DCC0085687B /* ASPointControl.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ASPointControl.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8CC97BBB13966DCC0085687B /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		8CC97BBE13966DCC0085687B /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		8CC97BBF13966DCC0085687B /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		8CC97BC013966DCC0085687B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		8CC97BC313966DCC0085687B /* ASPointControl-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ASPointControl-Info.plist"; sourceTree = "<group>"; };
+		8CC97BC513966DCC0085687B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8CC97BC713966DCC0085687B /* ASPointControl-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ASPointControl-Prefix.pch"; sourceTree = "<group>"; };
+		8CC97BCD13966DCC0085687B /* ASPointControlTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ASPointControlTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8CC97BD413966DCC0085687B /* ASPointControlTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ASPointControlTests-Info.plist"; sourceTree = "<group>"; };
+		8CC97BD613966DCC0085687B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8CC97BD813966DCC0085687B /* ASPointControlTests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ASPointControlTests-Prefix.pch"; sourceTree = "<group>"; };
+		8CC97BD913966DCC0085687B /* ASPointControlTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ASPointControlTests.h; sourceTree = "<group>"; };
+		8CC97BDB13966DCC0085687B /* ASPointControlTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ASPointControlTests.m; sourceTree = "<group>"; };
+		8CC97BE51396718A0085687B /* ASPointControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASPointControl.h; sourceTree = "<group>"; };
+		8CC97BE61396718A0085687B /* ASPointControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASPointControl.m; sourceTree = "<group>"; };
+		8CC97BE9139671A00085687B /* ASPointControlCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASPointControlCell.h; sourceTree = "<group>"; };
+		8CC97BEA139671A00085687B /* ASPointControlCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASPointControlCell.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8CC97BB413966DCC0085687B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8CC97BBC13966DCC0085687B /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8CC97BC913966DCC0085687B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8CC97BCE13966DCC0085687B /* Cocoa.framework in Frameworks */,
+				8CC97BD113966DCC0085687B /* ASPointControl.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8CC97BAC13966DCC0085687B = {
+			isa = PBXGroup;
+			children = (
+				8CC97BC113966DCC0085687B /* ASPointControl */,
+				8CC97BD213966DCC0085687B /* ASPointControlTests */,
+				8CC97BBA13966DCC0085687B /* Frameworks */,
+				8CC97BB913966DCC0085687B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8CC97BB913966DCC0085687B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8CC97BB813966DCC0085687B /* ASPointControl.framework */,
+				8CC97BCD13966DCC0085687B /* ASPointControlTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8CC97BBA13966DCC0085687B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8CC97BBB13966DCC0085687B /* Cocoa.framework */,
+				8CC97BBD13966DCC0085687B /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8CC97BBD13966DCC0085687B /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8CC97BBE13966DCC0085687B /* AppKit.framework */,
+				8CC97BBF13966DCC0085687B /* CoreData.framework */,
+				8CC97BC013966DCC0085687B /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		8CC97BC113966DCC0085687B /* ASPointControl */ = {
+			isa = PBXGroup;
+			children = (
+				8CC97BE9139671A00085687B /* ASPointControlCell.h */,
+				8CC97BEA139671A00085687B /* ASPointControlCell.m */,
+				8CC97BE51396718A0085687B /* ASPointControl.h */,
+				8CC97BE61396718A0085687B /* ASPointControl.m */,
+				8CC97BC213966DCC0085687B /* Supporting Files */,
+			);
+			path = ASPointControl;
+			sourceTree = "<group>";
+		};
+		8CC97BC213966DCC0085687B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8CC97BC313966DCC0085687B /* ASPointControl-Info.plist */,
+				8CC97BC413966DCC0085687B /* InfoPlist.strings */,
+				8CC97BC713966DCC0085687B /* ASPointControl-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8CC97BD213966DCC0085687B /* ASPointControlTests */ = {
+			isa = PBXGroup;
+			children = (
+				8CC97BD913966DCC0085687B /* ASPointControlTests.h */,
+				8CC97BDB13966DCC0085687B /* ASPointControlTests.m */,
+				8CC97BD313966DCC0085687B /* Supporting Files */,
+			);
+			path = ASPointControlTests;
+			sourceTree = "<group>";
+		};
+		8CC97BD313966DCC0085687B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8CC97BD413966DCC0085687B /* ASPointControlTests-Info.plist */,
+				8CC97BD513966DCC0085687B /* InfoPlist.strings */,
+				8CC97BD813966DCC0085687B /* ASPointControlTests-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		8CC97BB513966DCC0085687B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8CC97BE71396718A0085687B /* ASPointControl.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		8CC97BB713966DCC0085687B /* ASPointControl */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8CC97BDF13966DCC0085687B /* Build configuration list for PBXNativeTarget "ASPointControl" */;
+			buildPhases = (
+				8CC97BB313966DCC0085687B /* Sources */,
+				8CC97BB413966DCC0085687B /* Frameworks */,
+				8CC97BB513966DCC0085687B /* Headers */,
+				8CC97BB613966DCC0085687B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ASPointControl;
+			productName = ASPointControl;
+			productReference = 8CC97BB813966DCC0085687B /* ASPointControl.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		8CC97BCC13966DCC0085687B /* ASPointControlTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8CC97BE213966DCC0085687B /* Build configuration list for PBXNativeTarget "ASPointControlTests" */;
+			buildPhases = (
+				8CC97BC813966DCC0085687B /* Sources */,
+				8CC97BC913966DCC0085687B /* Frameworks */,
+				8CC97BCA13966DCC0085687B /* Resources */,
+				8CC97BCB13966DCC0085687B /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8CC97BD013966DCC0085687B /* PBXTargetDependency */,
+			);
+			name = ASPointControlTests;
+			productName = ASPointControlTests;
+			productReference = 8CC97BCD13966DCC0085687B /* ASPointControlTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8CC97BAE13966DCC0085687B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+			};
+			buildConfigurationList = 8CC97BB113966DCC0085687B /* Build configuration list for PBXProject "ASPointControl" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 8CC97BAC13966DCC0085687B;
+			productRefGroup = 8CC97BB913966DCC0085687B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8CC97BB713966DCC0085687B /* ASPointControl */,
+				8CC97BCC13966DCC0085687B /* ASPointControlTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8CC97BB613966DCC0085687B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8CC97BC613966DCC0085687B /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8CC97BCA13966DCC0085687B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8CC97BD713966DCC0085687B /* InfoPlist.strings in Resources */,
+				8CC97BDA13966DCC0085687B /* ASPointControlTests.h in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		8CC97BCB13966DCC0085687B /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8CC97BB313966DCC0085687B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8CC97BE81396718A0085687B /* ASPointControl.m in Sources */,
+				8CC97BEC139671A00085687B /* ASPointControlCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8CC97BC813966DCC0085687B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8CC97BDC13966DCC0085687B /* ASPointControlTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8CC97BD013966DCC0085687B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8CC97BB713966DCC0085687B /* ASPointControl */;
+			targetProxy = 8CC97BCF13966DCC0085687B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8CC97BC413966DCC0085687B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8CC97BC513966DCC0085687B /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		8CC97BD513966DCC0085687B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8CC97BD613966DCC0085687B /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8CC97BDD13966DCC0085687B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = "";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		8CC97BDE13966DCC0085687B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = "";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		8CC97BE013966DCC0085687B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				FRAMEWORK_VERSION = A;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ASPointControl/ASPointControl-Prefix.pch";
+				GCC_VERSION = "";
+				INFOPLIST_FILE = "ASPointControl/ASPointControl-Info.plist";
+				INSTALL_PATH = "@rpath";
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				WRAPPER_EXTENSION = framework;
+			};
+			name = Debug;
+		};
+		8CC97BE113966DCC0085687B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				FRAMEWORK_VERSION = A;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ASPointControl/ASPointControl-Prefix.pch";
+				GCC_VERSION = "";
+				INFOPLIST_FILE = "ASPointControl/ASPointControl-Info.plist";
+				INSTALL_PATH = "@rpath";
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				WRAPPER_EXTENSION = framework;
+			};
+			name = Release;
+		};
+		8CC97BE313966DCC0085687B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = "$(DEVELOPER_LIBRARY_DIR)/Frameworks";
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ASPointControlTests/ASPointControlTests-Prefix.pch";
+				INFOPLIST_FILE = "ASPointControlTests/ASPointControlTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		8CC97BE413966DCC0085687B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				FRAMEWORK_SEARCH_PATHS = "$(DEVELOPER_LIBRARY_DIR)/Frameworks";
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ASPointControlTests/ASPointControlTests-Prefix.pch";
+				INFOPLIST_FILE = "ASPointControlTests/ASPointControlTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8CC97BB113966DCC0085687B /* Build configuration list for PBXProject "ASPointControl" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8CC97BDD13966DCC0085687B /* Debug */,
+				8CC97BDE13966DCC0085687B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8CC97BDF13966DCC0085687B /* Build configuration list for PBXNativeTarget "ASPointControl" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8CC97BE013966DCC0085687B /* Debug */,
+				8CC97BE113966DCC0085687B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8CC97BE213966DCC0085687B /* Build configuration list for PBXNativeTarget "ASPointControlTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8CC97BE313966DCC0085687B /* Debug */,
+				8CC97BE413966DCC0085687B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8CC97BAE13966DCC0085687B /* Project object */;
+}

@@ -1,0 +1,15 @@
+/* For the app's menu bar. */
+CFBundleName = "스케치풍 그림장이 ";
+
+/* For the Finder's info panel. */
+CFBundleGetInfoString = "Copyright 1995 Next Computer, Inc.\n2.0.1, Copyright © 1998-2012, Apple Inc.\nCopyright © 2012 SatoAkira";
+
+/* For the app's About panel.*/
+NSHumanReadableCopyright = "Copyright © 1998-2012 Apple Inc.\nAll rights reserved.\nCopyright © 2012 SatoAkira";
+
+CFBundleDisplayName = "스케치풍 그림장이";
+
+/* com.adobe.pdf と public.tiff と public.svg-image とは既にLocalizedされた文字列になっている。 */
+"SketchyDraw Graphic Format" = "skt3:SketchyDraw Graphic Format";
+"Apple Sketch 1 document" = "sketch:Apple Sketch 1 document";
+"Apple Sketch document" = "sketch2:Apple Sketch document";
