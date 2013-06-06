@@ -1,8 +1,7 @@
+<img src="https://raw.github.com/sketchydraw/sketchydraw/master/sk.png">
+<img src="https://raw.github.com/sketchydraw/sketchydraw/master/sk-cl.png">
 
-<img src="https://raw.github.com/arnelsx/sketchydraw/master/sk.png">
-<img src="https://raw.github.com/arnelsx/sketchydraw/master/sk-cl.png">
-
-<a href="http://arnelsx.github.io/sketchydraw/"target="itunes_store">visit arnelsx.github.io/sketchydraw/</a>
+<a href="http://sketchydraw.github.io/sketchydraw/"target="itunes_store">visit sketchydraw.github.io/sketchydraw/</a>
 
 ==================
 # Sketch
